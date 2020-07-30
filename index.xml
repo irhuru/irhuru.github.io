@@ -17,9 +17,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://irhuru.github.io/projects/ibex_farm/</guid>
-      <description>Ibex Farm 🐐 is an online resource that allows you to create psycholinguistic experiments that you can then send to participants. Ibex Farm runs using JavaScript and HTML 💻.
-The cool thing about it is that it is highly customizable and it allows you to measure reaction times (RTs) and to randomize items, among other things. You can check out the Ibex Farm website here and its documentation here.
-I have used Ibex Farm to design picture-matching tasks where participants heard sentences and had to choose the picture that best matched each sentence.</description>
+      <description>Ibex Farm 🐐 is an online resource that allows you to create psycholinguistic experiments that you can then send to participants. Ibex Farm runs using JavaScript, HTML, and CSS 💻.
+The cool thing about it is that it is highly customizable and it allows you to measure reaction times (RTs) and to randomize items, among other things. You can check out the Ibex Farm website here and its documentation here.</description>
     </item>
     
     <item>
@@ -29,8 +28,8 @@ I have used Ibex Farm to design picture-matching tasks where participants heard 
       
       <guid>http://irhuru.github.io/projects/frida_kahlo/</guid>
       <description>This project compares the English and Spanish subtitles from the movie Frida (2002) 🎥. Subtitle files were imported into R and examined using several natural language processing (NLP) tools and techniques, such as:
- Tokenization Bigrams N-gram analysis Sentiment analysis  Results were also plotted for a better interpretation 📊📈. Some of the packages used include:
- tidyverse tidytext stringi igraph ggraph syuzhet  </description>
+ Tokenization Bigrams Sentiment analysis  Results were also plotted for a better interpretation 📊📈. Some of the packages used include:
+ tidyverse tidytext stringi igraph ggraph syuzhet  You can find the code here.</description>
     </item>
     
     <item>
@@ -49,9 +48,9 @@ In the context of the United States 🇺🇸, some colleges offer language cours
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://irhuru.github.io/projects/caperucita_roja/</guid>
-      <description>This corpus comprises several texts which are transcriptions of the Little Red Riding Hood fairy tale as told by different bilingual speakers. All narratives were produced in Spanish and were elicited using a children&amp;rsquo;s book (containing only images, not text) 📖.
+      <description>This corpus comprises several texts which are transcriptions of the Little Red Riding Hood fairy tale as narrated by different bilingual speakers. All narratives were produced in Spanish and were elicited using a children&amp;rsquo;s book (containing only images, not text) 📖.
 Bilingual speakers were either born in the United States or in a country in Latin America (e.g., Mexico, Venezuela&amp;hellip;), and they were fluent in both English and Spanish.
-Transcriptions were included in a single Word document.</description>
+Transcriptions were included in a single .</description>
     </item>
     
     <item>
