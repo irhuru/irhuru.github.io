@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Irati Hurtado</title>
-    <link>http://irhuru.github.io/</link>
+    <link>https://irhuru.github.io/</link>
     <description>Recent content on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 02 Sep 2020 18:00:00 -0500</lastBuildDate>
     
-	<atom:link href="http://irhuru.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://irhuru.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Experimental Linguistics with Ibex Farm</title>
-      <link>http://irhuru.github.io/projects/ibex_farm/</link>
+      <link>https://irhuru.github.io/projects/ibex_farm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://irhuru.github.io/projects/ibex_farm/</guid>
+      <guid>https://irhuru.github.io/projects/ibex_farm/</guid>
       <description>Ibex Farm 🐐 is an online resource that allows you to create psycholinguistic experiments that you can then send to participants. Ibex Farm runs using JavaScript, HTML, and CSS 💻.
 The cool thing about it is that it is highly customizable and it allows you to measure reaction times (RTs) and to randomize items, among other things. You can check out the Ibex Farm website here and its documentation here.</description>
     </item>
     
     <item>
       <title>The Languages of Frida Kahlo</title>
-      <link>http://irhuru.github.io/projects/frida_kahlo/</link>
+      <link>https://irhuru.github.io/projects/frida_kahlo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://irhuru.github.io/projects/frida_kahlo/</guid>
+      <guid>https://irhuru.github.io/projects/frida_kahlo/</guid>
       <description>This project compares the English and Spanish subtitles from the movie Frida (2002) 🎥. Subtitle files were imported into R and examined using several natural language processing (NLP) tools and techniques, such as:
  Tokenization Bigrams Sentiment analysis  Results were also plotted for a better interpretation 📊📈. Some of the packages used include:
  tidyverse tidytext stringi igraph ggraph syuzhet  You can find the code here.</description>
@@ -34,20 +34,20 @@ The cool thing about it is that it is highly customizable and it allows you to m
     
     <item>
       <title>Heritage Language Writing</title>
-      <link>http://irhuru.github.io/projects/hl_writing/</link>
+      <link>https://irhuru.github.io/projects/hl_writing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://irhuru.github.io/projects/hl_writing/</guid>
+      <guid>https://irhuru.github.io/projects/hl_writing/</guid>
       <description>Heritage speakers are a specific type of bilingual speakers who grew up exposed to a home language different from the one spoken by majority in society. When heritage speakers start school, they learn the majority language which, in most cases, ends up being their dominant language 🗣️.
 In the context of the United States 🇺🇸, some colleges offer language courses specifically designed for heritage speakers, whereas others offer only mixed language courses (i.</description>
     </item>
     
     <item>
       <title>Little Red Riding Hood Corpus</title>
-      <link>http://irhuru.github.io/projects/caperucita_roja/</link>
+      <link>https://irhuru.github.io/projects/caperucita_roja/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://irhuru.github.io/projects/caperucita_roja/</guid>
+      <guid>https://irhuru.github.io/projects/caperucita_roja/</guid>
       <description>This corpus comprises several texts which are transcriptions of the Little Red Riding Hood fairy tale as narrated by different bilingual speakers. All narratives were produced in Spanish and were elicited using a children&amp;rsquo;s book (containing only images, not text) 📖.
 Bilingual speakers were either born in the United States or in a country in Latin America (e.g., Mexico, Venezuela&amp;hellip;), and they were fluent in both English and Spanish.
 Transcriptions were included in a single .</description>
@@ -55,10 +55,10 @@ Transcriptions were included in a single .</description>
     
     <item>
       <title>Structural Priming</title>
-      <link>http://irhuru.github.io/projects/structural_priming/</link>
+      <link>https://irhuru.github.io/projects/structural_priming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://irhuru.github.io/projects/structural_priming/</guid>
+      <guid>https://irhuru.github.io/projects/structural_priming/</guid>
       <description>Structural priming is the tendency to repeat or more easily process a syntactic structure that a speaker has been recently exposed to. Linguistic experiments that use structural priming try to understand how language is represented in the mind 🧠.
 This project used a structural priming paradigm to examine how different speakers (i.e., native speakers, second language speakers, and heritage speakers) process ditransitive constructions in Spanish.
 The experiment consisted of a pre-test, treatment, and post-test.</description>
@@ -66,20 +66,20 @@ The experiment consisted of a pre-test, treatment, and post-test.</description>
     
     <item>
       <title>How to create stunning presentations using Reveal.js in R</title>
-      <link>http://irhuru.github.io/blog/revealjs-r-tutorial/</link>
+      <link>https://irhuru.github.io/blog/revealjs-r-tutorial/</link>
       <pubDate>Wed, 02 Sep 2020 18:00:00 -0500</pubDate>
       
-      <guid>http://irhuru.github.io/blog/revealjs-r-tutorial/</guid>
+      <guid>https://irhuru.github.io/blog/revealjs-r-tutorial/</guid>
       <description>I recently found out about an R package that allows you to create Reveal.js presentations in R using RMarkdown syntax. If you are like me and love to display cool graphs in your slides, don&amp;rsquo;t miss this short tutorial!
 Why you need to start using Reveal.js in R Okay, so you already know how to use PowerPoint. Why using something different then? 🤔 There are many reasons, actually, but one of them is that PowerPoint doesn&amp;rsquo;t allow you to display interactive graphs in your presentation.</description>
     </item>
     
     <item>
       <title>Blog posts coming soon!</title>
-      <link>http://irhuru.github.io/blog/coming-soon/</link>
+      <link>https://irhuru.github.io/blog/coming-soon/</link>
       <pubDate>Wed, 22 Jul 2020 11:04:06 -0500</pubDate>
       
-      <guid>http://irhuru.github.io/blog/coming-soon/</guid>
+      <guid>https://irhuru.github.io/blog/coming-soon/</guid>
       <description>I will start blogging very soon.</description>
     </item>
     

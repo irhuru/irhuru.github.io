@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Irati Hurtado</title>
-    <link>http://irhuru.github.io/tags/</link>
+    <link>https://irhuru.github.io/tags/</link>
     <description>Recent content in Tags on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 02 Sep 2020 18:00:00 -0500</lastBuildDate>
     
-	<atom:link href="http://irhuru.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://irhuru.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Plotly</title>
-      <link>http://irhuru.github.io/tags/plotly/</link>
+      <link>https://irhuru.github.io/tags/plotly/</link>
       <pubDate>Wed, 02 Sep 2020 18:00:00 -0500</pubDate>
       
-      <guid>http://irhuru.github.io/tags/plotly/</guid>
+      <guid>https://irhuru.github.io/tags/plotly/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>http://irhuru.github.io/tags/r/</link>
+      <link>https://irhuru.github.io/tags/r/</link>
       <pubDate>Wed, 02 Sep 2020 18:00:00 -0500</pubDate>
       
-      <guid>http://irhuru.github.io/tags/r/</guid>
+      <guid>https://irhuru.github.io/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Reveal.js</title>
-      <link>http://irhuru.github.io/tags/reveal.js/</link>
+      <link>https://irhuru.github.io/tags/reveal.js/</link>
       <pubDate>Wed, 02 Sep 2020 18:00:00 -0500</pubDate>
       
-      <guid>http://irhuru.github.io/tags/reveal.js/</guid>
+      <guid>https://irhuru.github.io/tags/reveal.js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>blogger</title>
-      <link>http://irhuru.github.io/tags/blogger/</link>
+      <link>https://irhuru.github.io/tags/blogger/</link>
       <pubDate>Wed, 22 Jul 2020 11:04:06 -0500</pubDate>
       
-      <guid>http://irhuru.github.io/tags/blogger/</guid>
+      <guid>https://irhuru.github.io/tags/blogger/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linguistics</title>
-      <link>http://irhuru.github.io/tags/linguistics/</link>
+      <link>https://irhuru.github.io/tags/linguistics/</link>
       <pubDate>Wed, 22 Jul 2020 11:04:06 -0500</pubDate>
       
-      <guid>http://irhuru.github.io/tags/linguistics/</guid>
+      <guid>https://irhuru.github.io/tags/linguistics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>words</title>
-      <link>http://irhuru.github.io/tags/words/</link>
+      <link>https://irhuru.github.io/tags/words/</link>
       <pubDate>Wed, 22 Jul 2020 11:04:06 -0500</pubDate>
       
-      <guid>http://irhuru.github.io/tags/words/</guid>
+      <guid>https://irhuru.github.io/tags/words/</guid>
       <description></description>
     </item>
     

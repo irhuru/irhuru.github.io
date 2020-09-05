@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reveal.js on Irati Hurtado</title>
-    <link>http://irhuru.github.io/tags/reveal.js/</link>
+    <link>https://irhuru.github.io/tags/reveal.js/</link>
     <description>Recent content in Reveal.js on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 02 Sep 2020 18:00:00 -0500</lastBuildDate>
     
-	<atom:link href="http://irhuru.github.io/tags/reveal.js/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://irhuru.github.io/tags/reveal.js/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to create stunning presentations using Reveal.js in R</title>
-      <link>http://irhuru.github.io/blog/revealjs-r-tutorial/</link>
+      <link>https://irhuru.github.io/blog/revealjs-r-tutorial/</link>
       <pubDate>Wed, 02 Sep 2020 18:00:00 -0500</pubDate>
       
-      <guid>http://irhuru.github.io/blog/revealjs-r-tutorial/</guid>
+      <guid>https://irhuru.github.io/blog/revealjs-r-tutorial/</guid>
       <description>I recently found out about an R package that allows you to create Reveal.js presentations in R using RMarkdown syntax. If you are like me and love to display cool graphs in your slides, don&amp;rsquo;t miss this short tutorial!
 Why you need to start using Reveal.js in R Okay, so you already know how to use PowerPoint. Why using something different then? 🤔 There are many reasons, actually, but one of them is that PowerPoint doesn&amp;rsquo;t allow you to display interactive graphs in your presentation.</description>
     </item>
