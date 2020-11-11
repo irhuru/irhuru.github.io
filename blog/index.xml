@@ -6,10 +6,19 @@
     <description>Recent content in Blog on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Sep 2020 18:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2020 18:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://irhuru.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using Amazon Mechanical Turk to conduct linguistic research</title>
+      <link>https://irhuru.github.io/blog/amazon-mechanical-turk/</link>
+      <pubDate>Tue, 10 Nov 2020 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/amazon-mechanical-turk/</guid>
+      <description>As a linguist, I often need to find speakers from a particular country or region to gather data on how they say something. However, it can sometimes be difficult to find a large group of speakers from a region you have never been to. In those cases, Amazon Mechanical Turk can come in handy. In this blog post, I explain how you can start using this awesome tool for your linguistic research!</description>
+    </item>
     
     <item>
       <title>How to create stunning presentations using Reveal.js in R</title>
