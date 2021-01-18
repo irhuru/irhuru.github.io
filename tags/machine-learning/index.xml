@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine learning on Irati Hurtado</title>
+    <link>https://irhuru.github.io/tags/machine-learning/</link>
+    <description>Recent content in Machine learning on Irati Hurtado</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Jan 2021 18:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://irhuru.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Using machine learning to build a dialect classifier</title>
+      <link>https://irhuru.github.io/blog/dialect-classifier/</link>
+      <pubDate>Sun, 17 Jan 2021 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/dialect-classifier/</guid>
+      <description>As a linguist, I have always been curious about how computers can make sense of texts that combine different languages or language varieties. Therefore, I decided to learn more about this and implemented a dialect classifier. That is, an algorithm that would take some text as input and would determine the language variety (or dialect) it represents. To find out how I did it, read this post or take a look at this Jupyter notebook with all the code!</description>
+    </item>
+    
+  </channel>
+</rss>
