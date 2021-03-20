@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-173447074-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+        
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Irati Hurtado. Language Analyst | Communications Specialist">
+<title>
+Creating a Haiku Generator With Python - Irati Hurtado
+</title>
+
+
+
+        <meta property="og:title" content="Creating a Haiku generator with Python - Irati Hurtado" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="Python project that creates a Haiku generator which outputs random haikus"/>
+<meta property="og:url" content="https://irhuru.github.io/blog/haiku-generator/"/>
+<meta property="og:site_name" content="Irati Hurtado"/>
+
+
+
+<meta property="og:image" content="https://irhuru.github.io/blog/haiku-generator/haiku-header.jpg"/>
+
+
+
+        
+<link rel="shortcut icon" href="/img/fav.ico">
+
+
+        
+
+
+
+
+
+<link rel="stylesheet" href="/css/main.min.daa833377fb1636f8cbfa65c601050bb5475623deb7aa6e6fdde94a064a6185d.css" integrity="sha256-2qgzN3&#43;xY2&#43;Mv6ZcYBBQu1R1Yj3reqbm/d6UoGSmGF0=" crossorigin="anonymous" media="screen">
+
+
+
+
+
+        
+        
+        
+        
+    </head>
+    <body>
+        <section id="top" class="section">
+            
+            <div class="container hero  fade-in one ">
+                
+
+<h1 class="bold-title is-1">Blog</h1>
+
+
+            </div>
+            
+            <div class="section  fade-in two ">
+                
+<div class="container">
+    <hr>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        
+        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+        <div class="navbar-menu " id="navMenu">
+            
+            
+            
+            
+            <a class="navbar-item" href="/">
+                
+                Home
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/#about">
+                
+                About
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/projects/">
+                
+                Projects
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/blog/">
+                
+                Blog
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/#contact">
+                
+                Contact
+                
+            </a>
+            
+            
+            
+        </div>
+    </nav>
+    <hr>
+</div>
+
+
+
+                
+<div class="container">
+    <h2 class="title is-1 top-pad strong-post-title">
+        <a href="https://irhuru.github.io/blog/haiku-generator/">Creating a Haiku generator with Python</a>
+    </h2>
+    <div class="post-data">
+        Mar 19, 2021 |
+        6 minutes read
+    </div>
+    
+    <div class="blog-share">
+        Share this:
+        
+        <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Creating%20a%20Haiku%20generator%20with%20Python%20https%3a%2f%2firhuru.github.io%2fblog%2fhaiku-generator%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+            <i class="fab fa-twitter"></i>
+            <span class="hidden">Twitter</span>
+        </a>
+        
+        
+        <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2firhuru.github.io%2fblog%2fhaiku-generator%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+            <i class="fab fa-facebook-f"></i>
+            <span class="hidden">Facebook</span>
+        </a>
+        
+        
+        <a class="icon-pinterest" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2firhuru.github.io%2fblog%2fhaiku-generator%2f&amp;description=Creating%20a%20Haiku%20generator%20with%20Python" onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+            <i class="fab fa-pinterest-p"></i>
+            <span class="hidden">Pinterest</span>
+        </a>
+        
+        
+    </div>
+    
+    
+    
+    <p>
+        Tags:
+        
+        <a href="/tags/python">Python</a>,
+        
+        <a href="/tags/nlp">NLP</a>,
+        
+        <a href="/tags/poetry">Poetry</a>
+        
+    </p>
+    
+</div>
+
+<div class="container markdown top-pad">
+    <p><img src="haiku-header.jpg" alt="haiku-generator"></p>
+<h1 id="what-is-a-haiku">What is a haiku?</h1>
+<p>I&rsquo;m sure you have heard the term <em>haiku</em> at least once in your life. <strong>Haiku is a type of short form poetry that originated in Japan</strong> 🇯🇵. These pieces of poetry consist of three phrases, where the first and third line have 5 syllables each and the second one has 7 syllables. This makes a total of 17 syllables per poem which follow a 5-7-5 pattern.</p>
+<p>Haikus have become popular in other cultures too. For example, one can find haikus written in English and many other languages, although these do not always deal with the same themes as traditional Japanese haikus. Haikus are now part of pop culture and one can easily find thousands of them with a simple Google search. So, since it seems everyone can now write a haiku and call themselves a poet, for this project I decided to <strong>create a haiku generator using Python</strong>.</p>
+<h1 id="how-did-you-do-this">How did you do this?</h1>
+<p>Briefly summarized, I compiled a bunch of texts and wrote a Python script that would output a random haiku using words from those texts, always following the 5-7-5 rule. Want to know how I did it? Keep on reading or check out the code <a href="https://github.com/irhuru/hAIku/blob/main/hAIku.ipynb">here</a>! 🤓</p>
+<h2 id="the-data">The data</h2>
+<p>To be honest, any long text would have worked for this project, as the script would simply extract words (or groups of words) from the text to write the haiku.</p>
+<p>However, to keep it more &ldquo;literary&rdquo; I decided to use <strong>a variety of excerpts from famous books</strong> available at <a href="https://www.gutenberg.org">Project Gutenberg</a>. More specifically, I used excerpts from <em>Metamorphosis</em> (Franz Kafka), <em>The Great Gatsby</em> (Scott Fitzgerald), <em>Anthem</em> (Ayn Rand), and <em>Moby Dick</em> (Herman Melville) 📚.</p>
+<p>The final dataset can be found <a href="https://github.com/irhuru/hAIku/blob/main/texts_data.txt">here</a>.</p>
+<h2 id="installing-libraries">Installing libraries</h2>
+<p>The first thing I did was to import and install some helpful Python libraries. The most important ones for our purposes are <a href="https://spacy.io">spaCy</a> and <a href="https://pypi.org/project/syllapy/">SyllaPy</a>.</p>
+<p><strong>SpaCy</strong> is a <strong>natural language processing library</strong> that allows you to do plenty of things with language data, from tokenization, to POS-tagging, to even named entity recognition. I used it to identify patterns in the text data and build the haikus.</p>
+<pre><code># Loading the English language model
+import spacy.cli
+spacy.cli.download(&quot;en_core_web_sm&quot;)
+nlp = spacy.load(&quot;en_core_web_sm&quot;)
+
+# Matcher will help identify patterns in the text
+from spacy.matcher import Matcher
+</code></pre><p><strong>SyllaPy</strong>, on the other hand, allows you to <strong>calculate syllable counts</strong> for English words. This is important because I had to follow the 5-7-5 rule when building the haikus, so I needed to be able to count the number of syllables per word somehow.</p>
+<pre><code>!pip install syllapy
+import syllapy
+</code></pre><h2 id="creating-the-script">Creating the script</h2>
+<p>The script has <strong>two main parts</strong>: a section where I extracted random groups of words from the text and a section where I filtered them out to keep only those that had either 5 or 7 syllables.</p>
+<h3 id="extracting-groups-of-words">Extracting groups of words</h3>
+<p>Here, I used <code>Matcher</code> to <strong>identify random groups of 2, 3, and 4 words in the dataset</strong>. <code>Matcher</code> works by specifying a linguistic pattern and applying it to your dataset. It will then identify and extract all words (or groups of words) that follow that pattern. Below, you can see an example:</p>
+<pre><code>matcher = Matcher(nlp.vocab)
+pattern = [{&quot;POS&quot;: &quot;NOUN&quot;}, {&quot;POS&quot;: &quot;VERB&quot;}]
+matcher.add(&quot;SamplePattern&quot;, [pattern])
+</code></pre><p>The key part here is the second line, where you specify the pattern you are interested in. The pattern always needs to appear within a list (hence the <code>[]</code>). Also, for each &lsquo;object&rsquo; you want to identify in the text, you need to create a dictionary, where the keys describe the type of token and the values describe its attributes. For example, the sequence <code>{&quot;POS&quot;: &quot;NOUN&quot;}</code> means that the token we are looking for is a &lsquo;part of speech&rsquo; (POS) whose attribute is a &lsquo;noun&rsquo;. Thus, all the second line does is say that <code>Matcher</code> will look for a noun that is followed by a verb. That&rsquo;s it! ✨</p>
+<p>One thing to keep in mind is that attributes are specified using the <a href="https://universaldependencies.org">Universal Dependencies framework</a>, so if you are looking for an adjective, you can&rsquo;t write <code>{&quot;POS&quot;: &quot;ADJECTIVE&quot;}</code>, but rather <code>{&quot;POS&quot;: &quot;ADJ&quot;}</code>. You can find all the Universal POS tags <a href="https://universaldependencies.org/docs/u/pos/">here</a>.</p>
+<p>Once you establish a pattern, you need to <strong>identify it in the text</strong>. For that, you can use a code snippet like the one below (I added two extra <code>print</code> statements so you can see how it works).</p>
+<pre><code>doc = nlp(texts)
+matches = matcher(doc)
+
+for match_id, start, end in matches:
+    string_id = nlp.vocab.strings[match_id]
+    span = doc[start:end]
+    print(match_id, string_id, start, end, span.text) # Print match info
+    print(span.text) # Print match only
+</code></pre><p>Now that you know how <code>Matcher</code> works, I will explain what patterns I tried to identify in the text to build my haiku. I decided to go for groups of words which were either 2, 3, or 4 words long. Furthermore, for each group of words, I specified what parts of speech I wanted the first and last word in the group to be. This is the code I used:</p>
+<pre><code># Groups of 2 words
+
+matcher2w = Matcher(nlp.vocab)
+
+pattern = [{&quot;POS&quot;:{&quot;IN&quot;: [&quot;NOUN&quot;, &quot;ADV&quot;, &quot;ADJ&quot;, &quot;ADP&quot;]}},
+           {&quot;POS&quot;:{&quot;IN&quot;: [&quot;VERB&quot;, &quot;NOUN&quot;]}}]
+matcher2w.add(&quot;2words&quot;, [pattern])
+
+# Groups of 3 words
+
+matcher3w = Matcher(nlp.vocab)
+
+pattern = [{&quot;POS&quot;:{&quot;IN&quot;: [&quot;NOUN&quot;, &quot;ADV&quot;, &quot;ADJ&quot;, &quot;VERB&quot;, &quot;ADP&quot;]}},
+           {&quot;IS_ASCII&quot;: True, &quot;IS_PUNCT&quot;: False},
+           {&quot;POS&quot;:{&quot;IN&quot;: [&quot;VERB&quot;, &quot;NOUN&quot;, &quot;ADV&quot;, &quot;ADJ&quot;]}}]
+matcher3w.add(&quot;3words&quot;, [pattern])
+
+# Groups of 4 words
+
+matcher4w = Matcher(nlp.vocab)
+
+pattern = [{&quot;POS&quot;:{&quot;IN&quot;: [&quot;NOUN&quot;, &quot;ADV&quot;, &quot;ADJ&quot;, &quot;VERB&quot;, &quot;ADP&quot;]}},
+           {&quot;IS_ASCII&quot;: True, &quot;IS_PUNCT&quot;: False},
+           {&quot;IS_ASCII&quot;: True, &quot;IS_PUNCT&quot;: False},
+           {&quot;POS&quot;:{&quot;IN&quot;: [&quot;VERB&quot;, &quot;NOUN&quot;, &quot;ADV&quot;, &quot;ADJ&quot;]}}]
+matcher4w.add(&quot;4words&quot;, [pattern])
+
+# Identify patterns in the text
+
+doc = nlp(texts)
+matches2w = matcher2w(doc)
+matches3w = matcher3w(doc)
+matches4w = matcher4w(doc)
+</code></pre><p>As you can see from the <code>{&quot;IN&quot;: [ ... ]}</code> sequences, I allowed for plenty of flexibility. That is, different POS could appear at the beginning of the pattern as well as at the end of the pattern. You can explore more patterns <a href="https://explosion.ai/demos/matcher">here</a>.</p>
+<h3 id="filtering-out-groups-of-words">Filtering out groups of words</h3>
+<p>After identifying groups of words, I had to <strong>leave out those which did not have 5 nor 7 syllables</strong>, since those are not useful to build the haiku. To do that, I used <code>SyllaPy</code> to count the syllables of each group of words and leave out those groups of words that I would not be able to use.</p>
+<p>This is the code I used:</p>
+<pre><code>lines_5_syll = []
+lines_7_syll = []
+
+for match_id, start, end in matches2w + matches3w + matches4w:
+   string_id = nlp.vocab.strings[match_id]
+   span = doc[start:end]
+
+   syllable_count = 0
+
+   for token in span:
+     syllable_count += syllapy.count(token.text)
+   if syllable_count == 5:
+     if span.text not in lines_5_syll:
+       lines_5_syll.append(span.text)
+   if syllable_count == 7:
+     if span.text not in lines_7_syll:
+       lines_7_syll.append(span.text)
+</code></pre><h2 id="generating-a-haiku">Generating a haiku</h2>
+<p>Lastly, I wrote a <strong>simple line of code to print a haiku</strong> by putting together two lines of 5 syllables each and one line of 7 syllables following a 5-7-5 rule 📝.</p>
+<p>This is the code I used for that (I had to import the <code>random</code> library first):</p>
+<pre><code>print(&quot;{0}\n{1}\n{2}&quot;.format(random.choice(lines_5_syll), random.choice(lines_7_syll), random.choice(lines_5_syll)))
+</code></pre><h2 id="sample-haiku-">Sample Haiku 🌸</h2>
+<p>This is a haiku I was able to generate with this script!</p>
+<blockquote>
+<p>closed in the evening</p>
+</blockquote>
+<blockquote>
+<p>sense of the fundamental</p>
+</blockquote>
+<blockquote>
+<p>now at any price</p>
+</blockquote>
+<p>It probably doesn&rsquo;t make much sense, but does it have to? 🤔</p>
+
+</div>
+
+<div id="disqus_thread"></div>
+<script>
+(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://irhuru.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+                
+                <div class="container">
+    <hr>
+</div>
+<div class="container has-text-centered top-pad">
+    <a href="#top">
+        <i class="fa fa-arrow-up"></i>
+    </a>
+</div>
+
+<div class="container">
+    <hr>
+</div>
+
+                <div class="section" id="footer">
+    <div class="container has-text-centered">
+    
+        <span class="footer-text">
+            <a href="https://github.com/victoriadrake/hugo-theme-introduction/"><strong>Introduction</strong></a> theme for <a href="http://gohugo.io/">Hugo</a>. Made with <a href="https://victoria.dev"><!-- raw HTML omitted --><!-- raw HTML omitted --> and <!-- raw HTML omitted --><!-- raw HTML omitted --></a> by open source contributors.
+        </span>
+    
+    </div>
+</div>
+
+                
+            </div>
+        </section>
+        
+        
+
+
+<script src="https://irhuru.github.io/js/bundle.e6934e69d06bb8a213134f4c1468f9478bb7755e786dfb60e3c5a917c5335805.js" integrity="sha256-5pNOadBruKITE09MFGj5R4u3dV54bftg48WpF8UzWAU="></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-173447074-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+        
+        
+        
+        
+    </body>
+</html>

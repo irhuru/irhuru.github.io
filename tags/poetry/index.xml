@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Poetry on Irati Hurtado</title>
+    <link>https://irhuru.github.io/tags/poetry/</link>
+    <description>Recent content in Poetry on Irati Hurtado</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 19 Mar 2021 18:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://irhuru.github.io/tags/poetry/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Creating a Haiku generator with Python</title>
+      <link>https://irhuru.github.io/blog/haiku-generator/</link>
+      <pubDate>Fri, 19 Mar 2021 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/haiku-generator/</guid>
+      <description>What is a haiku? I&amp;rsquo;m sure you have heard the term haiku at least once in your life. Haiku is a type of short form poetry that originated in Japan 🇯🇵. These pieces of poetry consist of three phrases, where the first and third line have 5 syllables each and the second one has 7 syllables. This makes a total of 17 syllables per poem which follow a 5-7-5 pattern.</description>
+    </item>
+    
+  </channel>
+</rss>
