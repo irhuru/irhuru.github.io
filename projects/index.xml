@@ -11,6 +11,41 @@
     
     
     <item>
+      <title>Automatic Dialect Classifier</title>
+      <link>https://irhuru.github.io/projects/dialect-classifier/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://irhuru.github.io/projects/dialect-classifier/</guid>
+      <description>This project uses machine learning to detect the dialect a particular sentence belongs to. Currently, the model distinguishes between Mexican Spanish 🇲🇽 and Peninsular Spanish 🇪🇸.
+The model is trained on text data coming from subtitles of movies produced both in Mexico and in Spain.
+The project was conducted using Python.
+You can read more about it on this blog post or check out the code on Github.</description>
+    </item>
+    
+    <item>
+      <title>Haiku Generator</title>
+      <link>https://irhuru.github.io/projects/haiku-generator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://irhuru.github.io/projects/haiku-generator/</guid>
+      <description>This project produces a random haiku generator.
+By using texts coming from actual books, a Python script automatically extracts words and outputs a haiku (a text that follows the 5-7-5 syllable rule).
+Texts were taken from Project Gutenberg, an online library of more than 60,000 books. Among the Python libraries used for this project were SpaCy and SyllaPy.
+You can learn more about this project by reading this blog post or by checking out the code on Github.</description>
+    </item>
+    
+    <item>
+      <title>Twitter Bot</title>
+      <link>https://irhuru.github.io/projects/twitter-bot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://irhuru.github.io/projects/twitter-bot/</guid>
+      <description>This project creates a Twitter bot that would tweet the most played song in the world every day, based on data from Spotify charts. The bot lives here 🤖.
+To extract the relevant info from Spotify charts, the Python library BeautifulSoup was imported, which is used for web-scraping.
+Check out the code on Github to learn more about the project.</description>
+    </item>
+    
+    <item>
       <title>Experimental Linguistics with Ibex Farm</title>
       <link>https://irhuru.github.io/projects/ibex_farm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -18,17 +53,6 @@
       <guid>https://irhuru.github.io/projects/ibex_farm/</guid>
       <description>Ibex Farm 🐐 is an online resource that allows you to create psycholinguistic experiments that you can then send to participants. Ibex Farm runs using JavaScript, HTML, and CSS 💻.
 The cool thing about it is that it is highly customizable and it allows you to measure reaction times (RTs) and to randomize items, among other things. You can check out the Ibex Farm website here and its documentation here.</description>
-    </item>
-    
-    <item>
-      <title>The Languages of Frida Kahlo</title>
-      <link>https://irhuru.github.io/projects/frida_kahlo/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://irhuru.github.io/projects/frida_kahlo/</guid>
-      <description>This project compares the English and Spanish subtitles from the movie Frida (2002) 🎥. Subtitle files were imported into R and examined using several natural language processing (NLP) tools and techniques, such as:
- Tokenization Bigrams Sentiment analysis  Results were also plotted for a better interpretation 📊📈. Some of the packages used include:
- tidyverse tidytext stringi igraph ggraph syuzhet  You can find the code here.</description>
     </item>
     
     <item>
@@ -50,6 +74,17 @@ In the context of the United States 🇺🇸, some colleges offer language cours
       <description>This corpus comprises several texts which are transcriptions of the Little Red Riding Hood fairy tale as narrated by different bilingual speakers. All narratives were produced in Spanish and were elicited using a children&amp;rsquo;s book (containing only images, not text) 📖.
 Bilingual speakers were either born in the United States or in a country in Latin America (e.g., Mexico, Venezuela&amp;hellip;), and they were fluent in both English and Spanish.
 Transcriptions were included in a single .</description>
+    </item>
+    
+    <item>
+      <title>The Languages of Frida Kahlo</title>
+      <link>https://irhuru.github.io/projects/frida_kahlo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://irhuru.github.io/projects/frida_kahlo/</guid>
+      <description>This project compares the English and Spanish subtitles from the movie Frida (2002) 🎥. Subtitle files were imported into R and examined using several natural language processing (NLP) tools and techniques, such as:
+ Tokenization Bigrams Sentiment analysis  Results were also plotted for a better interpretation 📊📈. Some of the packages used include:
+ tidyverse tidytext stringi igraph ggraph syuzhet  You can find the code here.</description>
     </item>
     
     <item>

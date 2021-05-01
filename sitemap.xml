@@ -3,11 +3,19 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://irhuru.github.io/projects/ibex_farm/</loc>
+    <loc>https://irhuru.github.io/projects/dialect-classifier/</loc>
   </url>
   
   <url>
-    <loc>https://irhuru.github.io/projects/frida_kahlo/</loc>
+    <loc>https://irhuru.github.io/projects/haiku-generator/</loc>
+  </url>
+  
+  <url>
+    <loc>https://irhuru.github.io/projects/twitter-bot/</loc>
+  </url>
+  
+  <url>
+    <loc>https://irhuru.github.io/projects/ibex_farm/</loc>
   </url>
   
   <url>
@@ -16,6 +24,10 @@
   
   <url>
     <loc>https://irhuru.github.io/projects/caperucita_roja/</loc>
+  </url>
+  
+  <url>
+    <loc>https://irhuru.github.io/projects/frida_kahlo/</loc>
   </url>
   
   <url>
