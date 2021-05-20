@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-173447074-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+        
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Irati Hurtado. Linguist | Language Analyst | Digital Communications Specialist">
+<title>
+A Short Guide to Building a Twitter Bot - Irati Hurtado
+</title>
+
+
+
+        <meta property="og:title" content="A short guide to building a Twitter bot - Irati Hurtado" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="Python project that builds a Twitter bot from scratch"/>
+<meta property="og:url" content="https://irhuru.github.io/blog/twitter-bot/"/>
+<meta property="og:site_name" content="Irati Hurtado"/>
+
+
+
+<meta property="og:image" content="https://irhuru.github.io/blog/twitter-bot/sample-tweet.jpg"/>
+
+<meta property="og:image" content="https://irhuru.github.io/blog/twitter-bot/spotify-charts.jpg"/>
+
+<meta property="og:image" content="https://irhuru.github.io/blog/twitter-bot/twitter-dev.jpg"/>
+
+<meta property="og:image" content="https://irhuru.github.io/blog/twitter-bot/twitterbot-header.jpg"/>
+
+
+
+        
+<link rel="shortcut icon" href="/img/fav.ico">
+
+
+        
+
+
+
+
+
+<link rel="stylesheet" href="/css/main.min.daa833377fb1636f8cbfa65c601050bb5475623deb7aa6e6fdde94a064a6185d.css" integrity="sha256-2qgzN3&#43;xY2&#43;Mv6ZcYBBQu1R1Yj3reqbm/d6UoGSmGF0=" crossorigin="anonymous" media="screen">
+
+
+
+
+
+        
+        
+        
+        
+    </head>
+    <body>
+        <section id="top" class="section">
+            
+            <div class="container hero  fade-in one ">
+                
+
+<h1 class="bold-title is-1">Blog</h1>
+
+
+            </div>
+            
+            <div class="section  fade-in two ">
+                
+<div class="container">
+    <hr>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        
+        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+        <div class="navbar-menu " id="navMenu">
+            
+            
+            
+            
+            <a class="navbar-item" href="/">
+                
+                Home
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/#about">
+                
+                About
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/projects/">
+                
+                Projects
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/blog/">
+                
+                Blog
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/resources/">
+                
+                Resources
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/#contact">
+                
+                Contact
+                
+            </a>
+            
+            
+            
+        </div>
+    </nav>
+    <hr>
+</div>
+
+
+
+                
+<div class="container">
+    <h2 class="title is-1 top-pad strong-post-title">
+        <a href="https://irhuru.github.io/blog/twitter-bot/">A short guide to building a Twitter bot</a>
+    </h2>
+    <div class="post-data">
+        May 18, 2021 |
+        6 minutes read
+    </div>
+    
+    <div class="blog-share">
+        Share this:
+        
+        <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=A%20short%20guide%20to%20building%20a%20Twitter%20bot%20https%3a%2f%2firhuru.github.io%2fblog%2ftwitter-bot%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+            <i class="fab fa-twitter"></i>
+            <span class="hidden">Twitter</span>
+        </a>
+        
+        
+        <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2firhuru.github.io%2fblog%2ftwitter-bot%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+            <i class="fab fa-facebook-f"></i>
+            <span class="hidden">Facebook</span>
+        </a>
+        
+        
+        <a class="icon-pinterest" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2firhuru.github.io%2fblog%2ftwitter-bot%2f&amp;description=A%20short%20guide%20to%20building%20a%20Twitter%20bot" onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+            <i class="fab fa-pinterest-p"></i>
+            <span class="hidden">Pinterest</span>
+        </a>
+        
+        
+    </div>
+    
+    
+    
+    <p>
+        Tags:
+        
+        <a href="/tags/python">Python</a>,
+        
+        <a href="/tags/bot">bot</a>,
+        
+        <a href="/tags/nlp">nlp</a>
+        
+    </p>
+    
+</div>
+
+<div class="container markdown top-pad">
+    <p><img src="twitterbot-header.jpg" alt="twitterbot"></p>
+<!-- raw HTML omitted -->
+<p>I recently discovered the fascinating world of Twitter bots (<a href="https://en.wikipedia.org/wiki/Twitter_bot">what&rsquo;s that?</a>). Isn&rsquo;t it amazing that a simple computer program can post random stuff on Twitter all by itself? 😎✨ It probably isn&rsquo;t, considering that we&rsquo;re in the middle of a tech revolution, but they&rsquo;re fun to build, so that&rsquo;s a good enough reason to waste your time creating one!</p>
+<p>In this guide, <strong>I explain you how to build a Twitter bot from scratch step by step</strong>. The only pre-requisite is that you know a little bit of Python.</p>
+<h1 id="steps-to-build-a-twitter-bot">Steps to build a Twitter bot</h1>
+<p>There are 5 steps you have to follow in order to build your own Twitter bot.</p>
+<ol>
+<li>Write a <strong>Python program that generates the text</strong> your bot will post on Twitter. This is self-explanatory: if there&rsquo;s no message, there&rsquo;s no tweet.</li>
+<li>Create a <strong>Twitter developer account</strong> in order to access the Twitter API so you can set up your bot. This is also self-explanatory: we need a Twitter account in order to be able to tweet.</li>
+<li>Link your Python program (on your computer) to your Twitter account (on the internet). <strong>Connecting these two things</strong> is key so your bot can &lsquo;come to life&rsquo;.</li>
+<li><strong>Run your Python program</strong> once it&rsquo;s linked to Twitter so it can start tweeting.</li>
+<li>Sit back and <strong>observe</strong>. Go to bed feeling fulfilled 🥲.</li>
+</ol>
+<p>I go over each of these steps in the remainder of the post.</p>
+<h1 id="writing-a-python-program">Writing a Python program</h1>
+<p>Ok, so this is the most creative part of the process! In this step, you get to <strong>decide what your bot is going to be tweeting about</strong> and write the code for it.</p>
+<p>In my case, <strong>I decided to build a bot that would tweet the most played song in the world each day</strong>. Now, you might be thinking: &ldquo;Sounds good, but how do you know what&rsquo;s the most played song in the world on a given day? 😅&rdquo;. The short answer is: I don&rsquo;t know. But Spotify does! In fact, they have a website where they publish a lot of data they gather from their listeners (e.g., most played songs, most viral songs&hellip;). The website is called <a href="https://spotifycharts.com/regional">Spotify Charts</a>, and it&rsquo;s what I&rsquo;ll be using to develop my Python program 🎵🎶.</p>
+<p><img src="spotify-charts.jpg" alt="spotifycharts"></p>
+<p>In order to <strong>&lsquo;visit&rsquo; that website using your Python program</strong>, you can use the following code:</p>
+<pre><code>url = &quot;https://spotifycharts.com/regional/global&quot;
+headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36'}
+webpage = requests.get(url, headers=headers)  
+</code></pre><p>The first line of code, <code>url</code>,  tells Python what website we want to access, and the second line, <code>headers</code>, tells Python that we want to access it as if we were using an actual internet browser. Now, the third line is where the magic happens: we put both things together and Python &lsquo;gets a copy&rsquo; of the website, which is stored in the variable <code>webpage</code>. In order to be able to run this code, make sure you import the <code>requests</code> library 🤓.</p>
+<p>Once we have a copy of Spotify Charts, we need to <strong>make it &lsquo;readable&rsquo;</strong> so that Python can do stuff with it. To do this, I used the <code>BeautifulSoup</code> library. If you&rsquo;re not familiar with that library, <a href="https://programminghistorian.org/en/lessons/intro-to-beautiful-soup">The Programming Historian</a> has a wonderful intro post.</p>
+<p>The code below reads in the website using HTML and then keeps the table that contains information about the most played songs that day.</p>
+<pre><code>soup = BeautifulSoup(webpage.text, &quot;html.parser&quot;)
+songs_list = soup.find(&quot;table&quot;, {&quot;class&quot;:&quot;chart-table&quot;})
+</code></pre><p>Since we only need the first song in the table (aka. the most played one), I used the following code to extract that info from the table and to &lsquo;clean&rsquo; it (by removing HTML tags):</p>
+<pre><code># Function to get song info
+
+def get_song(songs_list):
+  table_rows = songs_list.findChildren('tr')[1]
+  track_data = table_rows.findChildren('td')[3]
+  return track_data
+
+# Function to get song title and artist
+
+def song_info(track_data):
+  title_data = track_data.findChildren('strong')[0]
+  artist_data = track_data.findChildren('span')[0]
+  return (title_data, artist_data)
+
+# Function to clean HTML text
+
+def clean_text(html_text):
+  clean_re = re.compile('&lt;.*?&gt;|&amp;([a-z0-9]+|#[0-9]{1,6}|#x[0-9a-f]{1,6});')
+  clean_text = re.sub(clean_re, '', html_text)
+  return clean_text
+</code></pre><p>Lastly, I wrote another <strong>function to generate the daily tweet</strong> my bot would be posting on Twitter. The function simply puts everything together. However, since Twitter does not allow to post the exact same tweet twice and it&rsquo;s pretty likely for a song to be the most played one for several days in a row, I customized each tweet further by adding the date 📆.</p>
+<pre><code># Function to get date
+
+def get_date():
+  today = date.today()
+  today = str(today)
+  today_date = today[5:10]
+  return today_date  
+
+# Function to write tweet
+
+def write_tweet(song_info, today_date):
+  title_data = song_info[0]
+  artist_data = song_info[1]
+  song_title = str(clean_text(title_data.text))
+  song_artist = str(clean_text(artist_data.text))  
+  tweet = &quot;#NowPlaying |&quot; + today_date + &quot;| &quot; + song_title + &quot; &quot; + song_artist
+  return tweet
+
+</code></pre><h1 id="creating-a-twitter-developer-account">Creating a Twitter developer account</h1>
+<p>To <strong>create a Twitter account</strong> that would let you set up your bot, visit <a href="https://developer.twitter.com/en/apply-for-access">this website</a> and follow the steps.</p>
+<p><img src="twitter-dev.jpg" alt="twitterdev"></p>
+<p>Once your account is activated, you&rsquo;ll need to <strong>copy your access keys</strong>. More specifically, you&rsquo;ll need your API Key, your API Secret Key, your Access Token, and your Access Token Secret. You can think of these as passwords that are automatically linked to your account and that you&rsquo;ll bot will have to use in order to be able to tweet from your terminal.</p>
+<p><em>Note</em>: it&rsquo;s important that you don&rsquo;t share these keys with anyone, since otherwise, your Twitter account could be hacked 😱.</p>
+<h1 id="linking-your-python-program-to-your-twitter-account">Linking your Python program to your Twitter account</h1>
+<p>We&rsquo;re almost done! In order to <strong>link your Python program to your Twitter account</strong>, you&rsquo;ll have to use the code below. I have omitted my actual keys for privacy, so you would have to replace those with yours.</p>
+<pre><code>CONSUMER_KEY = 'Your key goes here'
+CONSUMER_SECRET = 'Your key goes here'
+ACCESS_KEY = 'Your key goes here'
+ACCESS_SECRET = 'Your key goes here'
+auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
+auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
+api = tweepy.API(auth)
+</code></pre><p>To be able to run this code, you&rsquo;ll have to <strong>import the <code>tweepy</code> library</strong>, which is basically a Python library to access the Twitter API.</p>
+<p>Lastly, you can add the code chunk that will write your tweet and post it every day.</p>
+<pre><code>tweet = write_tweet(song_info(get_song(songs_list)), get_date())
+
+while True:
+    this_tweet = tweet
+    if len(this_tweet) &lt;= 140:
+        api.update_status(status=this_tweet)
+        time.sleep(86400) # number of seconds in a day
+</code></pre><h1 id="running-your-python-program">Running your Python program</h1>
+<p>If you made it here, good job! 🥳 The fourth step of the process is to <strong>make your bot tweet for the first time</strong>. So, open your terminal and go to the directory where your <code>.py</code> file containing the code is located (you can use <code>cd</code> for this). Once there, run your code (<code>python yourfilename.py</code>) and go visit your bot&rsquo;s Twitter account to see its first tweet ever.</p>
+<h1 id="enjoy">Enjoy!</h1>
+<p>Congrats, your tweet has been published! <strong>Your Twitter bot works!</strong> 😀 <!-- raw HTML omitted -->
+A new tweet will be published every 24 hours as long as you don&rsquo;t close your terminal. In fact, you don&rsquo;t even have to tweet once a day, you can set up your bot the way you want and publish as many tweets as you&rsquo;d like.</p>
+<p>You can <strong>see one of the tweets my bot produced</strong> below:</p>
+<p><img src="sample-tweet.jpg" alt="sampletweet"></p>
+<p>It includes a popular hashtag, <code>#NowPlaying</code>, the date when it was published, <code>|04-23|</code>, as well as the title of the song (and artist) that was played the most that day, <code>MONTERO (Call Me By Your Name) by Lil Nas X</code>. And that&rsquo;s it, that&rsquo;s the tweet!</p>
+<h5 id="if-you-found-this-guide-interesting-you-can-check-out-my-code-on-githubhttpsgithubcomirhurutwitter-botblobmaintwitterbotpy-and-read-my-other-blog-posts-herehttpsirhurugithubioblog">If you found this guide interesting, you can check out <a href="https://github.com/irhuru/twitter-bot/blob/main/twitterbot.py">my code on Github</a> and read my other blog posts <a href="https://irhuru.github.io/blog/">here</a>!</h5>
+<!-- raw HTML omitted -->
+
+</div>
+
+<div id="disqus_thread"></div>
+<script>
+(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://irhuru.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+                
+                <div class="container">
+    <hr>
+</div>
+<div class="container has-text-centered top-pad">
+    <a href="#top">
+        <i class="fa fa-arrow-up"></i>
+    </a>
+</div>
+
+<div class="container">
+    <hr>
+</div>
+
+                <div class="section" id="footer">
+    <div class="container has-text-centered">
+    
+        <span class="footer-text">
+            <a href="https://github.com/victoriadrake/hugo-theme-introduction/"><strong>Introduction</strong></a> theme for <a href="http://gohugo.io/">Hugo</a>. Made with <a href="https://victoria.dev"><!-- raw HTML omitted --><!-- raw HTML omitted --> and <!-- raw HTML omitted --><!-- raw HTML omitted --></a> by open source contributors.
+        </span>
+    
+    </div>
+</div>
+
+                
+            </div>
+        </section>
+        
+        
+
+
+<script src="https://irhuru.github.io/js/bundle.e6934e69d06bb8a213134f4c1468f9478bb7755e786dfb60e3c5a917c5335805.js" integrity="sha256-5pNOadBruKITE09MFGj5R4u3dV54bftg48WpF8UzWAU="></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-173447074-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+        
+        
+        
+        
+    </body>
+</html>

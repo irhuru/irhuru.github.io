@@ -6,10 +6,20 @@
     <description>Recent content in Python on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Mar 2021 18:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 18 May 2021 18:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://irhuru.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A short guide to building a Twitter bot</title>
+      <link>https://irhuru.github.io/blog/twitter-bot/</link>
+      <pubDate>Tue, 18 May 2021 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/twitter-bot/</guid>
+      <description>I recently discovered the fascinating world of Twitter bots (what&amp;rsquo;s that?). Isn&amp;rsquo;t it amazing that a simple computer program can post random stuff on Twitter all by itself? 😎✨ It probably isn&amp;rsquo;t, considering that we&amp;rsquo;re in the middle of a tech revolution, but they&amp;rsquo;re fun to build, so that&amp;rsquo;s a good enough reason to waste your time creating one!
+In this guide, I explain you how to build a Twitter bot from scratch step by step.</description>
+    </item>
     
     <item>
       <title>Creating a Haiku generator with Python</title>

@@ -6,17 +6,35 @@
     <description>Recent content in Tags on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Mar 2021 18:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 18 May 2021 18:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://irhuru.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>bot</title>
+      <link>https://irhuru.github.io/tags/bot/</link>
+      <pubDate>Tue, 18 May 2021 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/tags/bot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>NLP</title>
       <link>https://irhuru.github.io/tags/nlp/</link>
-      <pubDate>Fri, 19 Mar 2021 18:00:00 -0500</pubDate>
+      <pubDate>Tue, 18 May 2021 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/tags/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://irhuru.github.io/tags/python/</link>
+      <pubDate>Tue, 18 May 2021 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/tags/python/</guid>
       <description></description>
     </item>
     
@@ -26,15 +44,6 @@
       <pubDate>Fri, 19 Mar 2021 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/tags/poetry/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://irhuru.github.io/tags/python/</link>
-      <pubDate>Fri, 19 Mar 2021 18:00:00 -0500</pubDate>
-      
-      <guid>https://irhuru.github.io/tags/python/</guid>
       <description></description>
     </item>
     

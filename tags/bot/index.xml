@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>NLP on Irati Hurtado</title>
-    <link>https://irhuru.github.io/tags/nlp/</link>
-    <description>Recent content in NLP on Irati Hurtado</description>
+    <title>bot on Irati Hurtado</title>
+    <link>https://irhuru.github.io/tags/bot/</link>
+    <description>Recent content in bot on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 18 May 2021 18:00:00 -0500</lastBuildDate>
     
-	<atom:link href="https://irhuru.github.io/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://irhuru.github.io/tags/bot/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       <guid>https://irhuru.github.io/blog/twitter-bot/</guid>
       <description>I recently discovered the fascinating world of Twitter bots (what&amp;rsquo;s that?). Isn&amp;rsquo;t it amazing that a simple computer program can post random stuff on Twitter all by itself? 😎✨ It probably isn&amp;rsquo;t, considering that we&amp;rsquo;re in the middle of a tech revolution, but they&amp;rsquo;re fun to build, so that&amp;rsquo;s a good enough reason to waste your time creating one!
 In this guide, I explain you how to build a Twitter bot from scratch step by step.</description>
-    </item>
-    
-    <item>
-      <title>Creating a Haiku generator with Python</title>
-      <link>https://irhuru.github.io/blog/haiku-generator/</link>
-      <pubDate>Fri, 19 Mar 2021 18:00:00 -0500</pubDate>
-      
-      <guid>https://irhuru.github.io/blog/haiku-generator/</guid>
-      <description>What is a haiku? I&amp;rsquo;m sure you have heard the term haiku at least once in your life. Haiku is a type of short form poetry that originated in Japan 🇯🇵. These pieces of poetry consist of three phrases, where the first and third line have 5 syllables each and the second one has 7 syllables. This makes a total of 17 syllables per poem which follow a 5-7-5 pattern.</description>
     </item>
     
   </channel>
