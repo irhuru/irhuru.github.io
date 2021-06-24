@@ -6,7 +6,7 @@
     <description>Recent content on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 May 2021 18:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 23 Jun 2021 18:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://irhuru.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -97,6 +97,16 @@ Transcriptions were included in a single .</description>
       <description>Structural priming is the tendency to repeat or more easily process a syntactic structure that a speaker has been recently exposed to. Linguistic experiments that use structural priming try to understand how language is represented in the mind 🧠.
 This project used a structural priming paradigm to examine how different speakers (i.e., native speakers, second language speakers, and heritage speakers) process ditransitive constructions in Spanish.
 The experiment consisted of a pre-test, treatment, and post-test.</description>
+    </item>
+    
+    <item>
+      <title>Automatic transcription software to transcribe like a pro</title>
+      <link>https://irhuru.github.io/blog/automatic-transcription/</link>
+      <pubDate>Wed, 23 Jun 2021 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/automatic-transcription/</guid>
+      <description>Chances are that if you are working on a linguistics project, you might have to transcribe audio recordings in order to analyze them. Transcribing can be a deadly boring process 😩, especially if you have many files or if you are dealing with speakers of non-standard dialects/varieties.
+However, recent advancements in automatic speech recognition (ASR) have led to the development of very cool software that can help you speed up the transcription process.</description>
     </item>
     
     <item>

@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 May 2021 18:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 23 Jun 2021 18:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://irhuru.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>audio</title>
+      <link>https://irhuru.github.io/tags/audio/</link>
+      <pubDate>Wed, 23 Jun 2021 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/tags/audio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>text</title>
+      <link>https://irhuru.github.io/tags/text/</link>
+      <pubDate>Wed, 23 Jun 2021 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/tags/text/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>transcription</title>
+      <link>https://irhuru.github.io/tags/transcription/</link>
+      <pubDate>Wed, 23 Jun 2021 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/tags/transcription/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>bot</title>
