@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-173447074-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+        
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Irati Hurtado. Linguist | Language Analyst | Digital Communications Specialist">
+<title>
+Transcribing and Analyzing Speech Samples With C L a N - Irati Hurtado
+</title>
+
+
+
+        <meta property="og:title" content="Transcribing and analyzing speech samples with CLAN - Irati Hurtado" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="Overview of CLAN software for speech analysis"/>
+<meta property="og:url" content="https://irhuru.github.io/blog/clan-software/"/>
+<meta property="og:site_name" content="Irati Hurtado"/>
+
+
+
+<meta property="og:image" content="https://irhuru.github.io/blog/clan-software/clan-dots-list.jpg"/>
+
+<meta property="og:image" content="https://irhuru.github.io/blog/clan-software/clan-headers.jpg"/>
+
+<meta property="og:image" content="https://irhuru.github.io/blog/clan-software/clan-software-header.jpg"/>
+
+
+
+        
+<link rel="shortcut icon" href="/img/fav.ico">
+
+
+        
+
+
+
+
+
+<link rel="stylesheet" href="/css/main.min.daa833377fb1636f8cbfa65c601050bb5475623deb7aa6e6fdde94a064a6185d.css" integrity="sha256-2qgzN3&#43;xY2&#43;Mv6ZcYBBQu1R1Yj3reqbm/d6UoGSmGF0=" crossorigin="anonymous" media="screen">
+
+
+
+
+
+        
+        
+        
+        
+    </head>
+    <body>
+        <section id="top" class="section">
+            
+            <div class="container hero  fade-in one ">
+                
+
+<h1 class="bold-title is-1">Blog</h1>
+
+
+            </div>
+            
+            <div class="section  fade-in two ">
+                
+<div class="container">
+    <hr>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        
+        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+        <div class="navbar-menu " id="navMenu">
+            
+            
+            
+            
+            <a class="navbar-item" href="/">
+                
+                Home
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/#about">
+                
+                About
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/projects/">
+                
+                Projects
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/blog/">
+                
+                Blog
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/resources/">
+                
+                Resources
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/#contact">
+                
+                Contact
+                
+            </a>
+            
+            
+            
+        </div>
+    </nav>
+    <hr>
+</div>
+
+
+
+                
+<div class="container">
+    <h2 class="title is-1 top-pad strong-post-title">
+        <a href="https://irhuru.github.io/blog/clan-software/">Transcribing and analyzing speech samples with CLAN</a>
+    </h2>
+    <div class="post-data">
+        Jul 21, 2021 |
+        5 minutes read
+    </div>
+    
+    <div class="blog-share">
+        Share this:
+        
+        <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Transcribing%20and%20analyzing%20speech%20samples%20with%20CLAN%20https%3a%2f%2firhuru.github.io%2fblog%2fclan-software%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+            <i class="fab fa-twitter"></i>
+            <span class="hidden">Twitter</span>
+        </a>
+        
+        
+        <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2firhuru.github.io%2fblog%2fclan-software%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+            <i class="fab fa-facebook-f"></i>
+            <span class="hidden">Facebook</span>
+        </a>
+        
+        
+        <a class="icon-pinterest" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2firhuru.github.io%2fblog%2fclan-software%2f&amp;description=Transcribing%20and%20analyzing%20speech%20samples%20with%20CLAN" onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+            <i class="fab fa-pinterest-p"></i>
+            <span class="hidden">Pinterest</span>
+        </a>
+        
+        
+    </div>
+    
+    
+    
+    <p>
+        Tags:
+        
+        <a href="/tags/transcription">transcription</a>,
+        
+        <a href="/tags/text">text</a>,
+        
+        <a href="/tags/audio">audio</a>
+        
+    </p>
+    
+</div>
+
+<div class="container markdown top-pad">
+    <p><img src="clan-software-header.jpg" alt="clan-software-header"></p>
+<!-- raw HTML omitted -->
+<p>In a <a href="https://irhuru.github.io/blog/automatic-transcription/">previous blog post</a>, I wrote about automatic transcription software that you can use to speed up your transcription process. However, chances are that you also want to <strong>analyze what you transcribe</strong> if you&rsquo;re working on a research project. Measures such as words per minute or lexical diversity scores are quite common in linguistics research. In this blog post, I introduce you to <strong>CLAN</strong>, a software that will help you with both transcription and analysis 👇🏻.</p>
+<h1 id="what-is-clan-exactly">What is CLAN exactly?</h1>
+<p><a href="https://dali.talkbank.org/clan/">CLAN</a> is one of the two software available from <a href="https://www.talkbank.org">TalkBank</a>, a large collaborative project that seeks to document and analyze spoken language (the second software is Phon, which I won&rsquo;t discuss in this blog post).</p>
+<p>CLAN consists of <strong>two main parts or functions</strong>. The first one is an <strong>editor</strong> 📝, similar to a plain text editor but better, where you transcribe and annotate your data. The second one is <strong>a set of data analysis programs</strong> 📊 which will help you analyze your data by calculating the various measures you&rsquo;re interested in. I explain both functions below.</p>
+<h1 id="opening-the-clan-editor">Opening the CLAN editor</h1>
+<p>Although the CLAN editor looks extremely simple, it is way more than a plain text editor, as it allows you to enter some codes that will improve your transcription process.</p>
+<p>Before you start transcribing, <strong>you have to add a header on top of the document</strong> in order to link the transcription file to the audio file as well as to add some information about the person (or people) who are talking in the audio 🗣️. A <strong>sample header</strong> looks like this:</p>
+<p><img src="clan-headers.jpg" alt="clan-headers"></p>
+<p>Notice that all lines begin with an <code>@</code> followed by a word and, in some cases, some values associated to it. This header tells us that there is only one speaker in the audio file who speaks English (<code>eng</code>), is a female (<code>|female|</code>), and who corresponds to participant <code>108</code> in our dataset. Also, the audio file linked to this transcription file is named <code>108eng</code>.</p>
+<p>All the <strong>codes used in the CLAN editor follow the CHAT format</strong>, which was also developed by the TalkBank team. To learn more about these codes and what they mean, you can check out the <a href="https://talkbank.org/manuals/CHAT.pdf">CHAT manual</a> (tip: a shorter version of this manual can be found <a href="https://talkbank.org/manuals/Clin-CLAN.pdf">here</a>).</p>
+<h1 id="transcribing-your-audio-file">Transcribing your audio file</h1>
+<p>Once you have entered all the information required in the header, it&rsquo;s time to start transcribing! 🎧</p>
+<p>Simply <strong>place your cursor at the end of the <code>@Media</code> line and press F5</strong>. Your audio will suddenly start playing while you are still in the CLAN editor. Now, every time the speaker finishes an utterance, you will have to <strong>press the space bar so the cursor jumps to the next line</strong>. At this point, a black dot will appear in each line after you press the space bar. You would think this makes no sense at all, but it does!</p>
+<p>Once you reach the end of the audio file, you will have a <strong>list full of black dots</strong>. Each dot represents one utterance, which you will have to link a particular speaker in your audio. For this, place your cursor next to a dot and <strong>add the speakers manually from the Tiers tab</strong>. The result should be something like this (note that this file contains only one speaker):</p>
+<p><img src="clan-dots-list.jpg" alt="clan-dots"></p>
+<p>Now, you can finally work on <strong>transcribing your audio</strong>. To do this, <strong>open the Walker Controlled tool</strong> (it should be under the Window tab) and place your cursor next to one of the dots. Then, <strong>press F6</strong>. The utterance linked to that specific line will start playing automatically so you can transcribe it. Here, you can adjust the Walker Controller tool to facilitate your transcription process by setting it up so that each utterance is repeated twice, for example. You can check out the manual again to learn about all the features associated to Walker Controller.</p>
+<p>The manual also contains additional information describing how to code certain <strong>phenomena commonly found in spoken language</strong>. For example, how should errors be coded? and pauses? and what if a speaker repeats a word twice? 🤓</p>
+<h1 id="analyzing-your-transcription">Analyzing your transcription</h1>
+<p>The last step of the process is to analyze the transcription, since that&rsquo;s the reason why we were using CLAN in the first place.</p>
+<p>There are <strong>several measures you can calculate using this software</strong>, and unfortunately I can&rsquo;t cover all of them in this blog post. In fact, there is a <a href="https://talkbank.org/manuals/CLAN.pdf">separate manual</a> 📙 where you can find a list of measures and how to use the software to calculate them.</p>
+<p>Usually, the analysis process consists of opening the <strong>Commands tool</strong> (under the Window tab) and <strong>entering the appropriate code</strong> to calculate what you want (of course, this code is available in the manual I mentioned).</p>
+<h1 id="contributing-your-data">Contributing your data</h1>
+<p>Once you&rsquo;re done with your research project (everything is transcribed and analyzed), you might be interested in <strong>contributing your data to an online database</strong> so that other researchers can access them 👨‍💻.</p>
+<p>This is actually one of the main reasons why the TalkBank project started. There are currently several <strong>data banks organized by categories</strong>, so if you&rsquo;re interested, you can add your data to one of those repositories. Hundreds of researchers working with data in multiple languages have already contributed to the TalkBank project. You can find a list with all the data banks <a href="https://www.talkbank.org">here</a>.</p>
+<p>You can read the instructions for contributing data <a href="https://www.talkbank.org/share/contrib.html">here</a>, or read <a href="https://link.springer.com/article/10.3758/s13428-018-1174-9#Sec1">this paper</a> by Brian MacWhinney, the project leader, on the relevance of TalkBank for understanding spoken language.</p>
+<h5 id="if-you-found-this-post-interesting-you-can-read-my-other-blog-posts-herehttpsirhurugithubioblog">If you found this post interesting, you can read my other blog posts <a href="https://irhuru.github.io/blog/">here</a>!</h5>
+<!-- raw HTML omitted -->
+
+</div>
+
+<div id="disqus_thread"></div>
+<script>
+(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://irhuru.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+                
+                <div class="container">
+    <hr>
+</div>
+<div class="container has-text-centered top-pad">
+    <a href="#top">
+        <i class="fa fa-arrow-up"></i>
+    </a>
+</div>
+
+<div class="container">
+    <hr>
+</div>
+
+                <div class="section" id="footer">
+    <div class="container has-text-centered">
+    
+        <span class="footer-text">
+            <a href="https://github.com/victoriadrake/hugo-theme-introduction/"><strong>Introduction</strong></a> theme for <a href="http://gohugo.io/">Hugo</a>. Made with <a href="https://victoria.dev"><!-- raw HTML omitted --><!-- raw HTML omitted --> and <!-- raw HTML omitted --><!-- raw HTML omitted --></a> by open source contributors.
+        </span>
+    
+    </div>
+</div>
+
+                
+            </div>
+        </section>
+        
+        
+
+
+<script src="https://irhuru.github.io/js/bundle.e6934e69d06bb8a213134f4c1468f9478bb7755e786dfb60e3c5a917c5335805.js" integrity="sha256-5pNOadBruKITE09MFGj5R4u3dV54bftg48WpF8UzWAU="></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-173447074-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+        
+        
+        
+        
+    </body>
+</html>
