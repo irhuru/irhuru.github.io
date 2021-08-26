@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>corpus on Irati Hurtado</title>
+    <link>https://irhuru.github.io/tags/corpus/</link>
+    <description>Recent content in corpus on Irati Hurtado</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Aug 2021 18:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://irhuru.github.io/tags/corpus/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>An analysis of Peter Pan using the R package koRpus</title>
+      <link>https://irhuru.github.io/blog/korpus-peterpan/</link>
+      <pubDate>Wed, 25 Aug 2021 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/korpus-peterpan/</guid>
+      <description>If you are into language research, you probably use R to analyze your data 📊. One of the good things about R is that you can install packages to extend R&amp;rsquo;s basic functions. In this blog post, I&amp;rsquo;d like to introduce you to a very useful package for language research: koRpus.
+Despite its name, the R package koRpus was designed to work with individual texts, and not with a collection of texts (I know, this is confusing!</description>
+    </item>
+    
+  </channel>
+</rss>

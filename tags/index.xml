@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 21 Jul 2021 18:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 25 Aug 2021 18:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://irhuru.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>corpus</title>
+      <link>https://irhuru.github.io/tags/corpus/</link>
+      <pubDate>Wed, 25 Aug 2021 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/tags/corpus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NLP</title>
+      <link>https://irhuru.github.io/tags/nlp/</link>
+      <pubDate>Wed, 25 Aug 2021 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/tags/nlp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://irhuru.github.io/tags/r/</link>
+      <pubDate>Wed, 25 Aug 2021 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/tags/r/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>audio</title>
@@ -44,15 +71,6 @@
       <pubDate>Tue, 18 May 2021 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/tags/bot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>NLP</title>
-      <link>https://irhuru.github.io/tags/nlp/</link>
-      <pubDate>Tue, 18 May 2021 18:00:00 -0500</pubDate>
-      
-      <guid>https://irhuru.github.io/tags/nlp/</guid>
       <description></description>
     </item>
     
@@ -125,15 +143,6 @@
       <pubDate>Wed, 02 Sep 2020 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/tags/plotly/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>https://irhuru.github.io/tags/r/</link>
-      <pubDate>Wed, 02 Sep 2020 18:00:00 -0500</pubDate>
-      
-      <guid>https://irhuru.github.io/tags/r/</guid>
       <description></description>
     </item>
     
