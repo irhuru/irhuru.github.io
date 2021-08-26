@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-173447074-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+        
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Irati Hurtado. Linguist | Language Analyst | Digital Communications Specialist">
+<title>
+An Analysis of Peter Pan Using the R Package Ko Rpus - Irati Hurtado
+</title>
+
+
+
+        <meta property="og:title" content="An analysis of Peter Pan using the R package koRpus - Irati Hurtado" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="How to install and use the R koRpus package to analyze Peter Pan"/>
+<meta property="og:url" content="https://irhuru.github.io/blog/korpus-peterpan/"/>
+<meta property="og:site_name" content="Irati Hurtado"/>
+
+
+
+<meta property="og:image" content="https://irhuru.github.io/blog/korpus-peterpan/PeterPanR.jpg"/>
+
+<meta property="og:image" content="https://irhuru.github.io/blog/korpus-peterpan/readability.jpg"/>
+
+
+
+        
+<link rel="shortcut icon" href="/img/fav.ico">
+
+
+        
+
+
+
+
+
+<link rel="stylesheet" href="/css/main.min.daa833377fb1636f8cbfa65c601050bb5475623deb7aa6e6fdde94a064a6185d.css" integrity="sha256-2qgzN3&#43;xY2&#43;Mv6ZcYBBQu1R1Yj3reqbm/d6UoGSmGF0=" crossorigin="anonymous" media="screen">
+
+
+
+
+
+        
+        
+        
+        
+    </head>
+    <body>
+        <section id="top" class="section">
+            
+            <div class="container hero  fade-in one ">
+                
+
+<h1 class="bold-title is-1">Blog</h1>
+
+
+            </div>
+            
+            <div class="section  fade-in two ">
+                
+<div class="container">
+    <hr>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        
+        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+        <div class="navbar-menu " id="navMenu">
+            
+            
+            
+            
+            <a class="navbar-item" href="/">
+                
+                Home
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/#about">
+                
+                About
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/projects/">
+                
+                Projects
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/blog/">
+                
+                Blog
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/resources/">
+                
+                Resources
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/#contact">
+                
+                Contact
+                
+            </a>
+            
+            
+            
+        </div>
+    </nav>
+    <hr>
+</div>
+
+
+
+                
+<div class="container">
+    <h2 class="title is-1 top-pad strong-post-title">
+        <a href="https://irhuru.github.io/blog/korpus-peterpan/">An analysis of Peter Pan using the R package koRpus</a>
+    </h2>
+    <div class="post-data">
+        Aug 25, 2021 |
+        4 minutes read
+    </div>
+    
+    <div class="blog-share">
+        Share this:
+        
+        <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=An%20analysis%20of%20Peter%20Pan%20using%20the%20R%20package%20koRpus%20https%3a%2f%2firhuru.github.io%2fblog%2fkorpus-peterpan%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+            <i class="fab fa-twitter"></i>
+            <span class="hidden">Twitter</span>
+        </a>
+        
+        
+        <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2firhuru.github.io%2fblog%2fkorpus-peterpan%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+            <i class="fab fa-facebook-f"></i>
+            <span class="hidden">Facebook</span>
+        </a>
+        
+        
+        <a class="icon-pinterest" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2firhuru.github.io%2fblog%2fkorpus-peterpan%2f&amp;description=An%20analysis%20of%20Peter%20Pan%20using%20the%20R%20package%20koRpus" onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+            <i class="fab fa-pinterest-p"></i>
+            <span class="hidden">Pinterest</span>
+        </a>
+        
+        
+    </div>
+    
+    
+    
+    <p>
+        Tags:
+        
+        <a href="/tags/r">R</a>,
+        
+        <a href="/tags/corpus">corpus</a>,
+        
+        <a href="/tags/nlp">nlp</a>
+        
+    </p>
+    
+</div>
+
+<div class="container markdown top-pad">
+    <p><img src="PeterPanR.jpg" alt="PeterPanHeader"></p>
+<!-- raw HTML omitted -->
+<p>If you are into language research, you probably use <a href="https://www.r-project.org">R</a> to analyze your data 📊. One of the good things about R is that you can install packages to extend R&rsquo;s basic functions. In this blog post, I&rsquo;d like to introduce you to a very <strong>useful package for language research</strong>: <code>koRpus</code>.</p>
+<p>Despite its name, the R package <strong><code>koRpus</code> was designed to work with individual texts</strong>, and not with a collection of texts (I know, this is confusing!). <code>koRpus</code> mostly provides you with automatized formulae to calculate readability and lexical diversity. For this post, <strong>I&rsquo;ll be using Peter Pan&rsquo;s famous fairy tale to illustrate some of the things you can do</strong> with this package.</p>
+<h1 id="setup">Setup</h1>
+<p>The first thing you&rsquo;ll need to do is to <strong>install and load the package</strong>, of course! 🤓 In addition to loading the <code>koRpus</code> package, you&rsquo;ll also need to install and load a language model. Because the text I chose is in English, I loaded the English model (Note: I also loaded <code>tidyverse</code>, as it&rsquo;s useful for the analysis too).</p>
+<pre><code>library(koRpus)
+library(koRpus.lang.en)
+library(tidyverse)
+</code></pre><h1 id="finding-the-texts">Finding the texts</h1>
+<p>The second step is also pretty obvious: We need texts to analyze! In my case, <strong>I downloaded the Peter Pan fairy tale from <a href="https://www.gutenberg.org">Project Gutenberg</a></strong> as several plain txt files (one per chapter). You should move your text(s) to the folder where your R project is located 📂.</p>
+<h1 id="tokenizing-the-texts">Tokenizing the texts</h1>
+<p>In order to run <code>koRpus</code>'s formulae, you first need to <strong>split your text into tokens</strong> (aka. tokenization). Here, you can install and use <a href="https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/"><code>TreeTagger</code></a> or you can use the <code>tokenize</code> function from the <code>koRpus</code> package itself. The use of <code>TreeTagger</code> is recommended, as its results are more precise. However, because here I&rsquo;m showing you how to use the <code>koRpus</code> package, I used <code>tokenize()</code> instead 👇.</p>
+<pre><code>tokenized_chapter1 = koRpus::tokenize(
+  &quot;PeterPan_Chapter1.txt&quot;,
+  lang = &quot;en&quot;,
+  doc_id = &quot;Chapter 1&quot;
+  )
+</code></pre><p>As explained before, since <code>koRpus</code> was designed to work with a single text, you would have to repeat this process for as many texts as you have.</p>
+<p>Once your text is tokenized, you can use the <strong><code>describe()</code> function to get some information about your text</strong>, such as number of tokens, sentences, and so on. This is an optional step but it&rsquo;s something you might be interested in, depending on what you are researching.</p>
+<pre><code>describe(tokenized_chapter1)
+</code></pre><h1 id="calculating-readability">Calculating readability</h1>
+<p>Readability measures how easy it is to read a text. As you can imagine, several formulae have been proposed to calculate readability, as it&rsquo;s a quite complex construct. Luckily, <code>koRpus</code> provides <strong>several of these formulae to choose from</strong>. You can find a comprehensive list <a href="https://cran.r-project.org/web/packages/koRpus/vignettes/koRpus_vignette.html#readability">here</a>.</p>
+<p>In my case, I used the <a href="https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests">Flesch formula</a>, which is one of the most common ones. However, this formula requires the text to be <strong>split into syllables</strong>. But don&rsquo;t worry, <code>koRpus</code> has a function to do just that! The function is called <code>hyphen()</code> and you just need to pass the tokenized text as its argument.</p>
+<pre><code>hyph_chapter1 = hyphen(tokenized_chapter1)
+</code></pre><p>After this is done, you can <strong>apply the readability formula</strong> 👇:</p>
+<pre><code>flesch_chapter1 = flesch(tokenized_chapter1, hyphen = hyph_chapter1)
+</code></pre><p>Once again, you would have to repeat this process for as many texts as you have. For the Peter Pan fairy tale, I calculated the Flesch scores for all 17 chapters. You can also <strong>plot the results afterwards</strong> to see how readability changes throughout chapters (this is where <code>tidyverse</code> comes in handy!).</p>
+<p><img src="readability.jpg" alt="PeterPanReadabilityGraph"></p>
+<p>It seems that the readability scores are pretty consistent throughout, which is a good sign!</p>
+<h1 id="calculating-lexical-diversity">Calculating lexical diversity</h1>
+<p>Just like for readability, <code>koRpus</code> has <strong>several formulae to calculate lexical diversity</strong>. Lexical diversity measures how many different lexical words there are in a text. Here, you can either use a specific function for the formula you want to use (these are called &ldquo;wrapper functions&rdquo;), or you can use a general function where you specify the exact formula you&rsquo;re interested in.</p>
+<p>I decided to calculate the type-token ratio (TTR) in the Peter Pan fairy tale. In the example below, you can see how I used the general formula to specify that <strong>&lsquo;type-token ratio&rsquo; (TTR)</strong> should be used.</p>
+<pre><code>lex_div_chapter1 = lex.div(
+  tokenized_chapter1,
+  measure = (&quot;TTR&quot;),
+  char = (&quot;TTR&quot;)
+  )
+show(lex_div_chapter1) # use this to print the results!
+</code></pre><p>In this formula, we first have to provide the name of the formula (&ldquo;TTR&rdquo;) and then, we specify whether we want to output the <strong>characteristics of the measure in question</strong>. This latter is optional and can be omitted by writing <code>char = NULL</code> instead.</p>
+<p>After using the <code>show()</code> function, we would get something like this:</p>
+<pre><code>Total number of tokens: 3083
+Total number of types:  875
+
+Type-Token Ratio
+               TTR: 0.28
+
+TTR characteristics:
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max.
+ 0.2833  0.3209  0.3531  0.3871  0.3978  1.0000
+   SD
+ 0.1117
+</code></pre><p>That would give us the TTR for chapter 1 only (<code>TTR: 0.28</code>), so remember to repeat this process for all your texts.</p>
+<h1 id="learning-more">Learning more</h1>
+<p>Up to here, I have shown you some of the main things you can do with <code>koRpus</code>, but you can always read the <strong><a href="https://cran.r-project.org/web/packages/koRpus/koRpus.pdf">official documentation</a></strong> to learn more about the package and what it offers 📄.</p>
+<h5 id="if-you-found-this-post-interesting-you-can-check-out-my-other-blog-posts-herehttpsirhurugithubioblog">If you found this post interesting, you can check out my other blog posts <a href="https://irhuru.github.io/blog/">here</a>!</h5>
+<!-- raw HTML omitted -->
+
+</div>
+
+<div id="disqus_thread"></div>
+<script>
+(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://irhuru.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+                
+                <div class="container">
+    <hr>
+</div>
+<div class="container has-text-centered top-pad">
+    <a href="#top">
+        <i class="fa fa-arrow-up"></i>
+    </a>
+</div>
+
+<div class="container">
+    <hr>
+</div>
+
+                <div class="section" id="footer">
+    <div class="container has-text-centered">
+    
+        <span class="footer-text">
+            <a href="https://github.com/victoriadrake/hugo-theme-introduction/"><strong>Introduction</strong></a> theme for <a href="http://gohugo.io/">Hugo</a>. Made with <a href="https://victoria.dev"><!-- raw HTML omitted --><!-- raw HTML omitted --> and <!-- raw HTML omitted --><!-- raw HTML omitted --></a> by open source contributors.
+        </span>
+    
+    </div>
+</div>
+
+                
+            </div>
+        </section>
+        
+        
+
+
+<script src="https://irhuru.github.io/js/bundle.e6934e69d06bb8a213134f4c1468f9478bb7755e786dfb60e3c5a917c5335805.js" integrity="sha256-5pNOadBruKITE09MFGj5R4u3dV54bftg48WpF8UzWAU="></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-173447074-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+        
+        
+        
+        
+    </body>
+</html>
