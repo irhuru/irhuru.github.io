@@ -6,7 +6,7 @@
     <description>Recent content on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Aug 2021 18:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 20 Sep 2021 18:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://irhuru.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -97,6 +97,16 @@ Transcriptions were included in a single .</description>
       <description>Structural priming is the tendency to repeat or more easily process a syntactic structure that a speaker has been recently exposed to. Linguistic experiments that use structural priming try to understand how language is represented in the mind 🧠.
 This project used a structural priming paradigm to examine how different speakers (i.e., native speakers, second language speakers, and heritage speakers) process ditransitive constructions in Spanish.
 The experiment consisted of a pre-test, treatment, and post-test.</description>
+    </item>
+    
+    <item>
+      <title>What is Latex and why you need to use it for your linguistics papers</title>
+      <link>https://irhuru.github.io/blog/latex-docs/</link>
+      <pubDate>Mon, 20 Sep 2021 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/latex-docs/</guid>
+      <description>Linguistics papers often include tons of visual information, such as syntax trees, IPA symbols, glosses, and so on. These things are cool because they are helpful to convey your message, but they are sometimes hard to manage when writing your paper with a standard word processor. Who hasn&amp;rsquo;t drawn a syntax tree using PowerPoint and then taken a screenshot of it to include it in a Word doc? 🙄
+Fortunately, Latex exists so we don&amp;rsquo;t have to deal with these issues.</description>
     </item>
     
     <item>
