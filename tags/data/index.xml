@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data on Irati Hurtado</title>
+    <link>https://irhuru.github.io/tags/data/</link>
+    <description>Recent content in data on Irati Hurtado</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 27 Oct 2021 18:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://irhuru.github.io/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to get Twitter data</title>
+      <link>https://irhuru.github.io/blog/twitter-data/</link>
+      <pubDate>Wed, 27 Oct 2021 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/twitter-data/</guid>
+      <description>Nowadays, a lot of linguistics research uses language data from Twitter. At every major linguistics conference, there&amp;rsquo;s at least one or two people (if not more!) discussing the use of language on this popular social network. Even though doing research on language use on Twitter is quite trendy now, getting the data for research is not that cool. The reason behind this? There are several ways to get Twitter data and each way depends on a variety of factors, which makes the process a bit confusing.</description>
+    </item>
+    
+  </channel>
+</rss>
