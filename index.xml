@@ -6,7 +6,7 @@
     <description>Recent content on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 27 Oct 2021 18:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Mon, 28 Feb 2022 18:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://irhuru.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -97,6 +97,16 @@ Transcriptions were included in a single .</description>
       <description>Structural priming is the tendency to repeat or more easily process a syntactic structure that a speaker has been recently exposed to. Linguistic experiments that use structural priming try to understand how language is represented in the mind 🧠.
 This project used a structural priming paradigm to examine how different speakers (i.e., native speakers, second language speakers, and heritage speakers) process ditransitive constructions in Spanish.
 The experiment consisted of a pre-test, treatment, and post-test.</description>
+    </item>
+    
+    <item>
+      <title>Four key steps for developing guidelines for language data annotation</title>
+      <link>https://irhuru.github.io/blog/data-annotation-guidelines/</link>
+      <pubDate>Mon, 28 Feb 2022 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/data-annotation-guidelines/</guid>
+      <description>Whether you want to build a corpus to document an interesting linguistic phenomenon or simply want to have language data to train your AI models, the process of data annotation is crucial.
+Language data annotation (or text data annotation) is the process of adding labels with relevant information or meta-data. Even though it might seem like a simple process, choosing the right labels for your data is not always easy, as ambiguous data is pretty common 😣.</description>
     </item>
     
     <item>

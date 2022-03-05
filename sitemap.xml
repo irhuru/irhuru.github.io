@@ -40,7 +40,7 @@
   
   <url>
     <loc>https://irhuru.github.io/blog/</loc>
-    <lastmod>2021-10-27T18:00:00-05:00</lastmod>
+    <lastmod>2022-02-28T18:00:00-05:00</lastmod>
   </url>
   
   <url>
@@ -48,8 +48,33 @@
   </url>
   
   <url>
+    <loc>https://irhuru.github.io/tags/corpus/</loc>
+    <lastmod>2022-02-28T18:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://irhuru.github.io/tags/data/</loc>
-    <lastmod>2021-10-27T18:00:00-05:00</lastmod>
+    <lastmod>2022-02-28T18:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://irhuru.github.io/blog/data-annotation-guidelines/</loc>
+    <lastmod>2022-02-28T18:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://irhuru.github.io/</loc>
+    <lastmod>2022-02-28T18:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://irhuru.github.io/tags/nlp/</loc>
+    <lastmod>2022-02-28T18:00:00-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://irhuru.github.io/tags/</loc>
+    <lastmod>2022-02-28T18:00:00-05:00</lastmod>
   </url>
   
   <url>
@@ -58,17 +83,7 @@
   </url>
   
   <url>
-    <loc>https://irhuru.github.io/</loc>
-    <lastmod>2021-10-27T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://irhuru.github.io/tags/language/</loc>
-    <lastmod>2021-10-27T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://irhuru.github.io/tags/</loc>
     <lastmod>2021-10-27T18:00:00-05:00</lastmod>
   </url>
   
@@ -99,16 +114,6 @@
   
   <url>
     <loc>https://irhuru.github.io/blog/korpus-peterpan/</loc>
-    <lastmod>2021-08-25T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://irhuru.github.io/tags/corpus/</loc>
-    <lastmod>2021-08-25T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://irhuru.github.io/tags/nlp/</loc>
     <lastmod>2021-08-25T18:00:00-05:00</lastmod>
   </url>
   
