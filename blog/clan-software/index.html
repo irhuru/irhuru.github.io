@@ -22,7 +22,7 @@ if (!doNotTrack) {
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer">
-<meta name="description" content="Irati Hurtado. Linguist | Language Analyst | Digital Communications Specialist">
+<meta name="description" content="Irati Hurtado. Linguist | Language Data Analyst | Digital Communications Specialist">
 <title>
 Transcribing and Analyzing Speech Samples With C L a N - Irati Hurtado
 </title>
@@ -200,27 +200,27 @@ Transcribing and Analyzing Speech Samples With C L a N - Irati Hurtado
     <p><img src="clan-software-header.jpg" alt="clan-software-header"></p>
 <!-- raw HTML omitted -->
 <p>In a <a href="https://irhuru.github.io/blog/automatic-transcription/">previous blog post</a>, I wrote about automatic transcription software that you can use to speed up your transcription process. However, chances are that you also want to <strong>analyze what you transcribe</strong> if you&rsquo;re working on a research project. Measures such as words per minute or lexical diversity scores are quite common in linguistics research. In this blog post, I introduce you to <strong>CLAN</strong>, a software that will help you with both transcription and analysis 👇🏻.</p>
-<h1 id="what-is-clan-exactly">What is CLAN exactly?</h1>
+<h2 id="what-is-clan-exactly">What is CLAN exactly?</h2>
 <p><a href="https://dali.talkbank.org/clan/">CLAN</a> is one of the two software available from <a href="https://www.talkbank.org">TalkBank</a>, a large collaborative project that seeks to document and analyze spoken language (the second software is Phon, which I won&rsquo;t discuss in this blog post).</p>
 <p>CLAN consists of <strong>two main parts or functions</strong>. The first one is an <strong>editor</strong> 📝, similar to a plain text editor but better, where you transcribe and annotate your data. The second one is <strong>a set of data analysis programs</strong> 📊 which will help you analyze your data by calculating the various measures you&rsquo;re interested in. I explain both functions below.</p>
-<h1 id="opening-the-clan-editor">Opening the CLAN editor</h1>
+<h2 id="opening-the-clan-editor">Opening the CLAN editor</h2>
 <p>Although the CLAN editor looks extremely simple, it is way more than a plain text editor, as it allows you to enter some codes that will improve your transcription process.</p>
 <p>Before you start transcribing, <strong>you have to add a header on top of the document</strong> in order to link the transcription file to the audio file as well as to add some information about the person (or people) who are talking in the audio 🗣️. A <strong>sample header</strong> looks like this:</p>
 <p><img src="clan-headers.jpg" alt="clan-headers"></p>
 <p>Notice that all lines begin with an <code>@</code> followed by a word and, in some cases, some values associated to it. This header tells us that there is only one speaker in the audio file who speaks English (<code>eng</code>), is a female (<code>|female|</code>), and who corresponds to participant <code>108</code> in our dataset. Also, the audio file linked to this transcription file is named <code>108eng</code>.</p>
 <p>All the <strong>codes used in the CLAN editor follow the CHAT format</strong>, which was also developed by the TalkBank team. To learn more about these codes and what they mean, you can check out the <a href="https://talkbank.org/manuals/CHAT.pdf">CHAT manual</a> (tip: a shorter version of this manual can be found <a href="https://talkbank.org/manuals/Clin-CLAN.pdf">here</a>).</p>
-<h1 id="transcribing-your-audio-file">Transcribing your audio file</h1>
+<h2 id="transcribing-your-audio-file">Transcribing your audio file</h2>
 <p>Once you have entered all the information required in the header, it&rsquo;s time to start transcribing! 🎧</p>
 <p>Simply <strong>place your cursor at the end of the <code>@Media</code> line and press F5</strong>. Your audio will suddenly start playing while you are still in the CLAN editor. Now, every time the speaker finishes an utterance, you will have to <strong>press the space bar so the cursor jumps to the next line</strong>. At this point, a black dot will appear in each line after you press the space bar. You would think this makes no sense at all, but it does!</p>
 <p>Once you reach the end of the audio file, you will have a <strong>list full of black dots</strong>. Each dot represents one utterance, which you will have to link a particular speaker in your audio. For this, place your cursor next to a dot and <strong>add the speakers manually from the Tiers tab</strong>. The result should be something like this (note that this file contains only one speaker):</p>
 <p><img src="clan-dots-list.jpg" alt="clan-dots"></p>
 <p>Now, you can finally work on <strong>transcribing your audio</strong>. To do this, <strong>open the Walker Controlled tool</strong> (it should be under the Window tab) and place your cursor next to one of the dots. Then, <strong>press F6</strong>. The utterance linked to that specific line will start playing automatically so you can transcribe it. Here, you can adjust the Walker Controller tool to facilitate your transcription process by setting it up so that each utterance is repeated twice, for example. You can check out the manual again to learn about all the features associated to Walker Controller.</p>
 <p>The manual also contains additional information describing how to code certain <strong>phenomena commonly found in spoken language</strong>. For example, how should errors be coded? and pauses? and what if a speaker repeats a word twice? 🤓</p>
-<h1 id="analyzing-your-transcription">Analyzing your transcription</h1>
+<h2 id="analyzing-your-transcription">Analyzing your transcription</h2>
 <p>The last step of the process is to analyze the transcription, since that&rsquo;s the reason why we were using CLAN in the first place.</p>
 <p>There are <strong>several measures you can calculate using this software</strong>, and unfortunately I can&rsquo;t cover all of them in this blog post. In fact, there is a <a href="https://talkbank.org/manuals/CLAN.pdf">separate manual</a> 📙 where you can find a list of measures and how to use the software to calculate them.</p>
 <p>Usually, the analysis process consists of opening the <strong>Commands tool</strong> (under the Window tab) and <strong>entering the appropriate code</strong> to calculate what you want (of course, this code is available in the manual I mentioned).</p>
-<h1 id="contributing-your-data">Contributing your data</h1>
+<h2 id="contributing-your-data">Contributing your data</h2>
 <p>Once you&rsquo;re done with your research project (everything is transcribed and analyzed), you might be interested in <strong>contributing your data to an online database</strong> so that other researchers can access them 👨‍💻.</p>
 <p>This is actually one of the main reasons why the TalkBank project started. There are currently several <strong>data banks organized by categories</strong>, so if you&rsquo;re interested, you can add your data to one of those repositories. Hundreds of researchers working with data in multiple languages have already contributed to the TalkBank project. You can find a list with all the data banks <a href="https://www.talkbank.org">here</a>.</p>
 <p>You can read the instructions for contributing data <a href="https://www.talkbank.org/share/contrib.html">here</a>, or read <a href="https://link.springer.com/article/10.3758/s13428-018-1174-9#Sec1">this paper</a> by Brian MacWhinney, the project leader, on the relevance of TalkBank for understanding spoken language.</p>

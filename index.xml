@@ -67,14 +67,13 @@ In the context of the United States 🇺🇸, some colleges offer language cours
     </item>
     
     <item>
-      <title>Little Red Riding Hood Corpus</title>
-      <link>https://irhuru.github.io/projects/caperucita_roja/</link>
+      <title>Bilinguals in the Midwest (BILinMID) Corpus</title>
+      <link>https://irhuru.github.io/projects/bilinmid_corpus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://irhuru.github.io/projects/caperucita_roja/</guid>
-      <description>This corpus comprises several texts which are transcriptions of the Little Red Riding Hood fairy tale as narrated by different bilingual speakers. All narratives were produced in Spanish and were elicited using a children&amp;rsquo;s book (containing only images, not text) 📖.
-Bilingual speakers were either born in the United States or in a country in Latin America (e.g., Mexico, Venezuela&amp;hellip;), and they were fluent in both English and Spanish.
-Transcriptions were included in a single .</description>
+      <guid>https://irhuru.github.io/projects/bilinmid_corpus/</guid>
+      <description>This corpus documents the Spanish and English spoken by bilinguals living in the Midwest of the United States. The corpus comprises written transcriptions of the Little Red Riding Hood fairy tale as narrated by several bilingual speakers. These stories were elicited using a children&amp;rsquo;s book (containing only images, not text) 📖.
+Bilingual speakers were either born in the United States or in a Spanish-speaking country (e.g., Mexico, Spain&amp;hellip;), and they were fluent in both English and Spanish, though their level of proficiency differed based on individual variables, such as length of residence in the United States, country of birth, etc.</description>
     </item>
     
     <item>
@@ -86,17 +85,6 @@ Transcriptions were included in a single .</description>
       <description>This project compares the English and Spanish subtitles from the movie Frida (2002) 🎥. Subtitle files were imported into R and examined using several natural language processing (NLP) tools and techniques, such as:
  Tokenization Bigrams Sentiment analysis  Results were also plotted for a better interpretation 📊📈. Some of the packages used include:
  tidyverse tidytext stringi igraph ggraph syuzhet  You can find the code here.</description>
-    </item>
-    
-    <item>
-      <title>Structural Priming</title>
-      <link>https://irhuru.github.io/projects/structural_priming/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://irhuru.github.io/projects/structural_priming/</guid>
-      <description>Structural priming is the tendency to repeat or more easily process a syntactic structure that a speaker has been recently exposed to. Linguistic experiments that use structural priming try to understand how language is represented in the mind 🧠.
-This project used a structural priming paradigm to examine how different speakers (i.e., native speakers, second language speakers, and heritage speakers) process ditransitive constructions in Spanish.
-The experiment consisted of a pre-test, treatment, and post-test.</description>
     </item>
     
     <item>
