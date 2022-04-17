@@ -6,7 +6,7 @@
     <description>Recent content on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Feb 2022 18:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 15 Apr 2022 18:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://irhuru.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -85,6 +85,15 @@ Bilingual speakers were either born in the United States or in a Spanish-speakin
       <description>This project compares the English and Spanish subtitles from the movie Frida (2002) 🎥. Subtitle files were imported into R and examined using several natural language processing (NLP) tools and techniques, such as:
  Tokenization Bigrams Sentiment analysis  Results were also plotted for a better interpretation 📊📈. Some of the packages used include:
  tidyverse tidytext stringi igraph ggraph syuzhet  You can find the code here.</description>
+    </item>
+    
+    <item>
+      <title>Can computers change the way we speak?</title>
+      <link>https://irhuru.github.io/blog/computer-speak/</link>
+      <pubDate>Fri, 15 Apr 2022 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/computer-speak/</guid>
+      <description>Some months ago, I bought my first smart speaker: an Amazon echo. Because I live in the U.S., Alexa&amp;rsquo;s default language was English. Even though I&amp;rsquo;m a native speaker of Spanish, I can also speak English, so it wasn&amp;rsquo;t really a problem for me. However, when pronouncing Spanish proper names (e.g., people or places), I would still use my Spanish pronunciation. It turns out Alexa couldn&amp;rsquo;t understand me unless I anglicized those names (ugh!</description>
     </item>
     
     <item>
