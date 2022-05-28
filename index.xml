@@ -6,7 +6,7 @@
     <description>Recent content on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Apr 2022 18:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 20 May 2022 18:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://irhuru.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -85,6 +85,16 @@ Bilingual speakers were either born in the United States or in a Spanish-speakin
       <description>This project compares the English and Spanish subtitles from the movie Frida (2002) 🎥. Subtitle files were imported into R and examined using several natural language processing (NLP) tools and techniques, such as:
  Tokenization Bigrams Sentiment analysis  Results were also plotted for a better interpretation 📊📈. Some of the packages used include:
  tidyverse tidytext stringi igraph ggraph syuzhet  You can find the code here.</description>
+    </item>
+    
+    <item>
+      <title>Phonetic transcription systems you should know</title>
+      <link>https://irhuru.github.io/blog/phonetic-transcription/</link>
+      <pubDate>Fri, 20 May 2022 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/phonetic-transcription/</guid>
+      <description>What is phonetic transcription? Phonetic transcription is the use of phonetic symbols to represent speech. We could say it&amp;rsquo;s a way to visually represent speech sounds, which is important because orthography often doesn&amp;rsquo;t represent pronunciation accurately.
+Each phonetic symbol represents a sound in a spoken utterance. However, which phonetic symbol we use depends on the phonetic transcription system we follow. This means that the same dataset can be transcribed in more than one way.</description>
     </item>
     
     <item>
