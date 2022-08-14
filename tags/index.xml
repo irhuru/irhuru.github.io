@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Jul 2022 18:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 10 Aug 2022 18:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://irhuru.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>analysis</title>
+      <link>https://irhuru.github.io/tags/analysis/</link>
+      <pubDate>Wed, 10 Aug 2022 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/tags/analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AntConc</title>
+      <link>https://irhuru.github.io/tags/antconc/</link>
+      <pubDate>Wed, 10 Aug 2022 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/tags/antconc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>corpus</title>
+      <link>https://irhuru.github.io/tags/corpus/</link>
+      <pubDate>Wed, 10 Aug 2022 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/tags/corpus/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>conversation</title>
@@ -71,15 +98,6 @@
       <pubDate>Fri, 15 Apr 2022 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/tags/computer/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>corpus</title>
-      <link>https://irhuru.github.io/tags/corpus/</link>
-      <pubDate>Mon, 28 Feb 2022 18:00:00 -0500</pubDate>
-      
-      <guid>https://irhuru.github.io/tags/corpus/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>analysis on Irati Hurtado</title>
+    <link>https://irhuru.github.io/tags/analysis/</link>
+    <description>Recent content in analysis on Irati Hurtado</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Aug 2022 18:00:00 -0500</lastBuildDate>
+    
+	<atom:link href="https://irhuru.github.io/tags/analysis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A simple guide to using AntConc for corpus analysis</title>
+      <link>https://irhuru.github.io/blog/antconc-corpus/</link>
+      <pubDate>Wed, 10 Aug 2022 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/antconc-corpus/</guid>
+      <description>If you&amp;rsquo;re interested in corpus linguistics, you probably know that some of the things this field involves includes searching for patterns in a group of texts (e.g., find frequent words or collocations). This can be easily done using a programming language like Python or R 👩🏻‍💻. But, what if you don&amp;rsquo;t have much experience with programming languages? Well, this is where a tool like AntConc becomes useful!
+AntConc is a free corpus analysis software that can easily help you identify patterns in a collection of texts.</description>
+    </item>
+    
+  </channel>
+</rss>

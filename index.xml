@@ -6,7 +6,7 @@
     <description>Recent content on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 01 Jul 2022 18:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 10 Aug 2022 18:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://irhuru.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -85,6 +85,16 @@ Bilingual speakers were either born in the United States or in a Spanish-speakin
       <description>This project compares the English and Spanish subtitles from the movie Frida (2002) 🎥. Subtitle files were imported into R and examined using several natural language processing (NLP) tools and techniques, such as:
  Tokenization Bigrams Sentiment analysis  Results were also plotted for a better interpretation 📊📈. Some of the packages used include:
  tidyverse tidytext stringi igraph ggraph syuzhet  You can find the code here.</description>
+    </item>
+    
+    <item>
+      <title>A simple guide to using AntConc for corpus analysis</title>
+      <link>https://irhuru.github.io/blog/antconc-corpus/</link>
+      <pubDate>Wed, 10 Aug 2022 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/antconc-corpus/</guid>
+      <description>If you&amp;rsquo;re interested in corpus linguistics, you probably know that some of the things this field involves includes searching for patterns in a group of texts (e.g., find frequent words or collocations). This can be easily done using a programming language like Python or R 👩🏻‍💻. But, what if you don&amp;rsquo;t have much experience with programming languages? Well, this is where a tool like AntConc becomes useful!
+AntConc is a free corpus analysis software that can easily help you identify patterns in a collection of texts.</description>
     </item>
     
     <item>
