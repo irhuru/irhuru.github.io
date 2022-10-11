@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-173447074-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+        
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Irati Hurtado. Linguist | Language Data Analyst | Digital Communications Specialist">
+<title>
+An Introduction to Voyant Tools for Corpus Analysis - Irati Hurtado
+</title>
+
+
+
+        <meta property="og:title" content="An introduction to Voyant Tools for corpus analysis - Irati Hurtado" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="Blog post about using Voyant Tools to create a corpus and analyze it"/>
+<meta property="og:url" content="https://irhuru.github.io/blog/voyant-tutorial/"/>
+<meta property="og:site_name" content="Irati Hurtado"/>
+
+
+
+<meta property="og:image" content="https://irhuru.github.io/blog/voyant-tutorial/Voyant-Tools-interface.jpeg"/>
+
+<meta property="og:image" content="https://irhuru.github.io/blog/voyant-tutorial/Voyant-Tools-skin.jpeg"/>
+
+<meta property="og:image" content="https://irhuru.github.io/blog/voyant-tutorial/voyant-header.jpg"/>
+
+
+
+        
+<link rel="shortcut icon" href="/img/fav.ico">
+
+
+        
+
+
+
+
+
+<link rel="stylesheet" href="/css/main.min.daa833377fb1636f8cbfa65c601050bb5475623deb7aa6e6fdde94a064a6185d.css" integrity="sha256-2qgzN3&#43;xY2&#43;Mv6ZcYBBQu1R1Yj3reqbm/d6UoGSmGF0=" crossorigin="anonymous" media="screen">
+
+
+
+
+
+        
+        
+        
+        
+    </head>
+    <body>
+        <section id="top" class="section">
+            
+            <div class="container hero  fade-in one ">
+                
+
+<h1 class="bold-title is-1">Blog</h1>
+
+
+            </div>
+            
+            <div class="section  fade-in two ">
+                
+<div class="container">
+    <hr>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        
+        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+        <div class="navbar-menu " id="navMenu">
+            
+            
+            
+            
+            <a class="navbar-item" href="/">
+                
+                Home
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/#about">
+                
+                About
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/projects/">
+                
+                Projects
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/blog/">
+                
+                Blog
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/resources/">
+                
+                Resources
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/#contact">
+                
+                Contact
+                
+            </a>
+            
+            
+            
+        </div>
+    </nav>
+    <hr>
+</div>
+
+
+
+                
+<div class="container">
+    <h2 class="title is-1 top-pad strong-post-title">
+        <a href="https://irhuru.github.io/blog/voyant-tutorial/">An introduction to Voyant Tools for corpus analysis</a>
+    </h2>
+    <div class="post-data">
+        Oct 9, 2022 |
+        3 minutes read
+    </div>
+    
+    <div class="blog-share">
+        Share this:
+        
+        <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=An%20introduction%20to%20Voyant%20Tools%20for%20corpus%20analysis%20https%3a%2f%2firhuru.github.io%2fblog%2fvoyant-tutorial%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+            <i class="fab fa-twitter"></i>
+            <span class="hidden">Twitter</span>
+        </a>
+        
+        
+        <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2firhuru.github.io%2fblog%2fvoyant-tutorial%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+            <i class="fab fa-facebook-f"></i>
+            <span class="hidden">Facebook</span>
+        </a>
+        
+        
+        <a class="icon-pinterest" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2firhuru.github.io%2fblog%2fvoyant-tutorial%2f&amp;description=An%20introduction%20to%20Voyant%20Tools%20for%20corpus%20analysis" onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+            <i class="fab fa-pinterest-p"></i>
+            <span class="hidden">Pinterest</span>
+        </a>
+        
+        
+    </div>
+    
+    
+    
+    <p>
+        Tags:
+        
+        <a href="/tags/language">language</a>,
+        
+        <a href="/tags/corpus">corpus</a>,
+        
+        <a href="/tags/nlp">NLP</a>
+        
+    </p>
+    
+</div>
+
+<div class="container markdown top-pad">
+    <p><img src="voyant-header.jpg" alt="voyant-header"></p>
+<!-- raw HTML omitted -->
+<p>If you&rsquo;re into the Digital Humanities, you probably know about the importance of text analysis. Whereas programming languages such as Python or R allow you to do this efficiently, some people prefer to use tools which don&rsquo;t require any coding skills 👨🏻‍💻. A good example of such a tool is <a href="https://voyant-tools.org">Voyant Tools</a>, an <strong>open-source web-based application for text analysis</strong>. In this blog post, I will show you the basics of using Voyant Tools to analyze a corpus.</p>
+<h2 id="importing-documents">Importing documents</h2>
+<p>To analyze a corpus, <strong>the first thing you need to do is to import your corpus</strong> (obviously! 🧐). In Voyant Tools, you can either <strong>paste your texts</strong> into the main box, <strong>upload your own files</strong> (&ldquo;Upload&rdquo; button), or <strong>open an existing corpus</strong> (&ldquo;Open&rdquo; button).</p>
+<p><img src="Voyant-Tools-interface.jpeg" alt="Voyant-Tools-interface"></p>
+<p>If you choose the latter option, Voyant Tools currently has three corpus: Shakespeare&rsquo;s plays, Austen&rsquo;s novels, and Mary Shelley&rsquo;s Frankenstein. For this blog post, I will choose the corpus of Shakespeare&rsquo;s plays to illustrate the examples.</p>
+<h2 id="exploring-the-corpus">Exploring the corpus</h2>
+<p>After selecting a corpus, <strong>you will be shown a page with lots of information</strong>.</p>
+<p><img src="Voyant-Tools-skin.jpeg" alt="Voyant-Tools-skin"></p>
+<p>This is called a &ldquo;skin&rdquo; (more specifically, this is Voyant Tools&rsquo; default skin). <strong>There are several panels</strong> which provide you with direct information from your corpus 📊📈:</p>
+<ul>
+<li><strong>Cirrus</strong>: this panel shows a word cloud with the terms that are most frequently used in the corpus.</li>
+<li><strong>Reader</strong>: this panel contains all your texts. It can be very long, depending on how big your corpus is. You can either scroll down or use the horizontal line below to move along your corpus.</li>
+<li><strong>Trends</strong>: if you click on a term when using the Reader panel, the Trends panel will show you a graph with the frequency distribution across the corpus.</li>
+<li><strong>Summary</strong>: as its name indicates, this panel provides you with an overview of the corpus (e.g., how many words per sentence there are on average, what the most frequent words are&hellip;).</li>
+<li><strong>Contexts</strong>: this last panel is a concordance tool. If you click on a term in the Reader panel, it will show you each occurrence of the term together with some context.</li>
+</ul>
+<h2 id="interacting-with-the-skin">Interacting with the skin</h2>
+<p>As you can see from the descriptions of panels in the previous section, Voyant Tools&rsquo; interface is pretty interactive. As you click on different terms, several panels are updated and automatically show new information 🔄.</p>
+<p>In addition to selecting terms, <strong>you can also interact with the panels further to customize the output</strong>. To do this, click on the search bars and buttons within each panel. Once you have customized a panel, <strong>you can export the resulting panel using a url that you can embed in other websites</strong> (simply click on the &ldquo;Export&rdquo; button that looks like a square with a small arrow inside).</p>
+<p>Now that you know the basics of Voyant Tools, you can practice analyzing your own corpus or you can learn more by reading their detailed <a href="https://voyant-tools.org/docs/#!/guide/tutorial">online tutorial</a> 🤓.</p>
+<h5 id="if-you-found-this-post-interesting-you-can-check-out-my-other-blog-posts-herehttpsirhurugithubioblog">If you found this post interesting, you can check out my other blog posts <a href="https://irhuru.github.io/blog/">here</a>!</h5>
+<!-- raw HTML omitted -->
+
+</div>
+
+<div id="disqus_thread"></div>
+<script>
+(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://irhuru.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+                
+                <div class="container">
+    <hr>
+</div>
+<div class="container has-text-centered top-pad">
+    <a href="#top">
+        <i class="fa fa-arrow-up"></i>
+    </a>
+</div>
+
+<div class="container">
+    <hr>
+</div>
+
+                <div class="section" id="footer">
+    <div class="container has-text-centered">
+    
+        <span class="footer-text">
+            <a href="https://github.com/victoriadrake/hugo-theme-introduction/"><strong>Introduction</strong></a> theme for <a href="http://gohugo.io/">Hugo</a>. Made with <a href="https://victoria.dev"><!-- raw HTML omitted --><!-- raw HTML omitted --> and <!-- raw HTML omitted --><!-- raw HTML omitted --></a> by open source contributors.
+        </span>
+    
+    </div>
+</div>
+
+                
+            </div>
+        </section>
+        
+        
+
+
+<script src="https://irhuru.github.io/js/bundle.e6934e69d06bb8a213134f4c1468f9478bb7755e786dfb60e3c5a917c5335805.js" integrity="sha256-5pNOadBruKITE09MFGj5R4u3dV54bftg48WpF8UzWAU="></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-173447074-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+        
+        
+        
+        
+    </body>
+</html>

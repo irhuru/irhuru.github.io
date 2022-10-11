@@ -6,10 +6,19 @@
     <description>Recent content in Blog on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Sep 2022 18:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 09 Oct 2022 18:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://irhuru.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>An introduction to Voyant Tools for corpus analysis</title>
+      <link>https://irhuru.github.io/blog/voyant-tutorial/</link>
+      <pubDate>Sun, 09 Oct 2022 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/voyant-tutorial/</guid>
+      <description>If you&amp;rsquo;re into the Digital Humanities, you probably know about the importance of text analysis. Whereas programming languages such as Python or R allow you to do this efficiently, some people prefer to use tools which don&amp;rsquo;t require any coding skills 👨🏻‍💻. A good example of such a tool is Voyant Tools, an open-source web-based application for text analysis. In this blog post, I will show you the basics of using Voyant Tools to analyze a corpus.</description>
+    </item>
     
     <item>
       <title>The little-known history of synthetic voices</title>

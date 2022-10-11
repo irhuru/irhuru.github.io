@@ -6,7 +6,7 @@
     <description>Recent content on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Sep 2022 18:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 09 Oct 2022 18:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://irhuru.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -85,6 +85,15 @@ Bilingual speakers were either born in the United States or in a Spanish-speakin
       <description>This project compares the English and Spanish subtitles from the movie Frida (2002) 🎥. Subtitle files were imported into R and examined using several natural language processing (NLP) tools and techniques, such as:
  Tokenization Bigrams Sentiment analysis  Results were also plotted for a better interpretation 📊📈. Some of the packages used include:
  tidyverse tidytext stringi igraph ggraph syuzhet  You can find the code here.</description>
+    </item>
+    
+    <item>
+      <title>An introduction to Voyant Tools for corpus analysis</title>
+      <link>https://irhuru.github.io/blog/voyant-tutorial/</link>
+      <pubDate>Sun, 09 Oct 2022 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/voyant-tutorial/</guid>
+      <description>If you&amp;rsquo;re into the Digital Humanities, you probably know about the importance of text analysis. Whereas programming languages such as Python or R allow you to do this efficiently, some people prefer to use tools which don&amp;rsquo;t require any coding skills 👨🏻‍💻. A good example of such a tool is Voyant Tools, an open-source web-based application for text analysis. In this blog post, I will show you the basics of using Voyant Tools to analyze a corpus.</description>
     </item>
     
     <item>

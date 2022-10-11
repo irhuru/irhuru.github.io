@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Sep 2022 18:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 09 Oct 2022 18:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://irhuru.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>corpus</title>
+      <link>https://irhuru.github.io/tags/corpus/</link>
+      <pubDate>Sun, 09 Oct 2022 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/tags/corpus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>language</title>
+      <link>https://irhuru.github.io/tags/language/</link>
+      <pubDate>Sun, 09 Oct 2022 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/tags/language/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nlp</title>
+      <link>https://irhuru.github.io/tags/nlp/</link>
+      <pubDate>Sun, 09 Oct 2022 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/tags/nlp/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>AI</title>
@@ -30,15 +57,6 @@
     </item>
     
     <item>
-      <title>language</title>
-      <link>https://irhuru.github.io/tags/language/</link>
-      <pubDate>Mon, 12 Sep 2022 18:00:00 -0500</pubDate>
-      
-      <guid>https://irhuru.github.io/tags/language/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>analysis</title>
       <link>https://irhuru.github.io/tags/analysis/</link>
       <pubDate>Wed, 10 Aug 2022 18:00:00 -0500</pubDate>
@@ -53,15 +71,6 @@
       <pubDate>Wed, 10 Aug 2022 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/tags/antconc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>corpus</title>
-      <link>https://irhuru.github.io/tags/corpus/</link>
-      <pubDate>Wed, 10 Aug 2022 18:00:00 -0500</pubDate>
-      
-      <guid>https://irhuru.github.io/tags/corpus/</guid>
       <description></description>
     </item>
     
@@ -116,15 +125,6 @@
       <pubDate>Mon, 28 Feb 2022 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/tags/data/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nlp</title>
-      <link>https://irhuru.github.io/tags/nlp/</link>
-      <pubDate>Mon, 28 Feb 2022 18:00:00 -0500</pubDate>
-      
-      <guid>https://irhuru.github.io/tags/nlp/</guid>
       <description></description>
     </item>
     
