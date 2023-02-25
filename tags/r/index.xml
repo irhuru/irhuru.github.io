@@ -6,10 +6,19 @@
     <description>Recent content in R on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Aug 2021 18:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 24 Feb 2023 18:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://irhuru.github.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Exploring textual data using R Shiny</title>
+      <link>https://irhuru.github.io/blog/rshiny-data/</link>
+      <pubDate>Fri, 24 Feb 2023 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/rshiny-data/</guid>
+      <description>In previous blog posts, I discussed the use of software such as AntConc or Voyant to analyze corpus data. Even though these are very helpful, you can only use them to perform the range of default analyses they offer. But, what if you need more customization? 🤔 Maybe you want to create your own graphs or explore your data in ways that go beyond traditional KWIC analyses and basic word frequencies.</description>
+    </item>
     
     <item>
       <title>An analysis of Peter Pan using the R package koRpus</title>

@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-173447074-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+        
+        <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Irati Hurtado. Linguist | Language Data Analyst | Digital Communications Specialist">
+<title>
+Exploring Textual Data Using R Shiny - Irati Hurtado
+</title>
+
+
+
+        <meta property="og:title" content="Exploring textual data using R Shiny - Irati Hurtado" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="Tutorial on using R Shiny to explore textual data"/>
+<meta property="og:url" content="https://irhuru.github.io/blog/rshiny-data/"/>
+<meta property="og:site_name" content="Irati Hurtado"/>
+
+
+
+<meta property="og:image" content="https://irhuru.github.io/blog/rshiny-data/rshiny-header.jpg"/>
+
+<meta property="og:image" content="https://irhuru.github.io/blog/rshiny-data/rshiny-kwic.jpg"/>
+
+<meta property="og:image" content="https://irhuru.github.io/blog/rshiny-data/rshiny-output.jpg"/>
+
+<meta property="og:image" content="https://irhuru.github.io/blog/rshiny-data/rshiny-select.jpg"/>
+
+<meta property="og:image" content="https://irhuru.github.io/blog/rshiny-data/rshiny-setup.jpg"/>
+
+
+
+        
+<link rel="shortcut icon" href="/img/fav.ico">
+
+
+        
+
+
+
+
+
+<link rel="stylesheet" href="/css/main.min.daa833377fb1636f8cbfa65c601050bb5475623deb7aa6e6fdde94a064a6185d.css" integrity="sha256-2qgzN3&#43;xY2&#43;Mv6ZcYBBQu1R1Yj3reqbm/d6UoGSmGF0=" crossorigin="anonymous" media="screen">
+
+
+
+
+
+        
+        
+        
+        
+    </head>
+    <body>
+        <section id="top" class="section">
+            
+            <div class="container hero  fade-in one ">
+                
+
+<h1 class="bold-title is-1">Blog</h1>
+
+
+            </div>
+            
+            <div class="section  fade-in two ">
+                
+<div class="container">
+    <hr>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        
+        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+        <div class="navbar-menu " id="navMenu">
+            
+            
+            
+            
+            <a class="navbar-item" href="/">
+                
+                Home
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/#about">
+                
+                About
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/projects/">
+                
+                Projects
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/blog/">
+                
+                Blog
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/resources/">
+                
+                Resources
+                
+            </a>
+            
+            
+            
+            <a class="navbar-item" href="/#contact">
+                
+                Contact
+                
+            </a>
+            
+            
+            
+        </div>
+    </nav>
+    <hr>
+</div>
+
+
+
+                
+<div class="container">
+    <h2 class="title is-1 top-pad strong-post-title">
+        <a href="https://irhuru.github.io/blog/rshiny-data/">Exploring textual data using R Shiny</a>
+    </h2>
+    <div class="post-data">
+        Feb 24, 2023 |
+        9 minutes read
+    </div>
+    
+    <div class="blog-share">
+        Share this:
+        
+        <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Exploring%20textual%20data%20using%20R%20Shiny%20https%3a%2f%2firhuru.github.io%2fblog%2frshiny-data%2f" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+            <i class="fab fa-twitter"></i>
+            <span class="hidden">Twitter</span>
+        </a>
+        
+        
+        <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2firhuru.github.io%2fblog%2frshiny-data%2f" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+            <i class="fab fa-facebook-f"></i>
+            <span class="hidden">Facebook</span>
+        </a>
+        
+        
+        <a class="icon-pinterest" href="http://pinterest.com/pin/create/button/?url=https%3a%2f%2firhuru.github.io%2fblog%2frshiny-data%2f&amp;description=Exploring%20textual%20data%20using%20R%20Shiny" onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+            <i class="fab fa-pinterest-p"></i>
+            <span class="hidden">Pinterest</span>
+        </a>
+        
+        
+    </div>
+    
+    
+    
+    <p>
+        Tags:
+        
+        <a href="/tags/r">R</a>,
+        
+        <a href="/tags/data">data</a>,
+        
+        <a href="/tags/analysis">analysis</a>
+        
+    </p>
+    
+</div>
+
+<div class="container markdown top-pad">
+    <p><img src="rshiny-header.jpg" alt="rshiny"></p>
+<!-- raw HTML omitted -->
+<p>In previous blog posts, I discussed the use of <strong>software</strong> such as <a href="https://irhuru.github.io/blog/antconc-corpus/">AntConc</a> or <a href="https://irhuru.github.io/blog/voyant-tutorial/">Voyant</a> <strong>to analyze corpus data</strong>. Even though these are very helpful, you can only use them to perform the range of default analyses they offer. But, <strong>what if you need more customization?</strong> 🤔 Maybe you want to create your own graphs or explore your data in ways that go beyond traditional KWIC analyses and basic word frequencies. Well, then keep reading because that is totally possible! 🥳</p>
+<p>In this blog post, I introduce <strong>R Shiny, which allows you to create a web-based interface (aka. a dashboard)</strong> to explore your textual data in any way you want.</p>
+<h2 id="how-to-start-using-r-shiny">How to start using R Shiny</h2>
+<p>To use R Shiny, you first need to download and install R, which you can find <a href="https://www.r-project.org">here</a>. I also recommend installing <a href="https://posit.co/download/rstudio-desktop/">R Studio</a>, the most popular IDE for R.</p>
+<p>Once you have R and R Studio installed, you can proceed to install R Shiny. In this case, <strong>R Shiny is an R package</strong> that you can install using the following command:</p>
+<pre><code>install.packages(&quot;shiny&quot;)
+</code></pre><p>Don&rsquo;t forget you also need to load the package after installing it (you will have to do this every time you open R Studio):</p>
+<pre><code>library(shiny)
+</code></pre><p>Now, you&rsquo;re ready to create a Shiny app!</p>
+<p>Click on File &gt; New File &gt; Shiny Web App, and then in the window, give it a name and choose a directory.</p>
+<p><img src="rshiny-setup.jpg" alt="rshiny-setup"></p>
+<p>Once you have done this, you will see that the <strong>new file already comes with some code in it</strong>. Specifically, this is what you should see:</p>
+<ul>
+<li>The default name of your new file is <code>app.R</code></li>
+<li>Your code includes a function called <code>ui</code>, and</li>
+<li>a function called <code>server</code></li>
+<li>At the end of your file, there is this command: <code>shinyApp(ui = ui, server = server)</code></li>
+</ul>
+<p>All R Shiny apps have two parts: <strong>a UI (user interface) and a server</strong>. The UI is what you see: graphs, fonts, colors, images, and so on. The server is what the app does but which you don&rsquo;t see: in this case, the functions and commands to analyze your data.</p>
+<p>This means that you will have to tell R <em>what</em> to do with your data, as well as <em>how</em> to display it in the app. I will cover these two things later on. But first, let&rsquo;s import some  data!</p>
+<p>For this tutorial, I will use a <a href="https://github.com/EmilHvitfeldt/sherlock">corpus</a> (R package <code>sherlock</code>) that contains the full texts of Sherlock Holmes stories 📚, though you can use any textual data you want. To provide you with some context, this package comes with the <code>holmes</code> dataset, which has two columns: one that contains lines of text from the stories (<code>text</code>) and another one that contains the title of the story each line is taken from (<code>book</code>).</p>
+<pre><code># Sample rows from the dataset
+    text                      book
+29  CHAPTER I                 A Study In Scarlet
+30  Mr. Sherlock Holmes       A Study In Scarlet
+31  In the year 1878 I took my degree of Doctor of Medicine of the                        A Study In Scarlet
+32  University of London, and proceeded to Netley to go through the                   A Study In Scarlet
+33  course prescribed for surgeons in the army. Having completed my                  A Study In Scarlet
+34  studies there, I was duly attached to the Fifth Northumberland                A Study In Scarlet
+</code></pre><p>In addition to loading the <code>sherlock</code> package, I will also load the <code>tidyverse</code> package, which is very helpful to work with data.</p>
+<h2 id="how-to-add-components-to-the-ui-of-your-shiny-app">How to add components to the UI of your Shiny app</h2>
+<p>Before diving into the analyses, I think it&rsquo;s important to look at the UI first to better understand what it does. The <code>ui</code> function contains some elements that you can either keep or modify.</p>
+<p>The first element is <code>titlePanel</code>, which is the <strong>title of your R Shiny app</strong>. If you think of your app as a website, the title would be the name of your website and it would be displayed at the top of the page by default. I will change the current title (<code>Old Faithful Geyser Data</code>) to <code>Textual analysis of Sherlock Holmes</code>, which describes what my app is about.</p>
+<p>You can take a look at what the app looks like now by clicking on the <code>Run App</code> button located on the upper menu. A new window will open up where you can see the app:</p>
+<p><img src="rshiny-title.jpg" alt="rshiny-title"></p>
+<p>You can see that the R Shiny app now displays the new title. You will also see a graph (a histogram, in this case) accompanied by a slider that allows you to enter a value. This is based on random data provided to the R Shiny app via the <code>server</code> function, which we will modify later.</p>
+<p>Basically, the goal is to display data from the Sherlock Holmes stories together with some components that will allow the user to filter and/or select different values or types of analyses 📊.</p>
+<p>Ok, so <strong>what other components are there?</strong> Actually, there are tons of them, and they&rsquo;re usually referred to as &ldquo;widgets&rdquo; or &ldquo;Shiny widgets&rdquo;. You will usually specify widgets within the <code>sidebarPanel</code> section of your code. The idea here is to replace <code>sliderInput</code> with any other widget (or widgets) you want. These are some of the most popular ones:</p>
+<table>
+<thead>
+<tr>
+<th>Widget</th>
+<th>What it does</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>radioButtons</td>
+<td>a set of radio buttons</td>
+</tr>
+<tr>
+<td>checkboxGroupInput</td>
+<td>a group of check boxes</td>
+</tr>
+<tr>
+<td>selectInput</td>
+<td>a box with choices to select from</td>
+</tr>
+<tr>
+<td>textInput</td>
+<td>a field to enter text</td>
+</tr>
+<tr>
+<td>numericInput</td>
+<td>a field to enter numbers</td>
+</tr>
+</tbody>
+</table>
+<p>To learn about all Shiny widgets and see real examples, visit <a href="https://shiny.rstudio.com/gallery/widget-gallery.html">this link</a>.</p>
+<h2 id="how-to-do-a-basic-textual-data-analysis-using-r-shiny">How to do a basic textual data analysis using R Shiny</h2>
+<p>For this tutorial, I will add a couple of Shiny widgets that will allow users to select one of the Sherlock Holmes stories and then run a simple KWIC search.</p>
+<p>Once you master these basic things, you&rsquo;ll be ready to take your app further by adding visualizations, as well as other types of analyses, since the process is very similar.</p>
+<h4 id="filtering-textual-data">Filtering textual data</h4>
+<p>If you remember, the <code>holmes</code> dataset contains a column called <code>books</code> with the titles of all the stories. I will add a <code>selectInput</code> widget so that the data can be filtered out to display only text from a given book.</p>
+<p>First, I will create an R vector which contains the title of each story:</p>
+<pre><code>books = unique(holmes$book)
+</code></pre><p>Now, I will add the <code>selectInput</code> widget to the <code>ui</code> function:</p>
+<pre><code>    sidebarLayout(
+        sidebarPanel(
+            selectInput(&quot;book&quot;, # input ID (aka. a unique name for this widget)
+                        &quot;Choose a story: &quot;, # label (aka. what the app displays)
+                        books) # choices (aka. the vector)
+        ),
+
+</code></pre><p>If you click on the <code>Run app</code> button again, you will now see a drop-down menu in your app which lists all Sherlock Holmes stories.</p>
+<p><img src="rshiny-select.jpg" alt="rshiny-select"></p>
+<p>This looks great, though when you select a title, nothing happens! 🤨 That&rsquo;s because you first need to create an &ldquo;output function&rdquo;. That is, you need to tell R that when you select a book from this drop-down menu, you want to see the text from that book in the UI.</p>
+<p>To do that, you need to modify the second part of the <code>ui</code> function (called <code>mainPanel</code>) as well as the <code>server</code> function:</p>
+<ul>
+<li>Just like with Shiny widgets to enter some input, we also have Shiny Outputs. For example, you can display a table, a graph, an image, or just text, like we want now. In <code>mainPanel</code>, I will include an HTML output (<code>htmlOutput</code>), which basically displays text using an HTML format. You can learn more about different Shiny outputs <a href="https://debruine.github.io/shinyintro/outputs.html">here</a>.</li>
+</ul>
+<pre><code>        mainPanel(
+           htmlOutput(&quot;displayedText&quot; # output ID (aka. a unique name for this output)
+                      )
+        )
+</code></pre><ul>
+<li>In the <code>server</code> function, we need to do the filtering based on the title chosen. See how I used <code>input$book</code> (the input ID) as a placeholder for the title chosen as well as <code>output$displayedText</code> (the output ID).</li>
+</ul>
+<pre><code>server &lt;- function(input, output) {
+
+    output$displayedText = renderUI({
+        # filter text based on the title selected
+        HTML(holmes %&gt;%
+               filter(book == input$book) %&gt;%
+               pull(text))
+    })
+}
+</code></pre><p>Ok, so now, when you run the app and you choose a story from the drop-down menu, you should finally see the text on the right 😀.</p>
+<p><img src="rshiny-output.jpg" alt="rshiny-output"></p>
+<h4 id="running-a-kwic-search">Running a KWIC search</h4>
+<p>Now, we will add a second Shiny widget to search for a specific keyword. That is, users will select a book from the drop-down menu and then they will type a keyword they want to find, so that <strong>only sentences containing that keyword will show up</strong> on the right 🔍.</p>
+<p>The widget we need for this is <code>textInput</code>, and we will add it after our previous <code>selectInput</code> widget. Don&rsquo;t forget to add an input ID and a label:</p>
+<pre><code>    sidebarLayout(
+        sidebarPanel(
+            selectInput(&quot;book&quot;,
+                        &quot;Choose a story: &quot;,
+                        books),
+            textInput(&quot;input_KWIC&quot;, # input ID (aka. a unique name for this widget)
+                      &quot;Find a keyword: &quot;) # label (aka. what the app displays)
+        ),
+</code></pre><p>Once this is done, we also need to edit the <code>server</code> function so that it filters text based on the keyword chosen.</p>
+<p>Here, we will simply edit <code>output$displayedText</code> to add a second <code>filter</code> function. I also recommend using a <code>mutate</code> function to edit the output a little bit. In this case, I added a break <code>&lt;br/&gt;</code> after each line of text so that the output is clearer.</p>
+<pre><code>output$displayedText = renderUI({
+        # filter text based on the title selected and KWIC
+        HTML(holmes %&gt;%
+               filter(book == input$book) %&gt;%
+               filter(grepl(input$input_KWIC, text, ignore.case = TRUE)) %&gt;%
+               mutate(text = paste(text, '&lt;br/&gt;')) %&gt;%
+               pull(text))
+    })
+</code></pre><p>If you now run the app, you will be able to try this second widget. For example, I selected the story titled <em>A Case of Identity</em> and searched for the keyword &ldquo;Holmes&rdquo;. On the right, I can see all sentences containing that keyword (one sentence per line) 👀.</p>
+<p><img src="rshiny-kwic.jpg" alt="rshiny-kwic"></p>
+<h4 id="customizing-the-ui">Customizing the UI</h4>
+<p>Ok, so now the app is working, but it looks boring! 🥲 Fortunately, we can customize the UI to make the app prettier ✨.</p>
+<p>The easiest option is to install the R package <code>shinythemes</code> and then <strong>use one of the available Shiny themes</strong> (you can take a look at them first <a href="https://rstudio.github.io/shinythemes/">here</a>). You will have to add the name of the theme at the beginning of your UI function:</p>
+<pre><code># I chose the &quot;cerulean&quot; theme
+ui &lt;- fluidPage(theme = shinytheme(&quot;cerulean&quot;),
+</code></pre><p>This is what the app looks like with that theme:</p>
+<p><img src="rshiny-theme.jpg" alt="rshiny-theme"></p>
+<p>If you want to customize your app further, you can <strong>add CSS code to your app</strong>, as you would normally do with any other website. To get started, visit <a href="https://shiny.rstudio.com/articles/css.html">this link</a>.</p>
+<h2 id="how-to-publish-your-shiny-app">How to publish your Shiny app</h2>
+<p>So far, I have described how to get started with R Shiny. But, what if you create a great app and you want other people to be able to see it and play around with it? In order to do that, <strong>you need to deploy your app</strong> 👨‍💻.</p>
+<p>You can host your app for free on <a href="https://www.shinyapps.io">shinyapps.io</a> by creating an account. However, if you want to deploy more than 5 Shiny apps, you will have to switch to a paid plan. Alternatively, you can also host your Shiny app on a different platform, such as <a href="https://aws.amazon.com/websites/?nc1=h_ls">AWS</a>.</p>
+<h5 id="if-you-found-this-post-interesting-you-can-check-out-my-other-blog-posts-herehttpsirhurugithubioblog">If you found this post interesting, you can check out my other blog posts <a href="https://irhuru.github.io/blog/">here</a>!</h5>
+<!-- raw HTML omitted -->
+
+</div>
+
+<div id="disqus_thread"></div>
+<script>
+(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://irhuru.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+                
+                <div class="container">
+    <hr>
+</div>
+<div class="container has-text-centered top-pad">
+    <a href="#top">
+        <i class="fa fa-arrow-up"></i>
+    </a>
+</div>
+
+<div class="container">
+    <hr>
+</div>
+
+                <div class="section" id="footer">
+    <div class="container has-text-centered">
+    
+        <span class="footer-text">
+            <a href="https://github.com/victoriadrake/hugo-theme-introduction/"><strong>Introduction</strong></a> theme for <a href="http://gohugo.io/">Hugo</a>. Made with <a href="https://victoria.dev"><!-- raw HTML omitted --><!-- raw HTML omitted --> and <!-- raw HTML omitted --><!-- raw HTML omitted --></a> by open source contributors.
+        </span>
+    
+    </div>
+</div>
+
+                
+            </div>
+        </section>
+        
+        
+
+
+<script src="https://irhuru.github.io/js/bundle.e6934e69d06bb8a213134f4c1468f9478bb7755e786dfb60e3c5a917c5335805.js" integrity="sha256-5pNOadBruKITE09MFGj5R4u3dV54bftg48WpF8UzWAU="></script>
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-173447074-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+        
+        
+        
+        
+    </body>
+</html>
