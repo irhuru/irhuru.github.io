@@ -17,7 +17,8 @@
       <pubDate>Fri, 24 Feb 2023 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/rshiny-data/</guid>
-      <description>In previous blog posts, I discussed the use of software such as AntConc or Voyant to analyze corpus data. Even though these are very helpful, you can only use them to perform the range of default analyses they offer. But, what if you need more customization? 🤔 Maybe you want to create your own graphs or explore your data in ways that go beyond traditional KWIC analyses and basic word frequencies.</description>
+      <description>&amp;nbsp;
+In previous blog posts, I discussed the use of software such as AntConc or Voyant to analyze corpus data. Even though these are very helpful, you can only use them to perform the range of default analyses they offer. But, what if you need more customization? Maybe you want to create your own graphs or explore your data in ways that go beyond traditional KWIC analyses and basic word frequencies.</description>
     </item>
     
     <item>
@@ -26,7 +27,8 @@
       <pubDate>Wed, 10 Aug 2022 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/antconc-corpus/</guid>
-      <description>If you&amp;rsquo;re interested in corpus linguistics, you probably know that some of the things this field involves includes searching for patterns in a group of texts (e.g., find frequent words or collocations). This can be easily done using a programming language like Python or R 👩🏻‍💻. But, what if you don&amp;rsquo;t have much experience with programming languages? Well, this is where a tool like AntConc becomes useful!
+      <description>&amp;nbsp;
+If you&amp;rsquo;re interested in corpus linguistics, you probably know that some of the things this field involves includes searching for patterns in a group of texts (e.g., find frequent words or collocations). This can be easily done using a programming language like Python or R 👩🏻‍💻. But, what if you don&amp;rsquo;t have much experience with programming languages? Well, this is where a tool like AntConc becomes useful!
 AntConc is a free corpus analysis software that can easily help you identify patterns in a collection of texts.</description>
     </item>
     

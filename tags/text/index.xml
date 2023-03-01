@@ -17,7 +17,8 @@
       <pubDate>Wed, 21 Jul 2021 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/clan-software/</guid>
-      <description>In a previous blog post, I wrote about automatic transcription software that you can use to speed up your transcription process. However, chances are that you also want to analyze what you transcribe if you&amp;rsquo;re working on a research project. Measures such as words per minute or lexical diversity scores are quite common in linguistics research. In this blog post, I introduce you to CLAN, a software that will help you with both transcription and analysis 👇🏻.</description>
+      <description>&amp;nbsp;
+In a previous blog post, I wrote about automatic transcription software that you can use to speed up your transcription process. However, chances are that you also want to analyze what you transcribe if you&amp;rsquo;re working on a research project. Measures such as words per minute or lexical diversity scores are quite common in linguistics research. In this blog post, I introduce you to CLAN, a software that will help you with both transcription and analysis 👇🏻.</description>
     </item>
     
     <item>
@@ -26,7 +27,8 @@
       <pubDate>Wed, 23 Jun 2021 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/automatic-transcription/</guid>
-      <description>Chances are that if you are working on a linguistics project, you might have to transcribe audio recordings in order to analyze them. Transcribing can be a deadly boring process 😩, especially if you have many files or if you are dealing with speakers of non-standard dialects/varieties.
+      <description>&amp;nbsp;
+Chances are that if you are working on a linguistics project, you might have to transcribe audio recordings in order to analyze them. Transcribing can be a deadly boring process 😩, especially if you have many files or if you are dealing with speakers of non-standard dialects/varieties.
 However, recent advancements in automatic speech recognition (ASR) have led to the development of very cool software that can help you speed up the transcription process.</description>
     </item>
     

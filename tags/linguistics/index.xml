@@ -27,8 +27,8 @@ Each phonetic symbol represents a sound in a spoken utterance. However, which ph
       <pubDate>Mon, 20 Sep 2021 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/latex-docs/</guid>
-      <description>Linguistics papers often include tons of visual information, such as syntax trees, IPA symbols, glosses, and so on. These things are cool because they are helpful to convey your message, but they are sometimes hard to manage when writing your paper with a standard word processor. Who hasn&amp;rsquo;t drawn a syntax tree using PowerPoint and then taken a screenshot of it to include it in a Word doc? 🙄
-Fortunately, Latex exists so we don&amp;rsquo;t have to deal with these issues.</description>
+      <description>&amp;nbsp;
+Linguistics papers often include tons of visual information, such as syntax trees, IPA symbols, glosses, and so on. These things are cool because they are helpful to convey your message, but they are sometimes hard to manage when writing your paper with a standard word processor. Who hasn&amp;rsquo;t drawn a syntax tree using PowerPoint and then taken a screenshot of it to include it in a Word doc? 🙄</description>
     </item>
     
     <item>
