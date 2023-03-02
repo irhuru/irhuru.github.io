@@ -22,7 +22,7 @@ if (!doNotTrack) {
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer">
-<meta name="description" content="Irati Hurtado. Linguist | Language Analyst | Digital Communications Specialist">
+<meta name="description" content="Irati Hurtado. Linguist | Language Data Analyst | Digital Communications Specialist">
 <title>
 Using Machine Learning to Build a Dialect Classifier - Irati Hurtado
 </title>
@@ -198,29 +198,52 @@ Using Machine Learning to Build a Dialect Classifier - Irati Hurtado
 
 <div class="container markdown top-pad">
     <p><img src="dialect-classifier.jpg" alt="dialect-classifier"></p>
-<p>As a linguist, I have always been curious about <strong>how computers can make sense of texts that combine different languages or language varieties</strong>. Therefore, I decided to learn more about this and implemented a dialect classifier. That is, an algorithm that would take some text as input and would determine the language variety (or dialect) it represents. To find out how I did it, read this post or take a look at <a href="https://github.com/irhuru/dialect-classifier/blob/main/DialectClassifier_code.ipynb">this Jupyter notebook</a> with all the code! 🤓</p>
-<h1 id="the-data">The data</h1>
-<!-- raw HTML omitted -->
-<p>For this project, I used <strong>data in Spanish</strong>. Spanish is an official language in 20 countries, and it varies greatly from one country to another, which could be an advantage when training the model.</p>
-<p>I used data from <strong>two different dialects or varieties: Spain 🇪🇸 and Mexico 🇲🇽</strong>. The reason for this is that the greatest differences in terms of dialects occur between Spain and Latin American countries. Out of all Spanish-speaking countries in Latin America, I just happened to find more data from Mexico, but any other country would have equally worked. In the future, I expect to expand this project by adding data from other Spanish varieties.</p>
-<p>Regarding the specifics of the dataset, it&rsquo;s very simple and it consists of <strong>Spanish movie subtitles</strong> 🎥. There are subtitles from 4 movies produced in Spain and 4 movies produced in Mexico. The movies are:</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">As a linguist, I have always been curious about <b>how computers can make sense of texts that combine different languages or language varieties</b>. Therefore, I decided to learn more about this and implemented a dialect classifier. That is, an algorithm that would take some text as input and would determine the language variety (or dialect) it represents. To find out how I did it, read this post or take a look at <a href="https://github.com/irhuru/dialect-classifier/blob/main/DialectClassifier_code.ipynb">this Jupyter notebook</a> with all the code!</p>
+<h3 style="font-family: Verdana, Geneva, sans-serif">The data</h3>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">For this project, I used <b>data in Spanish</b>. Spanish is an official language in 20 countries, and it varies greatly from one country to another, which could be an advantage when training the model.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">I used data from <b>two different dialects or varieties: Spain and Mexico</b>. The reason for this is that the greatest differences in terms of dialects occur between Spain and Latin American countries. Out of all Spanish-speaking countries in Latin America, I just happened to find more data from Mexico, but any other country would have equally worked. In the future, I expect to expand this project by adding data from other Spanish varieties.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Regarding the specifics of the dataset, it's very simple and it consists of <b>Spanish movie subtitles</b>. There are subtitles from 4 movies produced in Spain and 4 movies produced in Mexico. The movies are:</p>
 <ul>
-<li><em>Dolor y Gloria</em> (2019), Spain</li>
-<li><em>Julieta</em> (2016), Spain</li>
-<li><em>La Piel que Habito</em> (2011), Spain</li>
-<li><em>Los Abrazos Rotos</em> (2009), Spain</li>
-<li><em>Cindy la Regia</em> (2020), Mexico</li>
-<li><em>Roma</em> (2018), Mexico</li>
-<li><em>La Distadura Perfecta</em> (2014), Mexico</li>
-<li><em>Frida</em> (2002), Mexico</li>
+<li>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px"><i>Dolor y Gloria</i> (2019), Spain</p>
+</li>
+<li>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px"><i>Julieta</i> (2016), Spain</p>
+</li>
+<li>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px"><i>La Piel que Habito</i> (2011), Spain</p>
+</li>
+<li>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px"><i>Los Abrazos Rotos</i> (2009), Spain</p>
+</li>
+<li>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px"><i>Cindy la Regia</i> (2020), Mexico</p>
+</li>
+<li>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px"><i>Roma</i> (2018), Mexico</p>
+</li>
+<li>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px"><i>La Dictadura Perfecta</i> (2014), Mexico</p>
+</li>
+<li>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px"><i>Frida</i> (2002), Mexico</p>
+</li>
 </ul>
 <p><img src="movies.jpg" alt="movies"></p>
-<p>You can access the data <a href="https://github.com/irhuru/dialect-classifier/blob/main/spanish_subtitles_corpus.csv">here</a>, which is in .csv format. The <strong>dataset has 4 columns</strong>:</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">You can access the data <a href="https://github.com/irhuru/dialect-classifier/blob/main/spanish_subtitles_corpus.csv">here</a>, which is in .csv format. The <b>dataset has 4 columns</b>:</p>
 <ul>
-<li><strong>Line</strong>: each subtitle line is numbered (this number restarts whenever the movie title changes).</li>
-<li><strong>Subtitle</strong>: the actual text from each subtitle line.</li>
-<li><strong>Movie</strong>: the title of the movie the subtitle line belongs to.</li>
-<li><strong>Country</strong>: country where the movie is from (either Spain or Mexico)</li>
+<li>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px"><b>Line</b>: each subtitle line is numbered (this number restarts whenever the movie title changes).</p>
+</li>
+<li>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px"><b>Subtitle</b>: the actual text from each subtitle line.</p>
+</li>
+<li>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px"><b>Movie</b>: the title of the movie the subtitle line belongs to.</p>
+</li>
+<li>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px"><b>Country</b>: country where the movie is from (either Spain or Mexico)</p>
+</li>
 </ul>
 <pre><code># First ten rows of the dataset
 
@@ -234,45 +257,56 @@ line,subtitle,movie,country,
 7,&quot;- ¡Hija mÍa, quÉ gusto!&quot;,dolor_y_gloria,spain,
 8,&quot;- Pues sÍ, pues sÍ.&quot;,dolor_y_gloria,spain,
 9,&quot;Oye, antes de echarte al agua,&quot;,dolor_y_gloria,spain,
-</code></pre><!-- raw HTML omitted -->
-<p>I had to do some pre-processing to clean the data (using the <code>pandas</code> library and regex), as there were some issues with the spelling and punctuation of many of the subtitle lines.</p>
-<h1 id="the-model">The model</h1>
-<p>The goal of this project was to use machine learning to train <strong>a model that could determine whether a given sentence (i.e., subtitle line) represented the Spanish spoken in Spain or the Spanish spoken in Mexico</strong>.</p>
-<p>For example, a sentence like <code>está bien chiquito</code> (&ldquo;it&rsquo;s very small&rdquo;) is characteristic from Mexico, as speakers from Spain would use <code>es muy pequeño</code> instead (same meaning but different vocabulary). It is precisely these dialectal differences that I wanted my model to be able to recognize.</p>
-<p>Since the data I had was already labeled (&lsquo;country&rsquo; column), I used a classification algorithm. Even though there are several machine learning algorithms for classification, I decided to use a <strong>Naive Bayes classifier</strong>. These are a type of probabilistic model derived from Bayes&rsquo; Theorem. I won&rsquo;t go into the details of the algorithm in this post, but you can find a nice explanation <a href="https://en.wikipedia.org/wiki/Bayes%27_theorem">here</a> or in <a href="https://github.com/irhuru/dialect-classifier/blob/main/DialectClassifier_code.ipynb">the code I used</a>. Basically, this model would calculate the probability of a sentence being from Mexico and the probability of a sentence being from Spain. Then, it would choose the option with the highest probability.</p>
-<p>I used the <code>sklearn</code> library from Python to implement the model following the steps below.</p>
+</code></pre><p>&nbsp;</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">I had to do some pre-processing to clean the data (using the <code>pandas</code> library and regex), as there were some issues with the spelling and punctuation of many of the subtitle lines.</p>
+<h3 style="font-family: Verdana, Geneva, sans-serif">The model</h3>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">The goal of this project was to use machine learning to train <b>a model that could determine whether a given sentence (i.e., subtitle line) represented the Spanish spoken in Spain or the Spanish spoken in Mexico</b>.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">For example, a sentence like <code>está bien chiquito</code> ("it's very small") is characteristic from Mexico, as speakers from Spain would use <code>es muy pequeño</code> instead (same meaning but different vocabulary). It is precisely these dialectal differences that I wanted my model to be able to recognize.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Since the data I had was already labeled ('country' column), I used a classification algorithm. Even though there are several machine learning algorithms for classification, I decided to use a <b>Naive Bayes classifier</b>. These are a type of probabilistic model derived from Bayes' Theorem. I won't go into the details of the algorithm in this post, but you can find a nice explanation <a href="https://en.wikipedia.org/wiki/Bayes%27_theorem">here</a> or in <a href="https://github.com/irhuru/dialect-classifier/blob/main/DialectClassifier_code.ipynb">the code I used</a>. Basically, this model would calculate the probability of a sentence being from Mexico and the probability of a sentence being from Spain. Then, it would choose the option with the highest probability.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">I used the <code>sklearn</code> library from Python to implement the model following the steps below.</p>
 <p><img src="sklearn.jpg" alt="sklearn"></p>
-<h2 id="steps">Steps</h2>
+<h4 style="font-family: Verdana, Geneva, sans-serif">Steps</h4>
 <ol>
-<li>I used <strong>label encoding</strong> for the &lsquo;country&rsquo; column, which is required to later use our machine learning algorithm. Label encoding converts the labels (&lsquo;Spain&rsquo; and &lsquo;Mexico&rsquo;) into numbers (0 and 1), as that is considered machine-readable form. To do this, I used <code>LabelEncoder()</code> from scikit-learn.</li>
+<li>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">I used <b>label encoding</b> for the 'country' column, which is required to later use our machine learning algorithm. Label encoding converts the labels ('Spain' and 'Mexico') into numbers (0 and 1), as that is considered machine-readable form. To do this, I used <code>LabelEncoder()</code> from scikit-learn.</p>
+</li>
 </ol>
 <pre><code>label_encoder = preprocessing.LabelEncoder()
 df['country'] = label_encoder.fit_transform(df['country'])
-</code></pre><!-- raw HTML omitted -->
+</code></pre><p>&nbsp;</p>
 <ol start="2">
-<li>The next step was to <strong>split my dataset into training and testing</strong>. I used 70% of the data for training and 30% for testing (this is common practice in the field). After this, I ended up with four datasets: <code>X_train</code>, <code>X_test</code>, <code>y_train</code>, and <code>y_test</code>. The hyperparameter <code>random_state</code> is a random number that I included for replicability purposes.</li>
+<li>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">The next step was to <b>split my dataset into training and testing</b>. I used 70% of the data for training and 30% for testing (this is common practice in the field). After this, I ended up with four datasets: <code>X_train</code>, <code>X_test</code>, <code>y_train</code>, and <code>y_test</code>. The hyperparameter <code>random_state</code> is a random number that I included for replicability purposes.</p>
+</li>
 </ol>
 <pre><code>X_train, X_test, y_train, y_test = train_test_split(df['subtitle'], df['country'], test_size=0.3,random_state=142)
-</code></pre><!-- raw HTML omitted -->
+</code></pre><p>&nbsp;</p>
 <ol start="3">
-<li>I split the subtitle lines into <strong>individual words</strong> using <code>CountVectorizer()</code>. I did this to work with individual words instead of with full sentences. This is a good strategy, as many sentences (subtitle lines) might be unique in the dataset. The output should be a vocabulary list.</li>
+<li>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">I split the subtitle lines into <b>individual words</b> using <code>CountVectorizer()</code>. I did this to work with individual words instead of with full sentences. This is a good strategy, as many sentences (subtitle lines) might be unique in the dataset. The output should be a vocabulary list.</p>
+</li>
 </ol>
 <pre><code>vectorizer = CountVectorizer()
 training_data = vectorizer.fit_transform(X_train.values)
-</code></pre><!-- raw HTML omitted -->
+</code></pre><p>&nbsp;</p>
 <ol start="4">
-<li>I fitted a <strong>Multinomial Naive Bayes model</strong>. Multinomial models are used for discrete data. That is, when we are not only interested in the presence or absence of a feature, but also on how frequent that feature is. Likewise, I also decided to apply <strong>Laplace smoothing</strong> (additive smoothing) to avoid the zero-frequency problem.</li>
+<li>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">I fitted a <b>Multinomial Naive Bayes model</b>. Multinomial models are used for discrete data. That is, when we are not only interested in the presence or absence of a feature, but also on how frequent that feature is. Likewise, I also decided to apply <b>Laplace smoothing</b> (additive smoothing) to avoid the zero-frequency problem.</p>
+</li>
 </ol>
 <pre><code>naive_bayes_classifier = MultinomialNB(alpha=1.0)
 naive_bayes_classifier.fit(training_data, y_train)
-</code></pre><!-- raw HTML omitted -->
+</code></pre><p>&nbsp;</p>
 <ol start="5">
-<li>After fitting the model, I used it to <strong>predict</strong> the values from the the testing dataset. Of course, I had to transform that dataset into individual words first.</li>
+<li>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">After fitting the model, I used it to <b>predict</b> the values from the the testing dataset. Of course, I had to transform that dataset into individual words first.</p>
+</li>
 </ol>
 <pre><code>testing_data = vectorizer.transform(X_test.values)
 y_pred = naive_bayes_classifier.predict(testing_data)
-</code></pre><h1 id="model-evaluation">Model evaluation</h1>
-<p>Once the model was fitted and the values from the testing set were predicted, I <strong>evaluated how good the model was</strong> ✅. I did this by creating a confusion matrix and by calculating the accuracy, precision, and recall from the model. You can read more about these metrics <a href="https://sentimllc.com/accuracy-precision-recall.html">here</a>.</p>
+</code></pre><p>&nbsp;</p>
+<h3 style="font-family: Verdana, Geneva, sans-serif">Model evaluation</h3>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Once the model was fitted and the values from the testing set were predicted, I <b>evaluated how good the model was</b>. I did this by creating a confusion matrix and by calculating the accuracy, precision, and recall from the model. You can read more about these metrics <a href="https://sentimllc.com/accuracy-precision-recall.html">here</a>.</p>
 <pre><code># Cofusion matrix
 
 def get_cmatrix(test_data, pred_data):
@@ -285,10 +319,13 @@ print(array_cf)
 print(&quot;Accuracy:&quot;,metrics.accuracy_score(y_test, y_pred))
 print(&quot;Precision:&quot;, metrics.precision_score(y_test, y_pred, average='binary'))
 print(&quot;Recall:&quot;, metrics.recall_score(y_test, y_pred, average='binary'))
-</code></pre><h1 id="conclusion">Conclusion</h1>
-<p>I implemented a machine learning model to tease apart whether a specific subtitle lines was more characteristic from Spain or from Mexico. Overall, the model was not very good at predicting the values (accuracy: 70%), probably due to the subtitle lines not exhibiting a lot of dialectal variation. In the future, I will add data from other sources and from other countries in an attempt to build a more diverse dataset.</p>
-<h5 id="if-you-found-this-post-interesting-check-out-my-other-posts-herehttpsirhurugithubioblog">If you found this post interesting, check out my other posts <a href="https://irhuru.github.io/blog/">here</a>!</h5>
-<!-- raw HTML omitted -->
+</code></pre><p>&nbsp;</p>
+<h3 style="font-family: Verdana, Geneva, sans-serif">Conclusion</h3>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">I implemented a machine learning model to tease apart whether a specific subtitle lines was more characteristic from Spain or from Mexico. Overall, the model was not very good at predicting the values (accuracy: 70%), probably due to the subtitle lines not exhibiting a lot of dialectal variation. In the future, I will add data from other sources and from other countries in an attempt to build a more diverse dataset.</p>  
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h5 style="font-family: Verdana, Geneva, sans-serif">If you found this post interesting, you can check out my other blog posts <a href="https://irhuru.github.io/blog/">here</a>!</h5>
+<p>&nbsp;</p>
 
 </div>
 
@@ -323,7 +360,7 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="container has-text-centered">
     
         <span class="footer-text">
-            <a href="https://github.com/victoriadrake/hugo-theme-introduction/"><strong>Introduction</strong></a> theme for <a href="http://gohugo.io/">Hugo</a>. Made with <a href="https://victoria.dev"><!-- raw HTML omitted --><!-- raw HTML omitted --> and <!-- raw HTML omitted --><!-- raw HTML omitted --></a> by open source contributors.
+            <a href="https://github.com/victoriadrake/hugo-theme-introduction/"><strong>Introduction</strong></a> theme for <a href="http://gohugo.io/">Hugo</a>. Made with <a href="https://victoria.dev"><i class="fa fa-heart"></i> and <i class="fa fa-coffee"></i></a> by open source contributors.
         </span>
     
     </div>

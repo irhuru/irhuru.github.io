@@ -200,33 +200,45 @@ A Short Guide to Building a Twitter Bot - Irati Hurtado
 
 <div class="container markdown top-pad">
     <p><img src="my-twitterbot-header.jpg" alt="twitterbot"></p>
-<!-- raw HTML omitted -->
-<p>I recently discovered the fascinating world of Twitter bots (<a href="https://en.wikipedia.org/wiki/Twitter_bot">what&rsquo;s that?</a>). Isn&rsquo;t it amazing that a simple computer program can post random stuff on Twitter all by itself? 😎✨ It probably isn&rsquo;t, considering that we&rsquo;re in the middle of a tech revolution, but they&rsquo;re fun to build, so that&rsquo;s a good enough reason to waste your time creating one!</p>
-<p>In this guide, <strong>I explain you how to build a Twitter bot from scratch step by step</strong>. The only pre-requisite is that you know a little bit of Python.</p>
-<h2 id="steps-to-build-a-twitter-bot">Steps to build a Twitter bot</h2>
-<p>There are 5 steps you have to follow in order to build your own Twitter bot.</p>
+<p>&nbsp;</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">I recently discovered the fascinating world of Twitter bots (<a href="https://en.wikipedia.org/wiki/Twitter_bot">what's that?</a>). Isn't it amazing that a simple computer program can post random stuff on Twitter all by itself? It probably isn't, considering that we're in the middle of a tech revolution, but they're fun to build, so that's a good enough reason to waste your time creating one!</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">In this guide, <b>I explain you how to build a Twitter bot from scratch step by step</b>. The only pre-requisite is that you know a little bit of Python.</p>
+<h3 style="font-family: Verdana, Geneva, sans-serif">Steps to build a Twitter bot</h3>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">There are 5 steps you have to follow in order to build your own Twitter bot.</p>
 <ol>
-<li>Write a <strong>Python program that generates the text</strong> your bot will post on Twitter. This is self-explanatory: if there&rsquo;s no message, there&rsquo;s no tweet.</li>
-<li>Create a <strong>Twitter developer account</strong> in order to access the Twitter API so you can set up your bot. This is also self-explanatory: we need a Twitter account in order to be able to tweet.</li>
-<li>Link your Python program (on your computer) to your Twitter account (on the internet). <strong>Connecting these two things</strong> is key so your bot can &lsquo;come to life&rsquo;.</li>
-<li><strong>Run your Python program</strong> once it&rsquo;s linked to Twitter so it can start tweeting.</li>
-<li>Sit back and <strong>observe</strong>. Go to bed feeling fulfilled 🥲.</li>
+<li>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Write a <b>Python program that generates the text</b> your bot will post on Twitter. This is self-explanatory: if there's no message, there's no tweet.</p>
+</li>
+<li>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Create a <b>Twitter developer account</b> in order to access the Twitter API so you can set up your bot. This is also self-explanatory: we need a Twitter account in order to be able to tweet.</p>
+</li>
+<li>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Link your Python program (on your computer) to your Twitter account (on the internet). <b>Connecting these two things</b> is key so your bot can 'come to life'.</p>
+</li>
+<li>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px"><b>Run your Python program</b> once it's linked to Twitter so it can start tweeting.</p>
+</li>
+<li>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Sit back and <b>observe</b>. Go to bed feeling fulfilled.</p>
+</li>
 </ol>
-<p>I go over each of these steps in the remainder of the post.</p>
-<h2 id="writing-a-python-program">Writing a Python program</h2>
-<p>Ok, so this is the most creative part of the process! In this step, you get to <strong>decide what your bot is going to be tweeting about</strong> and write the code for it.</p>
-<p>In my case, <strong>I decided to build a bot that would tweet the most played song in the world each day</strong>. Now, you might be thinking: &ldquo;Sounds good, but how do you know what&rsquo;s the most played song in the world on a given day? 😅&rdquo;. The short answer is: I don&rsquo;t know. But Spotify does! In fact, they have a website where they publish a lot of data they gather from their listeners (e.g., most played songs, most viral songs&hellip;). The website is called <a href="https://spotifycharts.com/regional">Spotify Charts</a>, and it&rsquo;s what I&rsquo;ll be using to develop my Python program 🎵🎶.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">I go over each of these steps in the remainder of the post.</p>
+<h3 style="font-family: Verdana, Geneva, sans-serif">Writing a Python program</h3>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Ok, so this is the most creative part of the process! In this step, you get to <b>decide what your bot is going to be tweeting about</b> and write the code for it.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">In my case, <b>I decided to build a bot that would tweet the most played song in the world each day</b>. Now, you might be thinking: "Sounds good, but how do you know what's the most played song in the world on a given day?". The short answer is: I don't know. But Spotify does! In fact, they have a website where they publish a lot of data they gather from their listeners (e.g., most played songs, most viral songs...). The website is called <a href="https://spotifycharts.com/regional">Spotify Charts</a>, and it's what I'll be using to develop my Python program.</p>  
 <p><img src="spotify-charts.jpg" alt="spotifycharts"></p>
-<p>In order to <strong>&lsquo;visit&rsquo; that website using your Python program</strong>, you can use the following code:</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">In order to <b>'visit' that website using your Python program</b>, you can use the following code:</p>
 <pre><code>url = &quot;https://spotifycharts.com/regional/global&quot;
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36'}
 webpage = requests.get(url, headers=headers)  
-</code></pre><p>The first line of code, <code>url</code>,  tells Python what website we want to access, and the second line, <code>headers</code>, tells Python that we want to access it as if we were using an actual internet browser. Now, the third line is where the magic happens: we put both things together and Python &lsquo;gets a copy&rsquo; of the website, which is stored in the variable <code>webpage</code>. In order to be able to run this code, make sure you import the <code>requests</code> library 🤓.</p>
-<p>Once we have a copy of Spotify Charts, we need to <strong>make it &lsquo;readable&rsquo;</strong> so that Python can do stuff with it. To do this, I used the <code>BeautifulSoup</code> library. If you&rsquo;re not familiar with that library, <a href="https://programminghistorian.org/en/lessons/intro-to-beautiful-soup">The Programming Historian</a> has a wonderful intro post.</p>
-<p>The code below reads in the website using HTML and then keeps the table that contains information about the most played songs that day.</p>
+</code></pre><p>&nbsp;</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">The first line of code, <code>url</code>,  tells Python what website we want to access, and the second line, <code>headers</code>, tells Python that we want to access it as if we were using an actual internet browser. Now, the third line is where the magic happens: we put both things together and Python 'gets a copy' of the website, which is stored in the variable <code>webpage</code>. In order to be able to run this code, make sure you import the <code>requests</code> library.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Once we have a copy of Spotify Charts, we need to <b>make it 'readable'</b> so that Python can do stuff with it. To do this, I used the <code>BeautifulSoup</code> library. If you're not familiar with that library, <a href="https://programminghistorian.org/en/lessons/intro-to-beautiful-soup">The Programming Historian</a> has a wonderful intro post.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">The code below reads in the website using HTML and then keeps the table that contains information about the most played songs that day.</p>
 <pre><code>soup = BeautifulSoup(webpage.text, &quot;html.parser&quot;)
 songs_list = soup.find(&quot;table&quot;, {&quot;class&quot;:&quot;chart-table&quot;})
-</code></pre><p>Since we only need the first song in the table (aka. the most played one), I used the following code to extract that info from the table and to &lsquo;clean&rsquo; it (by removing HTML tags):</p>
+</code></pre><p>&nbsp;</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Since we only need the first song in the table (aka. the most played one), I used the following code to extract that info from the table and to "clean" it (by removing HTML tags):</p>
 <pre><code># Function to get song info
 
 def get_song(songs_list):
@@ -247,7 +259,8 @@ def clean_text(html_text):
   clean_re = re.compile('&lt;.*?&gt;|&amp;([a-z0-9]+|#[0-9]{1,6}|#x[0-9a-f]{1,6});')
   clean_text = re.sub(clean_re, '', html_text)
   return clean_text
-</code></pre><p>Lastly, I wrote another <strong>function to generate the daily tweet</strong> my bot would be posting on Twitter. The function simply puts everything together. However, since Twitter does not allow to post the exact same tweet twice and it&rsquo;s pretty likely for a song to be the most played one for several days in a row, I customized each tweet further by adding the date 📆.</p>
+</code></pre><p>&nbsp;</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Lastly, I wrote another <b>function to generate the daily tweet</b> my bot would be posting on Twitter. The function simply puts everything together. However, since Twitter does not allow to post the exact same tweet twice and it's pretty likely for a song to be the most played one for several days in a row, I customized each tweet further by adding the date.</p>
 <pre><code># Function to get date
 
 def get_date():
@@ -266,13 +279,14 @@ def write_tweet(song_info, today_date):
   tweet = &quot;#NowPlaying |&quot; + today_date + &quot;| &quot; + song_title + &quot; &quot; + song_artist
   return tweet
 
-</code></pre><h2 id="creating-a-twitter-developer-account">Creating a Twitter developer account</h2>
-<p>To <strong>create a Twitter account</strong> that would let you set up your bot, visit <a href="https://developer.twitter.com/en/apply-for-access">this website</a> and follow the steps.</p>
+</code></pre><p>&nbsp;</p>
+<h3 style="font-family: Verdana, Geneva, sans-serif">Creating a Twitter developer account</h3>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">To <b>create a Twitter account</b> that would let you set up your bot, visit <a href="https://developer.twitter.com/en/apply-for-access">this website</a> and follow the steps.</p>
 <p><img src="twitter-dev.jpg" alt="twitterdev"></p>
-<p>Once your account is activated, you&rsquo;ll need to <strong>copy your access keys</strong>. More specifically, you&rsquo;ll need your API Key, your API Secret Key, your Access Token, and your Access Token Secret. You can think of these as passwords that are automatically linked to your account and that you&rsquo;ll bot will have to use in order to be able to tweet from your terminal.</p>
-<p><em>Note</em>: it&rsquo;s important that you don&rsquo;t share these keys with anyone, since otherwise, your Twitter account could be hacked 😱.</p>
-<h2 id="linking-your-python-program-to-your-twitter-account">Linking your Python program to your Twitter account</h2>
-<p>We&rsquo;re almost done! In order to <strong>link your Python program to your Twitter account</strong>, you&rsquo;ll have to use the code below. I have omitted my actual keys for privacy, so you would have to replace those with yours.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Once your account is activated, you'll need to <b>copy your access keys</b>. More specifically, you'll need your API Key, your API Secret Key, your Access Token, and your Access Token Secret. You can think of these as passwords that are automatically linked to your account and that you'll bot will have to use in order to be able to tweet from your terminal.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px"><i>Note</i>: it's important that you don't share these keys with anyone, since otherwise, your Twitter account could be hacked.</p>
+<h3 style="font-family: Verdana, Geneva, sans-serif">Linking your Python program to your Twitter account</h3>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">We're almost done! In order to <b>link your Python program to your Twitter account</b>, you'll have to use the code below. I have omitted my actual keys for privacy, so you would have to replace those with yours.</p>
 <pre><code>CONSUMER_KEY = 'Your key goes here'
 CONSUMER_SECRET = 'Your key goes here'
 ACCESS_KEY = 'Your key goes here'
@@ -280,8 +294,9 @@ ACCESS_SECRET = 'Your key goes here'
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_KEY, ACCESS_SECRET)
 api = tweepy.API(auth)
-</code></pre><p>To be able to run this code, you&rsquo;ll have to <strong>import the <code>tweepy</code> library</strong>, which is basically a Python library to access the Twitter API.</p>
-<p>Lastly, you can add the code chunk that will write your tweet and post it every day.</p>
+</code></pre><p>&nbsp;</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">To be able to run this code, you'll have to <b>import the <code>tweepy</code> library</b>, which is basically a Python library to access the Twitter API.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Lastly, you can add the code chunk that will write your tweet and post it every day.</p>
 <pre><code>tweet = write_tweet(song_info(get_song(songs_list)), get_date())
 
 while True:
@@ -289,16 +304,19 @@ while True:
     if len(this_tweet) &lt;= 140:
         api.update_status(status=this_tweet)
         time.sleep(86400) # number of seconds in a day
-</code></pre><h2 id="running-your-python-program">Running your Python program</h2>
-<p>If you made it here, good job! 🥳 The fourth step of the process is to <strong>make your bot tweet for the first time</strong>. So, open your terminal and go to the directory where your <code>.py</code> file containing the code is located (you can use <code>cd</code> for this). Once there, run your code (<code>python yourfilename.py</code>) and go visit your bot&rsquo;s Twitter account to see its first tweet ever.</p>
-<h2 id="enjoy">Enjoy!</h2>
-<p>Congrats, your tweet has been published! <strong>Your Twitter bot works!</strong> 😀 <!-- raw HTML omitted -->
-A new tweet will be published every 24 hours as long as you don&rsquo;t close your terminal. In fact, you don&rsquo;t even have to tweet once a day, you can set up your bot the way you want and publish as many tweets as you&rsquo;d like.</p>
-<p>You can <strong>see one of the tweets my bot produced</strong> below:</p>
+</code></pre><p>&nbsp;</p>
+<h3 style="font-family: Verdana, Geneva, sans-serif">Running your Python program</h3>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">If you made it here, good job! The fourth step of the process is to <b>make your bot tweet for the first time</b>. So, open your terminal and go to the directory where your <code>.py</code> file containing the code is located (you can use <code>cd</code> for this). Once there, run your code (<code>python yourfilename.py</code>) and go visit your bot's Twitter account to see its first tweet ever.</p>
+<h3 style="font-family: Verdana, Geneva, sans-serif">Enjoy!</h3>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Congrats, your tweet has been published! <b>Your Twitter bot works!</b></p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">A new tweet will be published every 24 hours as long as you don't close your terminal. In fact, you don't even have to tweet once a day, you can set up your bot the way you want and publish as many tweets as you'd like.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">You can <b>see one of the tweets my bot produced</b> below:</p>
 <p><img src="sample-tweet.jpg" alt="sampletweet"></p>
-<p>It includes a popular hashtag, <code>#NowPlaying</code>, the date when it was published, <code>|04-23|</code>, as well as the title of the song (and artist) that was played the most that day, <code>MONTERO (Call Me By Your Name) by Lil Nas X</code>. And that&rsquo;s it, that&rsquo;s the tweet!</p>
-<h5 id="if-you-found-this-guide-interesting-you-can-check-out-my-code-on-githubhttpsgithubcomirhurutwitter-botblobmaintwitterbotpy-and-read-my-other-blog-posts-herehttpsirhurugithubioblog">If you found this guide interesting, you can check out <a href="https://github.com/irhuru/twitter-bot/blob/main/twitterbot.py">my code on Github</a> and read my other blog posts <a href="https://irhuru.github.io/blog/">here</a>!</h5>
-<!-- raw HTML omitted -->
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">It includes a popular hashtag, <code>#NowPlaying</code>, the date when it was published, <code>|04-23|</code>, as well as the title of the song (and artist) that was played the most that day, <code>MONTERO (Call Me By Your Name) by Lil Nas X</code>. And that's it, that's the tweet!</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h5 style="font-family: Verdana, Geneva, sans-serif">If you found this guide interesting, you can check out <a href="https://github.com/irhuru/twitter-bot/blob/main/twitterbot.py">my code on Github</a> and read my other blog posts <a href="https://irhuru.github.io/blog/">here</a>!</h5>
+<p>&nbsp;</p>
 
 </div>
 
@@ -333,7 +351,7 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="container has-text-centered">
     
         <span class="footer-text">
-            <a href="https://github.com/victoriadrake/hugo-theme-introduction/"><strong>Introduction</strong></a> theme for <a href="http://gohugo.io/">Hugo</a>. Made with <a href="https://victoria.dev"><!-- raw HTML omitted --><!-- raw HTML omitted --> and <!-- raw HTML omitted --><!-- raw HTML omitted --></a> by open source contributors.
+            <a href="https://github.com/victoriadrake/hugo-theme-introduction/"><strong>Introduction</strong></a> theme for <a href="http://gohugo.io/">Hugo</a>. Made with <a href="https://victoria.dev"><i class="fa fa-heart"></i> and <i class="fa fa-coffee"></i></a> by open source contributors.
         </span>
     
     </div>

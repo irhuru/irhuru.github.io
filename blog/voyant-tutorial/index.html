@@ -198,29 +198,41 @@ An Introduction to Voyant Tools for Corpus Analysis - Irati Hurtado
 
 <div class="container markdown top-pad">
     <p><img src="voyant-header.jpg" alt="voyant-header"></p>
-<!-- raw HTML omitted -->
-<p>If you&rsquo;re into the Digital Humanities, you probably know about the importance of text analysis. Whereas programming languages such as Python or R allow you to do this efficiently, some people prefer to use tools which don&rsquo;t require any coding skills 👨🏻‍💻. A good example of such a tool is <a href="https://voyant-tools.org">Voyant Tools</a>, an <strong>open-source web-based application for text analysis</strong>. In this blog post, I will show you the basics of using Voyant Tools to analyze a corpus.</p>
-<h2 id="importing-documents">Importing documents</h2>
-<p>To analyze a corpus, <strong>the first thing you need to do is to import your corpus</strong> (obviously! 🧐). In Voyant Tools, you can either <strong>paste your texts</strong> into the main box, <strong>upload your own files</strong> (&ldquo;Upload&rdquo; button), or <strong>open an existing corpus</strong> (&ldquo;Open&rdquo; button).</p>
+<p>&nbsp;</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">If you're into the Digital Humanities, you probably know about the importance of text analysis. Whereas programming languages such as Python or R allow you to do this efficiently, some people prefer to use tools which don't require any coding skills. A good example of such a tool is <a href="https://voyant-tools.org">Voyant Tools</a>, an <b>open-source web-based application for text analysis</b>. In this blog post, I will show you the basics of using Voyant Tools to analyze a corpus.</p>
+<h3 style="font-family: Verdana, Geneva, sans-serif">Importing documents</h3>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">To analyze a corpus, <b>the first thing you need to do is to import your corpus</b> (obviously!). In Voyant Tools, you can either <b>paste your texts</b> into the main box, <b>upload your own files</b> ("Upload" button), or <b>open an existing corpus</b> ("Open" button).</p>
 <p><img src="Voyant-Tools-interface.jpeg" alt="Voyant-Tools-interface"></p>
-<p>If you choose the latter option, Voyant Tools currently has three corpus: Shakespeare&rsquo;s plays, Austen&rsquo;s novels, and Mary Shelley&rsquo;s Frankenstein. For this blog post, I will choose the corpus of Shakespeare&rsquo;s plays to illustrate the examples.</p>
-<h2 id="exploring-the-corpus">Exploring the corpus</h2>
-<p>After selecting a corpus, <strong>you will be shown a page with lots of information</strong>.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">If you choose the latter option, Voyant Tools currently has three corpus: Shakespeare's plays, Austen's novels, and Mary Shelley's Frankenstein. For this blog post, I will choose the corpus of Shakespeare's plays to illustrate the examples.</p>
+<h3 style="font-family: Verdana, Geneva, sans-serif">Exploring the corpus</h3>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">After selecting a corpus, <b>you will be shown a page with lots of information</b>.</p>
 <p><img src="Voyant-Tools-skin.jpeg" alt="Voyant-Tools-skin"></p>
-<p>This is called a &ldquo;skin&rdquo; (more specifically, this is Voyant Tools&rsquo; default skin). <strong>There are several panels</strong> which provide you with direct information from your corpus 📊📈:</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">This is called a "skin" (more specifically, this is Voyant Tools' default skin). <b>There are several panels</b> which provide you with direct information from your corpus:</p>
 <ul>
-<li><strong>Cirrus</strong>: this panel shows a word cloud with the terms that are most frequently used in the corpus.</li>
-<li><strong>Reader</strong>: this panel contains all your texts. It can be very long, depending on how big your corpus is. You can either scroll down or use the horizontal line below to move along your corpus.</li>
-<li><strong>Trends</strong>: if you click on a term when using the Reader panel, the Trends panel will show you a graph with the frequency distribution across the corpus.</li>
-<li><strong>Summary</strong>: as its name indicates, this panel provides you with an overview of the corpus (e.g., how many words per sentence there are on average, what the most frequent words are&hellip;).</li>
-<li><strong>Contexts</strong>: this last panel is a concordance tool. If you click on a term in the Reader panel, it will show you each occurrence of the term together with some context.</li>
+<li>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px"><b>Cirrus</b>: this panel shows a word cloud with the terms that are most frequently used in the corpus.</p>
+</li>
+<li>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px"><b>Reader</b>: this panel contains all your texts. It can be very long, depending on how big your corpus is. You can either scroll down or use the horizontal line below to move along your corpus.</p>
+</li>
+<li>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px"><b>Trends</b>: if you click on a term when using the Reader panel, the Trends panel will show you a graph with the frequency distribution across the corpus.</p>
+</li>
+<li>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px"><b>Summary</b>: as its name indicates, this panel provides you with an overview of the corpus (e.g., how many words per sentence there are on average, what the most frequent words are...).</p>
+</li>
+<li>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px"><b>Contexts</b>: this last panel is a concordance tool. If you click on a term in the Reader panel, it will show you each occurrence of the term together with some context.</p>
+</li>
 </ul>
-<h2 id="interacting-with-the-skin">Interacting with the skin</h2>
-<p>As you can see from the descriptions of panels in the previous section, Voyant Tools&rsquo; interface is pretty interactive. As you click on different terms, several panels are updated and automatically show new information 🔄.</p>
-<p>In addition to selecting terms, <strong>you can also interact with the panels further to customize the output</strong>. To do this, click on the search bars and buttons within each panel. Once you have customized a panel, <strong>you can export the resulting panel using a url that you can embed in other websites</strong> (simply click on the &ldquo;Export&rdquo; button that looks like a square with a small arrow inside).</p>
-<p>Now that you know the basics of Voyant Tools, you can practice analyzing your own corpus or you can learn more by reading their detailed <a href="https://voyant-tools.org/docs/#!/guide/tutorial">online tutorial</a> 🤓.</p>
-<h5 id="if-you-found-this-post-interesting-you-can-check-out-my-other-blog-posts-herehttpsirhurugithubioblog">If you found this post interesting, you can check out my other blog posts <a href="https://irhuru.github.io/blog/">here</a>!</h5>
-<!-- raw HTML omitted -->
+<h3 style="font-family: Verdana, Geneva, sans-serif">Interacting with the skin</h3>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">As you can see from the descriptions of panels in the previous section, Voyant Tools' interface is pretty interactive. As you click on different terms, several panels are updated and automatically show new information.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">In addition to selecting terms, <b>you can also interact with the panels further to customize the output</b>. To do this, click on the search bars and buttons within each panel. Once you have customized a panel, <b>you can export the resulting panel using a url that you can embed in other websites</b> (simply click on the "Export" button that looks like a square with a small arrow inside).</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Now that you know the basics of Voyant Tools, you can practice analyzing your own corpus or you can learn more by reading their detailed <a href="https://voyant-tools.org/docs/#!/guide/tutorial">online tutorial</a>.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h5 style="font-family: Verdana, Geneva, sans-serif">If you found this post interesting, you can check out my other blog posts <a href="https://irhuru.github.io/blog/">here</a>!</h5>
+<p>&nbsp;</p>
 
 </div>
 
@@ -255,7 +267,7 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="container has-text-centered">
     
         <span class="footer-text">
-            <a href="https://github.com/victoriadrake/hugo-theme-introduction/"><strong>Introduction</strong></a> theme for <a href="http://gohugo.io/">Hugo</a>. Made with <a href="https://victoria.dev"><!-- raw HTML omitted --><!-- raw HTML omitted --> and <!-- raw HTML omitted --><!-- raw HTML omitted --></a> by open source contributors.
+            <a href="https://github.com/victoriadrake/hugo-theme-introduction/"><strong>Introduction</strong></a> theme for <a href="http://gohugo.io/">Hugo</a>. Made with <a href="https://victoria.dev"><i class="fa fa-heart"></i> and <i class="fa fa-coffee"></i></a> by open source contributors.
         </span>
     
     </div>

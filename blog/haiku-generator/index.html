@@ -22,7 +22,7 @@ if (!doNotTrack) {
 <meta name="MobileOptimized" content="320">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer">
-<meta name="description" content="Irati Hurtado. Linguist | Language Analyst | Digital Communications Specialist">
+<meta name="description" content="Irati Hurtado. Linguist | Language Data Analyst | Digital Communications Specialist">
 <title>
 Creating a Haiku Generator With Python - Irati Hurtado
 </title>
@@ -194,18 +194,18 @@ Creating a Haiku Generator With Python - Irati Hurtado
 
 <div class="container markdown top-pad">
     <p><img src="haiku-header.jpg" alt="haiku-generator"></p>
-<h1 id="what-is-a-haiku">What is a haiku?</h1>
-<p>I&rsquo;m sure you have heard the term <em>haiku</em> at least once in your life. <strong>Haiku is a type of short form poetry that originated in Japan</strong> 🇯🇵. These pieces of poetry consist of three phrases, where the first and third line have 5 syllables each and the second one has 7 syllables. This makes a total of 17 syllables per poem which follow a 5-7-5 pattern.</p>
-<p>Haikus have become popular in other cultures too. For example, one can find haikus written in English and many other languages, although these do not always deal with the same themes as traditional Japanese haikus. Haikus are now part of pop culture and one can easily find thousands of them with a simple Google search. So, since it seems everyone can now write a haiku and call themselves a poet, for this project I decided to <strong>create a haiku generator using Python</strong>.</p>
-<h1 id="how-did-you-do-this">How did you do this?</h1>
-<p>Briefly summarized, I compiled a bunch of texts and wrote a Python script that would output a random haiku using words from those texts, always following the 5-7-5 rule. Want to know how I did it? Keep on reading or check out the code <a href="https://github.com/irhuru/hAIku/blob/main/hAIku.ipynb">here</a>! 🤓</p>
-<h2 id="the-data">The data</h2>
-<p>To be honest, any long text would have worked for this project, as the script would simply extract words (or groups of words) from the text to write the haiku.</p>
-<p>However, to keep it more &ldquo;literary&rdquo; I decided to use <strong>a variety of excerpts from famous books</strong> available at <a href="https://www.gutenberg.org">Project Gutenberg</a>. More specifically, I used excerpts from <em>Metamorphosis</em> (Franz Kafka), <em>The Great Gatsby</em> (Scott Fitzgerald), <em>Anthem</em> (Ayn Rand), and <em>Moby Dick</em> (Herman Melville) 📚.</p>
-<p>The final dataset can be found <a href="https://github.com/irhuru/hAIku/blob/main/texts_data.txt">here</a>.</p>
-<h2 id="installing-libraries">Installing libraries</h2>
-<p>The first thing I did was to import and install some helpful Python libraries. The most important ones for our purposes are <a href="https://spacy.io">spaCy</a> and <a href="https://pypi.org/project/syllapy/">SyllaPy</a>.</p>
-<p><strong>SpaCy</strong> is a <strong>natural language processing library</strong> that allows you to do plenty of things with language data, from tokenization, to POS-tagging, to even named entity recognition. I used it to identify patterns in the text data and build the haikus.</p>
+<h3 style="font-family: Verdana, Geneva, sans-serif">What is a haiku?</h3>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">I'm sure you have heard the term <i>haiku</i> at least once in your life. <b>Haiku is a type of short form poetry that originated in Japan</b>. These pieces of poetry consist of three phrases, where the first and third line have 5 syllables each and the second one has 7 syllables. This makes a total of 17 syllables per poem which follow a 5-7-5 pattern.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Haikus have become popular in other cultures too. For example, one can find haikus written in English and many other languages, although these do not always deal with the same themes as traditional Japanese haikus. Haikus are now part of pop culture and one can easily find thousands of them with a simple Google search. So, since it seems everyone can now write a haiku and call themselves a poet, for this project I decided to <b>create a haiku generator using Python</b>.</p>
+<h3 style="font-family: Verdana, Geneva, sans-serif">How did you do this?</h3>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Briefly summarized, I compiled a bunch of texts and wrote a Python script that would output a random haiku using words from those texts, always following the 5-7-5 rule. Want to know how I did it? Keep on reading or check out the code <a href="https://github.com/irhuru/hAIku/blob/main/hAIku.ipynb/">here</a>!</p>
+<h4 style="font-family: Verdana, Geneva, sans-serif">The data</h4>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">To be honest, any long text would have worked for this project, as the script would simply extract words (or groups of words) from the text to write the haiku.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">However, to keep it more "literary" I decided to use <b>a variety of excerpts from famous books</b> available at <a href="https://www.gutenberg.org">Project Gutenberg</a>. More specifically, I used excerpts from <i>Metamorphosis</i> (Franz Kafka), <i>The Great Gatsby</i> (Scott Fitzgerald), <i>Anthem</i> (Ayn Rand), and <i>Moby Dick</i> (Herman Melville).</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">The final dataset can be found <a href="https://github.com/irhuru/hAIku/blob/main/texts_data.txt">here</a>.</p>
+<h4 style="font-family: Verdana, Geneva, sans-serif">Installing libraries</h4>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">The first thing I did was to import and install some helpful Python libraries. The most important ones for our purposes are <a href="https://spacy.io">spaCy</a> and <a href="https://pypi.org/project/syllapy/">SyllaPy</a>.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px"><b>SpaCy</b> is a <b>natural language processing library</b> that allows you to do plenty of things with language data, from tokenization, to POS-tagging, to even named entity recognition. I used it to identify patterns in the text data and build the haikus.</p>
 <pre><code># Loading the English language model
 import spacy.cli
 spacy.cli.download(&quot;en_core_web_sm&quot;)
@@ -213,19 +213,20 @@ nlp = spacy.load(&quot;en_core_web_sm&quot;)
 
 # Matcher will help identify patterns in the text
 from spacy.matcher import Matcher
-</code></pre><p><strong>SyllaPy</strong>, on the other hand, allows you to <strong>calculate syllable counts</strong> for English words. This is important because I had to follow the 5-7-5 rule when building the haikus, so I needed to be able to count the number of syllables per word somehow.</p>
+</code></pre><p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px"><b>SyllaPy</b>, on the other hand, allows you to <b>calculate syllable counts</b> for English words. This is important because I had to follow the 5-7-5 rule when building the haikus, so I needed to be able to count the number of syllables per word somehow.</p>
 <pre><code>!pip install syllapy
 import syllapy
-</code></pre><h2 id="creating-the-script">Creating the script</h2>
-<p>The script has <strong>two main parts</strong>: a section where I extracted random groups of words from the text and a section where I filtered them out to keep only those that had either 5 or 7 syllables.</p>
-<h3 id="extracting-groups-of-words">Extracting groups of words</h3>
-<p>Here, I used <code>Matcher</code> to <strong>identify random groups of 2, 3, and 4 words in the dataset</strong>. <code>Matcher</code> works by specifying a linguistic pattern and applying it to your dataset. It will then identify and extract all words (or groups of words) that follow that pattern. Below, you can see an example:</p>
+</code></pre><p>&nbsp;</p>
+<h4 style="font-family: Verdana, Geneva, sans-serif">Creating the script</h4>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">The script has <b>two main parts</b>: a section where I extracted random groups of words from the text and a section where I filtered them out to keep only those that had either 5 or 7 syllables.</p>
+<h5 style="font-family: Verdana, Geneva, sans-serif">Extracting groups of words</h5>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Here, I used <code>Matcher</code> to <b>identify random groups of 2, 3, and 4 words in the dataset</b>. <code>Matcher</code> works by specifying a linguistic pattern and applying it to your dataset. It will then identify and extract all words (or groups of words) that follow that pattern. Below, you can see an example:</p>
 <pre><code>matcher = Matcher(nlp.vocab)
 pattern = [{&quot;POS&quot;: &quot;NOUN&quot;}, {&quot;POS&quot;: &quot;VERB&quot;}]
 matcher.add(&quot;SamplePattern&quot;, [pattern])
-</code></pre><p>The key part here is the second line, where you specify the pattern you are interested in. The pattern always needs to appear within a list (hence the <code>[]</code>). Also, for each &lsquo;object&rsquo; you want to identify in the text, you need to create a dictionary, where the keys describe the type of token and the values describe its attributes. For example, the sequence <code>{&quot;POS&quot;: &quot;NOUN&quot;}</code> means that the token we are looking for is a &lsquo;part of speech&rsquo; (POS) whose attribute is a &lsquo;noun&rsquo;. Thus, all the second line does is say that <code>Matcher</code> will look for a noun that is followed by a verb. That&rsquo;s it! ✨</p>
-<p>One thing to keep in mind is that attributes are specified using the <a href="https://universaldependencies.org">Universal Dependencies framework</a>, so if you are looking for an adjective, you can&rsquo;t write <code>{&quot;POS&quot;: &quot;ADJECTIVE&quot;}</code>, but rather <code>{&quot;POS&quot;: &quot;ADJ&quot;}</code>. You can find all the Universal POS tags <a href="https://universaldependencies.org/docs/u/pos/">here</a>.</p>
-<p>Once you establish a pattern, you need to <strong>identify it in the text</strong>. For that, you can use a code snippet like the one below (I added two extra <code>print</code> statements so you can see how it works).</p>
+</code></pre><p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">The key part here is the second line, where you specify the pattern you are interested in. The pattern always needs to appear within a list (hence the <code>[]</code>). Also, for each 'object' you want to identify in the text, you need to create a dictionary, where the keys describe the type of token and the values describe its attributes. For example, the sequence <code>{"POS": "NOUN"}</code> means that the token we are looking for is a 'part of speech' (POS) whose attribute is a 'noun'. Thus, all the second line does is say that <code>Matcher</code> will look for a noun that is followed by a verb. That's it!</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">One thing to keep in mind is that attributes are specified using the <a href="https://universaldependencies.org">Universal Dependencies framework</a>, so if you are looking for an adjective, you can't write <code>{"POS": "ADJECTIVE"}</code>, but rather <code>{"POS": "ADJ"}</code>. You can find all the Universal POS tags <a href="https://universaldependencies.org/docs/u/pos/">here</a>.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Once you establish a pattern, you need to <b>identify it in the text</b>. For that, you can use a code snippet like the one below (I added two extra <code>print</code> statements so you can see how it works).</p>
 <pre><code>doc = nlp(texts)
 matches = matcher(doc)
 
@@ -234,7 +235,7 @@ for match_id, start, end in matches:
     span = doc[start:end]
     print(match_id, string_id, start, end, span.text) # Print match info
     print(span.text) # Print match only
-</code></pre><p>Now that you know how <code>Matcher</code> works, I will explain what patterns I tried to identify in the text to build my haiku. I decided to go for groups of words which were either 2, 3, or 4 words long. Furthermore, for each group of words, I specified what parts of speech I wanted the first and last word in the group to be. This is the code I used:</p>
+</code></pre><p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Now that you know how <code>Matcher</code> works, I will explain what patterns I tried to identify in the text to build my haiku. I decided to go for groups of words which were either 2, 3, or 4 words long. Furthermore, for each group of words, I specified what parts of speech I wanted the first and last word in the group to be. This is the code I used:</p>
 <pre><code># Groups of 2 words
 
 matcher2w = Matcher(nlp.vocab)
@@ -268,10 +269,10 @@ doc = nlp(texts)
 matches2w = matcher2w(doc)
 matches3w = matcher3w(doc)
 matches4w = matcher4w(doc)
-</code></pre><p>As you can see from the <code>{&quot;IN&quot;: [ ... ]}</code> sequences, I allowed for plenty of flexibility. That is, different POS could appear at the beginning of the pattern as well as at the end of the pattern. You can explore more patterns <a href="https://explosion.ai/demos/matcher">here</a>.</p>
-<h3 id="filtering-out-groups-of-words">Filtering out groups of words</h3>
-<p>After identifying groups of words, I had to <strong>leave out those which did not have 5 nor 7 syllables</strong>, since those are not useful to build the haiku. To do that, I used <code>SyllaPy</code> to count the syllables of each group of words and leave out those groups of words that I would not be able to use.</p>
-<p>This is the code I used:</p>
+</code></pre><p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">As you can see from the <code>{"IN": [ ... ]}</code> sequences, I allowed for plenty of flexibility. That is, different POS could appear at the beginning of the pattern as well as at the end of the pattern. You can explore more patterns <a href="https://explosion.ai/demos/matcher">here</a>.</p>
+<h5 style="font-family: Verdana, Geneva, sans-serif">Filtering out groups of words</h5>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">After identifying groups of words, I had to <b>leave out those which did not have 5 nor 7 syllables</b>, since those are not useful to build the haiku. To do that, I used <code>SyllaPy</code> to count the syllables of each group of words and leave out those groups of words that I would not be able to use.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">This is the code I used:</p>
 <pre><code>lines_5_syll = []
 lines_7_syll = []
 
@@ -289,12 +290,14 @@ for match_id, start, end in matches2w + matches3w + matches4w:
    if syllable_count == 7:
      if span.text not in lines_7_syll:
        lines_7_syll.append(span.text)
-</code></pre><h2 id="generating-a-haiku">Generating a haiku</h2>
-<p>Lastly, I wrote a <strong>simple line of code to print a haiku</strong> by putting together two lines of 5 syllables each and one line of 7 syllables following a 5-7-5 rule 📝.</p>
-<p>This is the code I used for that (I had to import the <code>random</code> library first):</p>
+</code></pre><p>&nbsp;</p>
+<h4 style="font-family: Verdana, Geneva, sans-serif">Generating a haiku</h4>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Lastly, I wrote a <b>simple line of code to print a haiku</b> by putting together two lines of 5 syllables each and one line of 7 syllables following a 5-7-5 rule.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">This is the code I used for that (I had to import the <code>random</code> library first):</p>
 <pre><code>print(&quot;{0}\n{1}\n{2}&quot;.format(random.choice(lines_5_syll), random.choice(lines_7_syll), random.choice(lines_5_syll)))
-</code></pre><h2 id="sample-haiku-">Sample Haiku 🌸</h2>
-<p>This is a haiku I was able to generate with this script!</p>
+</code></pre><p>&nbsp;</p>
+<h4 style="font-family: Verdana, Geneva, sans-serif">Sample Haiku</h4>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">This is a haiku I was able to generate with this script!</p>
 <blockquote>
 <p>closed in the evening</p>
 </blockquote>
@@ -304,9 +307,11 @@ for match_id, start, end in matches2w + matches3w + matches4w:
 <blockquote>
 <p>now at any price</p>
 </blockquote>
-<p>It probably doesn&rsquo;t make much sense, but does it have to? 🤔</p>
-<h5 id="if-you-found-this-post-interesting-check-out-my-other-posts-herehttpsirhurugithubioblog">If you found this post interesting, check out my other posts <a href="https://irhuru.github.io/blog/">here</a>!</h5>
-<!-- raw HTML omitted -->
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">It probably doesn't make much sense, but does it have to?</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h5 style="font-family: Verdana, Geneva, sans-serif">If you found this post interesting, you can check out my other blog posts <a href="https://irhuru.github.io/blog/">here</a>!</h5>
+<p>&nbsp;</p>
 
 </div>
 
@@ -341,7 +346,7 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="container has-text-centered">
     
         <span class="footer-text">
-            <a href="https://github.com/victoriadrake/hugo-theme-introduction/"><strong>Introduction</strong></a> theme for <a href="http://gohugo.io/">Hugo</a>. Made with <a href="https://victoria.dev"><!-- raw HTML omitted --><!-- raw HTML omitted --> and <!-- raw HTML omitted --><!-- raw HTML omitted --></a> by open source contributors.
+            <a href="https://github.com/victoriadrake/hugo-theme-introduction/"><strong>Introduction</strong></a> theme for <a href="http://gohugo.io/">Hugo</a>. Made with <a href="https://victoria.dev"><i class="fa fa-heart"></i> and <i class="fa fa-coffee"></i></a> by open source contributors.
         </span>
     
     </div>

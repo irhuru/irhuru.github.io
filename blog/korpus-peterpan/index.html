@@ -196,46 +196,46 @@ An Analysis of Peter Pan Using the R Package Ko Rpus - Irati Hurtado
 
 <div class="container markdown top-pad">
     <p><img src="PeterPanR.jpg" alt="PeterPanHeader"></p>
-<!-- raw HTML omitted -->
-<p>If you are into language research, you probably use <a href="https://www.r-project.org">R</a> to analyze your data 📊. One of the good things about R is that you can install packages to extend R&rsquo;s basic functions. In this blog post, I&rsquo;d like to introduce you to a very <strong>useful package for language research</strong>: <code>koRpus</code>.</p>
-<p>Despite its name, the R package <strong><code>koRpus</code> was designed to work with individual texts</strong>, and not with a collection of texts (I know, this is confusing!). <code>koRpus</code> mostly provides you with automatized formulae to calculate readability and lexical diversity. For this post, <strong>I&rsquo;ll be using Peter Pan&rsquo;s famous fairy tale to illustrate some of the things you can do</strong> with this package.</p>
-<h2 id="setup">Setup</h2>
-<p>The first thing you&rsquo;ll need to do is to <strong>install and load the package</strong>, of course! 🤓 In addition to loading the <code>koRpus</code> package, you&rsquo;ll also need to install and load a language model. Because the text I chose is in English, I loaded the English model (Note: I also loaded <code>tidyverse</code>, as it&rsquo;s useful for the analysis too).</p>
+<p>&nbsp;</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">If you are into language research, you probably use <a href="https://www.r-project.org">R</a> to analyze your data. One of the good things about R is that you can install packages to extend R's basic functions. In this blog post, I'd like to introduce you to a very <b>useful package for language research</b>: <code>koRpus</code>.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Despite its name, the R package <b><code>koRpus</code> was designed to work with individual texts</b>, and not with a collection of texts (I know, this is confusing!). <code>koRpus</code> mostly provides you with automatized formulae to calculate readability and lexical diversity. For this post, <b>I'll be using Peter Pan's famous fairy tale to illustrate some of the things you can do</b> with this package.</p>
+<h3 style="font-family: Verdana, Geneva, sans-serif">Setup</h3>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">The first thing you'll need to do is to <b>install and load the package</b>, of course! In addition to loading the <code>koRpus</code> package, you'll also need to install and load a language model. Because the text I chose is in English, I loaded the English model (Note: I also loaded <code>tidyverse</code>, as it's useful for the analysis too).</p>
 <pre><code>library(koRpus)
 library(koRpus.lang.en)
 library(tidyverse)
-</code></pre><h2 id="finding-the-texts">Finding the texts</h2>
-<p>The second step is also pretty obvious: We need texts to analyze! In my case, <strong>I downloaded the Peter Pan fairy tale from <a href="https://www.gutenberg.org">Project Gutenberg</a></strong> as several plain txt files (one per chapter). You should move your text(s) to the folder where your R project is located 📂.</p>
-<h2 id="tokenizing-the-texts">Tokenizing the texts</h2>
-<p>In order to run <code>koRpus</code>'s formulae, you first need to <strong>split your text into tokens</strong> (aka. tokenization). Here, you can install and use <a href="https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/"><code>TreeTagger</code></a> or you can use the <code>tokenize</code> function from the <code>koRpus</code> package itself. The use of <code>TreeTagger</code> is recommended, as its results are more precise. However, because here I&rsquo;m showing you how to use the <code>koRpus</code> package, I used <code>tokenize()</code> instead 👇.</p>
+</code></pre><h3 style="font-family: Verdana, Geneva, sans-serif">Finding the texts</h3>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">The second step is also pretty obvious: We need texts to analyze! In my case, <b>I downloaded the Peter Pan fairy tale from <a href="https://www.gutenberg.org">Project Gutenberg</a></b> as several plain txt files (one per chapter). You should move your text(s) to the folder where your R project is located.</p>
+<h3 style="font-family: Verdana, Geneva, sans-serif">Tokenizing the texts</h3>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">In order to run <code>koRpus</code>'s formulae, you first need to <b>split your text into tokens</b> (aka. tokenization). Here, you can install and use <code><a href="https://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/">TreeTagger</a></code> or you can use the <code>tokenize</code> function from the <code>koRpus</code> package itself. The use of <code>TreeTagger</code> is recommended, as its results are more precise. However, because here I'm showing you how to use the <code>koRpus</code> package, I used <code>tokenize()</code> instead.</p>
 <pre><code>tokenized_chapter1 = koRpus::tokenize(
   &quot;PeterPan_Chapter1.txt&quot;,
   lang = &quot;en&quot;,
   doc_id = &quot;Chapter 1&quot;
   )
-</code></pre><p>As explained before, since <code>koRpus</code> was designed to work with a single text, you would have to repeat this process for as many texts as you have.</p>
-<p>Once your text is tokenized, you can use the <strong><code>describe()</code> function to get some information about your text</strong>, such as number of tokens, sentences, and so on. This is an optional step but it&rsquo;s something you might be interested in, depending on what you are researching.</p>
+</code></pre><p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">As explained before, since <code>koRpus</code> was designed to work with a single text, you would have to repeat this process for as many texts as you have.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Once your text is tokenized, you can use the <b><code>describe()</code> function to get some information about your text</b>, such as number of tokens, sentences, and so on. This is an optional step but it's something you might be interested in, depending on what you are researching.</p>
 <pre><code>describe(tokenized_chapter1)
-</code></pre><h2 id="calculating-readability">Calculating readability</h2>
-<p>Readability measures how easy it is to read a text. As you can imagine, several formulae have been proposed to calculate readability, as it&rsquo;s a quite complex construct. Luckily, <code>koRpus</code> provides <strong>several of these formulae to choose from</strong>. You can find a comprehensive list <a href="https://cran.r-project.org/web/packages/koRpus/vignettes/koRpus_vignette.html#readability">here</a>.</p>
-<p>In my case, I used the <a href="https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests">Flesch formula</a>, which is one of the most common ones. However, this formula requires the text to be <strong>split into syllables</strong>. But don&rsquo;t worry, <code>koRpus</code> has a function to do just that! The function is called <code>hyphen()</code> and you just need to pass the tokenized text as its argument.</p>
+</code></pre><h3 style="font-family: Verdana, Geneva, sans-serif">Calculating readability</h3>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Readability measures how easy it is to read a text. As you can imagine, several formulae have been proposed to calculate readability, as it's a quite complex construct. Luckily, <code>koRpus</code> provides <b>several of these formulae to choose from</b>. You can find a comprehensive list <a href="https://cran.r-project.org/web/packages/koRpus/vignettes/koRpus_vignette.html#readability">here</a>.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">In my case, I used the <a href="https://en.wikipedia.org/wiki/Flesch–Kincaid_readability_tests/">Flesch formula</a>, which is one of the most common ones. However, this formula requires the text to be <b>split into syllables</b>. But don't worry, <code>koRpus</code> has a function to do just that! The function is called <code>hyphen()</code> and you just need to pass the tokenized text as its argument.</p>
 <pre><code>hyph_chapter1 = hyphen(tokenized_chapter1)
-</code></pre><p>After this is done, you can <strong>apply the readability formula</strong> 👇:</p>
+</code></pre><p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">After this is done, you can <b>apply the readability formula</b>:</p>
 <pre><code>flesch_chapter1 = flesch(tokenized_chapter1, hyphen = hyph_chapter1)
-</code></pre><p>Once again, you would have to repeat this process for as many texts as you have. For the Peter Pan fairy tale, I calculated the Flesch scores for all 17 chapters. You can also <strong>plot the results afterwards</strong> to see how readability changes throughout chapters (this is where <code>tidyverse</code> comes in handy!).</p>
+</code></pre><p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Once again, you would have to repeat this process for as many texts as you have. For the Peter Pan fairy tale, I calculated the Flesch scores for all 17 chapters. You can also <b>plot the results afterwards</b> to see how readability changes throughout chapters (this is where <code>tidyverse</code> comes in handy!).</p>
 <p><img src="readability.jpg" alt="PeterPanReadabilityGraph"></p>
-<p>It seems that the readability scores are pretty consistent throughout, which is a good sign!</p>
-<h2 id="calculating-lexical-diversity">Calculating lexical diversity</h2>
-<p>Just like for readability, <code>koRpus</code> has <strong>several formulae to calculate lexical diversity</strong>. Lexical diversity measures how many different lexical words there are in a text. Here, you can either use a specific function for the formula you want to use (these are called &ldquo;wrapper functions&rdquo;), or you can use a general function where you specify the exact formula you&rsquo;re interested in.</p>
-<p>I decided to calculate the type-token ratio (TTR) in the Peter Pan fairy tale. In the example below, you can see how I used the general formula to specify that <strong>&lsquo;type-token ratio&rsquo; (TTR)</strong> should be used.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">It seems that the readability scores are pretty consistent throughout, which is a good sign!</p>
+<h3 style="font-family: Verdana, Geneva, sans-serif">Calculating lexical diversity</h3>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Just like for readability, <code>koRpus</code> has <b>several formulae to calculate lexical diversity</b>. Lexical diversity measures how many different lexical words there are in a text. Here, you can either use a specific function for the formula you want to use (these are called "wrapper functions"), or you can use a general function where you specify the exact formula you're interested in.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">I decided to calculate the type-token ratio (TTR) in the Peter Pan fairy tale. In the example below, you can see how I used the general formula to specify that <b>'type-token ratio' (TTR)</b> should be used.</p>
 <pre><code>lex_div_chapter1 = lex.div(
   tokenized_chapter1,
   measure = (&quot;TTR&quot;),
   char = (&quot;TTR&quot;)
   )
 show(lex_div_chapter1) # use this to print the results!
-</code></pre><p>In this formula, we first have to provide the name of the formula (&ldquo;TTR&rdquo;) and then, we specify whether we want to output the <strong>characteristics of the measure in question</strong>. This latter is optional and can be omitted by writing <code>char = NULL</code> instead.</p>
-<p>After using the <code>show()</code> function, we would get something like this:</p>
+</code></pre><p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">In this formula, we first have to provide the name of the formula ("TTR") and then, we specify whether we want to output the <b>characteristics of the measure in question</b>. This latter is optional and can be omitted by writing <code>char = NULL</code> instead.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">After using the <code>show()</code> function, we would get something like this:</p>
 <pre><code>Total number of tokens: 3083
 Total number of types:  875
 
@@ -247,11 +247,13 @@ TTR characteristics:
  0.2833  0.3209  0.3531  0.3871  0.3978  1.0000
    SD
  0.1117
-</code></pre><p>That would give us the TTR for chapter 1 only (<code>TTR: 0.28</code>), so remember to repeat this process for all your texts.</p>
-<h2 id="learning-more">Learning more</h2>
-<p>Up to here, I have shown you some of the main things you can do with <code>koRpus</code>, but you can always read the <strong><a href="https://cran.r-project.org/web/packages/koRpus/koRpus.pdf">official documentation</a></strong> to learn more about the package and what it offers 📄.</p>
-<h5 id="if-you-found-this-post-interesting-you-can-check-out-my-other-blog-posts-herehttpsirhurugithubioblog">If you found this post interesting, you can check out my other blog posts <a href="https://irhuru.github.io/blog/">here</a>!</h5>
-<!-- raw HTML omitted -->
+</code></pre><p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">That would give us the TTR for chapter 1 only (<code>TTR: 0.28</code>), so remember to repeat this process for all your texts.</p>
+<h3 style="font-family: Verdana, Geneva, sans-serif">Learning more</h3>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Up to here, I have shown you some of the main things you can do with <code>koRpus</code>, but you can always read the <b><a href="https://cran.r-project.org/web/packages/koRpus/koRpus.pdf">official documentation</a></b> to learn more about the package and what it offers.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h5 style="font-family: Verdana, Geneva, sans-serif">If you found this post interesting, you can check out my other blog posts <a href="https://irhuru.github.io/blog/">here</a>!</h5>
+<p>&nbsp;</p>
 
 </div>
 
@@ -286,7 +288,7 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="container has-text-centered">
     
         <span class="footer-text">
-            <a href="https://github.com/victoriadrake/hugo-theme-introduction/"><strong>Introduction</strong></a> theme for <a href="http://gohugo.io/">Hugo</a>. Made with <a href="https://victoria.dev"><!-- raw HTML omitted --><!-- raw HTML omitted --> and <!-- raw HTML omitted --><!-- raw HTML omitted --></a> by open source contributors.
+            <a href="https://github.com/victoriadrake/hugo-theme-introduction/"><strong>Introduction</strong></a> theme for <a href="http://gohugo.io/">Hugo</a>. Made with <a href="https://victoria.dev"><i class="fa fa-heart"></i> and <i class="fa fa-coffee"></i></a> by open source contributors.
         </span>
     
     </div>

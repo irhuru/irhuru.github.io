@@ -196,35 +196,34 @@ How to Create Stunning Presentations Using Reveal.js in R - Irati Hurtado
 
 <div class="container markdown top-pad">
     <p><img src="revealjs_r.jpg" alt="revealjs"></p>
-<p>I recently found out about an R package that allows you to create Reveal.js presentations in R using RMarkdown syntax. If you are like me and love to display cool graphs in your slides, don&rsquo;t miss this short tutorial!</p>
-<h2 id="why-you-need-to-start-using-revealjs-in-r">Why you need to start using Reveal.js in R</h2>
-<!-- raw HTML omitted -->
-<p>Okay, so you already know how to use PowerPoint. Why using something different then? 🤔 There are many reasons, actually, but one of them is that <strong>PowerPoint doesn&rsquo;t allow you to display interactive graphs in your presentation</strong>.</p>
-<p>Interactive graphs are becoming more and more popular nowadays thanks to the <strong>development of different graphing libraries and packages</strong>. One of the tools I use often is <strong><a href="https://plotly.com/graphing-libraries/">Plotly</a></strong>, which can be used with either Python, R, or Javascript.</p>
-<p>I personally use R because I normally analyze my data in RStudio, so it&rsquo;s very convenient for me to plot my results directly there. Unfortunately, PowerPoint doesn&rsquo;t allow you to insert these cool graphs in your slides. If you did, these would be displayed as static graphs, which is not what we want!</p>
-<p>One possible solution for this would be to use a <strong>presentation software that allows you to insert your interactive graph as an iframe</strong>. In fact, <a href="https://revealjs.com">Reveal.js</a> does precisely that. However, in order to use it you need to build your slides from scratch using HTML, CSS, and Javascript. In other words, this means coding, coding, and more coding. 🤯</p>
-<p>Luckily, there&rsquo;s an <strong>R package that allows you to create your Reveal.js presentation from RStudio</strong> using RMarkdown syntax.</p>
-<h2 id="creating-a-revealjs-presentation-from-rstudio">Creating a Reveal.js presentation from RStudio</h2>
-<h3 id="install-packages">Install packages</h3>
-<p>Before you can start, you need to install a couple packages. The <strong><code>revealjs</code> package</strong> is the one used for the presentation, whereas <strong><code>plotly</code></strong> is used for the interactive graphs. Make sure you also <strong>load the packages</strong> once installed.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">I recently found out about an R package that allows you to create Reveal.js presentations in R using RMarkdown syntax. If you are like me and love to display cool graphs in your slides, don't miss this short tutorial!</p>
+<h3 style="font-family: Verdana, Geneva, sans-serif">Why you need to start using Reveal.js in R</h3>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Okay, so you already know how to use PowerPoint. Why using something different then? There are many reasons, actually, but one of them is that <b>PowerPoint doesn't allow you to display interactive graphs in your presentation</b>.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Interactive graphs are becoming more and more popular nowadays thanks to the <b>development of different graphing libraries and packages</b>. One of the tools I use often is <b><a href="https://plotly.com/graphing-libraries/">Plotly</a></b>, which can be used with either Python, R, or Javascript.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">I personally use R because I normally analyze my data in RStudio, so it's very convenient for me to plot my results directly there. Unfortunately, PowerPoint doesn't allow you to insert these cool graphs in your slides. If you did, these would be displayed as static graphs, which is not what we want!</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">One possible solution for this would be to use a <b>presentation software that allows you to insert your interactive graph as an iframe</b>. In fact, <a href="https://revealjs.com">Reveal.js</a> does precisely that. However, in order to use it you need to build your slides from scratch using HTML, CSS, and Javascript. In other words, this means coding, coding, and more coding.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Luckily, there's an <b>R package that allows you to create your Reveal.js presentation from RStudio</b> using RMarkdown syntax.</p>
+<h3 style="font-family: Verdana, Geneva, sans-serif">Creating a Reveal.js presentation from RStudio</h3>
+<h4 style="font-family: Verdana, Geneva, sans-serif">Install packages</h4>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Before you can start, you need to install a couple packages. The <b><code>revealjs</code> package</b> is the one used for the presentation, whereas <b><code>plotly</code></b> is used for the interactive graphs. Make sure you also <b>load the packages</b> once installed.</p>
 <pre><code>install.packages(revealjs)
 install.packages(plotly)
-</code></pre><p>(<em>Note</em>: I&rsquo;m assuming you have already installed <a href="https://rmarkdown.rstudio.com">RMarkdown</a>).</p>
-<h3 id="create-a-new-rmarkdown-document">Create a new RMarkdown document</h3>
-<p>When you have your packages ready, <strong>open a new RMarkdown document</strong> in RStudio and save it.</p>
-<p>You will have to <strong>insert the following info</strong> on top (of course, you can modify the title and author, or even add a date):</p>
+</code></pre><p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">(<i>Note</i>: I'm assuming you have already installed <a href="https://rmarkdown.rstudio.com">RMarkdown</a>).</p>
+<h4 style="font-family: Verdana, Geneva, sans-serif">Create a new RMarkdown document</h4>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">When you have your packages ready, <b>open a new RMarkdown document</b> in RStudio and save it.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">You will have to <b>insert the following info</b> on top (of course, you can modify the title and author, or even add a date):</p>
 <pre><code>---
 title: &quot;My presentation&quot;
 author: My name
 output:
   revealjs::revealjs_presentation
 ---
-</code></pre><!-- raw HTML omitted -->
-<p>This is the basic information you need, but you can always <strong>add more info</strong> as you become more proficient using the <code>revealjs</code> package. For example, you can add transition effects between slides and other cool things. To learn more about this, you can read the official documentation <a href="https://github.com/rstudio/revealjs">here</a>.</p>
-<h3 id="define-your-slides">Define your slides</h3>
-<p>Okay, so you are now ready to begin creating your slides! <strong>Main slides</strong> are defined by the code <code># Slide title</code> (like a level 1 header), whereas <strong>secondary slides</strong> are defined by <code>## Slide title</code> (like a level 2 header).</p>
-<h3 id="add-content-to-your-slides">Add content to your slides</h3>
-<p>After defining your slides, you can add content to them. To do this, simply <strong>add whatever text or code you want to display</strong> in your slide right below the slide title. The code for a simple presentation would look like this:</p>
+</code></pre><p>&nbsp;</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">This is the basic information you need, but you can always <b>add more info</b> as you become more proficient using the <code>revealjs</code> package. For example, you can add transition effects between slides and other cool things. To learn more about this, you can read the official documentation <a href="https://github.com/rstudio/revealjs">here</a>.</p>
+<h4 style="font-family: Verdana, Geneva, sans-serif">Define your slides</h4>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Okay, so you are now ready to begin creating your slides! <b>Main slides</b> are defined by the code <code># Slide title</code> (like a level 1 header), whereas <b>secondary slides</b> are defined by <code>## Slide title</code> (like a level 2 header).</p>
+<h4 style="font-family: Verdana, Geneva, sans-serif">Add content to your slides</h4>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">After defining your slides, you can add content to them. To do this, simply <b>add whatever text or code you want to display</b> in your slide right below the slide title. The code for a simple presentation would look like this:</p>
 <pre><code># Languages I want to learn
 
 ## Chinese
@@ -241,30 +240,36 @@ It is the lingua franca of the Arab world.
 
 Swedish is predominantly spoken in Sweden.
 It is mutually intelligible with Norwegian and Danish.
-</code></pre><!-- raw HTML omitted -->
-<p>An important thing to keep in mind is that <strong>you can&rsquo;t add content below main slides</strong> (i.e.,<code># Slide title</code>), since they are considered title slides.</p>
-<h3 id="create-interactive-graphs">Create interactive graphs</h3>
-<p>This is the fun part! 📊📈</p>
-<p>You can now use the <code>plotly</code> library and add the code for your graphs directly below a <code>## Slide title</code>. You can find some sample Plotly graphs (together with their R code) <a href="https://plotly.com/r/">here</a>.</p>
-<h3 id="display-interactive-graphs">Display interactive graphs</h3>
-<p>Once you&rsquo;re done creating your cool interactive graphs, you can <strong>modify what will be displayed in your slides by default</strong>.</p>
-<p>When you create a Plotly graph, your Reveal.js slide will include your graph, your code, and any warnings generated by your code. This doesn&rsquo;t look professional if you just want to display your graph, so you would need to &ldquo;hide&rdquo; that information.</p>
-<p>To do this, you will have to <strong>add some extra information at the beginning of your code chunk</strong> (next to the <code>{r}</code>). Some examples are:</p>
+</code></pre><p>&nbsp;</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">An important thing to keep in mind is that <b>you can't add content below main slides</b> (i.e.,<code># Slide title</code>), since they are considered title slides.</p>
+<h4 style="font-family: Verdana, Geneva, sans-serif">Create interactive graphs</h4>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">This is the fun part!</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">You can now use the <code>plotly</code> library and add the code for your graphs directly below a <code>## Slide title</code>. You can find some sample Plotly graphs (together with their R code) <a href="https://plotly.com/r/">here</a>.</p>
+<h4 style="font-family: Verdana, Geneva, sans-serif">Display interactive graphs</h4>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Once you're done creating your cool interactive graphs, you can <b>modify what will be displayed in your slides by default</b>.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">When you create a Plotly graph, your Reveal.js slide will include your graph, your code, and any warnings generated by your code. This doesn't look professional if you just want to display your graph, so you would need to "hide" that information.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">To do this, you will have to <b>add some extra information at the beginning of your code chunk</b> (next to the <code>{r}</code>). Some examples are:</p>
 <ul>
-<li><code>{r, echo=FALSE}</code>: This means that whatever is in the code chunk will be ignored (i.e., not displayed).</li>
-<li><code>{r, echo=FALSE, warning=FALSE, message=FALSE}</code>: This hides the code, the warnings, and any other messages you might get.</li>
+<li>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px"><code>{r, echo=FALSE}</code>: This means that whatever is in the code chunk will be ignored (i.e., not displayed).</p>
+</li>
+<li>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px"><code>{r, echo=FALSE, warning=FALSE, message=FALSE}</code>: This hides the code, the warnings, and any other messages you might get.</p>
+</li>
 </ul>
-<p>There are many other options you can use. You can read about them in the official <a href="https://rmarkdown.rstudio.com/lesson-3.html">RMarkdown documentation</a>.</p>
-<h3 id="render-your-presentation">Render your presentation</h3>
-<p>To see your presentation, click on the <code>knit</code> button on the top and then choose the option &ldquo;knit to revealjs&rdquo;. A new <strong>window will pop up with your slides</strong> (see screenshot below).</p>
-<p>You can use the little arrows on the bottom right to navigate the slides.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">There are many other options you can use. You can read about them in the official <a href="https://rmarkdown.rstudio.com/lesson-3.html">RMarkdown documentation</a>.</p>
+<h4 style="font-family: Verdana, Geneva, sans-serif">Render your presentation</h4>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">To see your presentation, click on the <code>knit</code> button on the top and then choose the option "knit to revealjs". A new <b>window will pop up with your slides</b> (see screenshot below).</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">You can use the little arrows on the bottom right to navigate the slides.</p>
 <p><img src="revealjs_screenshot.jpg" alt="revealjs_knit"></p>
-<h3 id="enjoy">Enjoy!</h3>
-<p>So you just created your first presentation with Reveal.js from RStudio. Congrats! 🎉</p>
-<p>The next step would be to read the documentation so you can customize your slides and make them look prettier. You can find a more advanced tutorial for this <a href="https://bookdown.org/yihui/rmarkdown/appearance-and-style-1.html">here</a>.</p>
-<p>Have fun creating your slides! 😊</p>
-<h5 id="if-you-found-this-post-interesting-check-out-my-other-posts-herehttpsirhurugithubioblog">If you found this post interesting, check out my other posts <a href="https://irhuru.github.io/blog/">here</a>!</h5>
-<!-- raw HTML omitted -->
+<h4 style="font-family: Verdana, Geneva, sans-serif">Enjoy!</h4>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">So you just created your first presentation with Reveal.js from RStudio. Congrats!</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">The next step would be to read the documentation so you can customize your slides and make them look prettier. You can find a more advanced tutorial for this <a href="https://bookdown.org/yihui/rmarkdown/appearance-and-style-1.html">here</a>.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Have fun creating your slides!</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h5 style="font-family: Verdana, Geneva, sans-serif">If you found this post interesting, you can check out my other blog posts <a href="https://irhuru.github.io/blog/">here</a>!</h5>
+<p>&nbsp;</p>
 
 </div>
 
@@ -299,7 +304,7 @@ s.setAttribute('data-timestamp', +new Date());
     <div class="container has-text-centered">
     
         <span class="footer-text">
-            <a href="https://github.com/victoriadrake/hugo-theme-introduction/"><strong>Introduction</strong></a> theme for <a href="http://gohugo.io/">Hugo</a>. Made with <a href="https://victoria.dev"><!-- raw HTML omitted --><!-- raw HTML omitted --> and <!-- raw HTML omitted --><!-- raw HTML omitted --></a> by open source contributors.
+            <a href="https://github.com/victoriadrake/hugo-theme-introduction/"><strong>Introduction</strong></a> theme for <a href="http://gohugo.io/">Hugo</a>. Made with <a href="https://victoria.dev"><i class="fa fa-heart"></i> and <i class="fa fa-coffee"></i></a> by open source contributors.
         </span>
     
     </div>
