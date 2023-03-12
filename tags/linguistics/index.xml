@@ -17,7 +17,7 @@
       <pubDate>Fri, 20 May 2022 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/phonetic-transcription/</guid>
-      <description>What is phonetic transcription? Phonetic transcription is the use of phonetic symbols to represent speech. We could say it&amp;rsquo;s a way to visually represent speech sounds, which is important because orthography often doesn&amp;rsquo;t represent pronunciation accurately.
+      <description>What is phonetic transcription? Phonetic transcription is the use of phonetic symbols to represent speech. We could say it&#39;s a way to visually represent speech sounds, which is important because orthography often doesn&#39;t represent pronunciation accurately.
 Each phonetic symbol represents a sound in a spoken utterance. However, which phonetic symbol we use depends on the phonetic transcription system we follow. This means that the same dataset can be transcribed in more than one way.</description>
     </item>
     
@@ -27,8 +27,8 @@ Each phonetic symbol represents a sound in a spoken utterance. However, which ph
       <pubDate>Mon, 20 Sep 2021 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/latex-docs/</guid>
-      <description>&amp;nbsp;
-Linguistics papers often include tons of visual information, such as syntax trees, IPA symbols, glosses, and so on. These things are cool because they are helpful to convey your message, but they are sometimes hard to manage when writing your paper with a standard word processor. Who hasn&amp;rsquo;t drawn a syntax tree using PowerPoint and then taken a screenshot of it to include it in a Word doc? 🙄</description>
+      <description>Linguistics papers often include tons of visual information, such as syntax trees, IPA symbols, glosses, and so on. These things are cool because they are helpful to convey your message, but they are sometimes hard to manage when writing your paper with a standard word processor. Who hasn&#39;t drawn a syntax tree using PowerPoint and then taken a screenshot of it to include it in a Word doc?
+Fortunately, Latex exists so we don&#39;t have to deal with these issues.</description>
     </item>
     
     <item>

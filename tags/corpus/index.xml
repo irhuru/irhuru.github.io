@@ -17,8 +17,7 @@
       <pubDate>Sun, 09 Oct 2022 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/voyant-tutorial/</guid>
-      <description>&amp;nbsp;
-If you&amp;rsquo;re into the Digital Humanities, you probably know about the importance of text analysis. Whereas programming languages such as Python or R allow you to do this efficiently, some people prefer to use tools which don&amp;rsquo;t require any coding skills 👨🏻‍💻. A good example of such a tool is Voyant Tools, an open-source web-based application for text analysis. In this blog post, I will show you the basics of using Voyant Tools to analyze a corpus.</description>
+      <description>If you&#39;re into the Digital Humanities, you probably know about the importance of text analysis. Whereas programming languages such as Python or R allow you to do this efficiently, some people prefer to use tools which don&#39;t require any coding skills. A good example of such a tool is Voyant Tools, an open-source web-based application for text analysis. In this blog post, I will show you the basics of using Voyant Tools to analyze a corpus.</description>
     </item>
     
     <item>
@@ -27,8 +26,7 @@ If you&amp;rsquo;re into the Digital Humanities, you probably know about the imp
       <pubDate>Wed, 10 Aug 2022 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/antconc-corpus/</guid>
-      <description>&amp;nbsp;
-If you&amp;rsquo;re interested in corpus linguistics, you probably know that some of the things this field involves includes searching for patterns in a group of texts (e.g., find frequent words or collocations). This can be easily done using a programming language like Python or R 👩🏻‍💻. But, what if you don&amp;rsquo;t have much experience with programming languages? Well, this is where a tool like AntConc becomes useful!
+      <description>If you&#39;re interested in corpus linguistics, you probably know that some of the things this field involves includes searching for patterns in a group of texts (e.g., find frequent words or collocations). This can be easily done using a programming language like Python or R. But, what if you don&#39;t have much experience with programming languages? Well, this is where a tool like AntConc becomes useful!
 AntConc is a free corpus analysis software that can easily help you identify patterns in a collection of texts.</description>
     </item>
     
@@ -38,9 +36,8 @@ AntConc is a free corpus analysis software that can easily help you identify pat
       <pubDate>Mon, 28 Feb 2022 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/data-annotation-guidelines/</guid>
-      <description>&amp;nbsp;
-Whether you want to build a corpus to document an interesting linguistic phenomenon or simply want to have language data to train your AI models, the process of data annotation is crucial.
-Language data annotation (or text data annotation) is the process of adding labels with relevant information or meta-data. Even though it might seem like a simple process, choosing the right labels for your data is not always easy, as ambiguous data is pretty common 😣.</description>
+      <description>Whether you want to build a corpus to document an interesting linguistic phenomenon or simply want to have language data to train your AI models, the process of data annotation is crucial.
+Language data annotation (or text data annotation) is the process of adding labels with relevant information or meta-data. Even though it might seem like a simple process, choosing the right labels for your data is not always easy, as ambiguous data is pretty common.</description>
     </item>
     
     <item>
@@ -49,8 +46,7 @@ Language data annotation (or text data annotation) is the process of adding labe
       <pubDate>Wed, 25 Aug 2021 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/korpus-peterpan/</guid>
-      <description>&amp;nbsp;
-If you are into language research, you probably use R to analyze your data 📊. One of the good things about R is that you can install packages to extend R&amp;rsquo;s basic functions. In this blog post, I&amp;rsquo;d like to introduce you to a very useful package for language research: koRpus.
+      <description>If you are into language research, you probably use R to analyze your data. One of the good things about R is that you can install packages to extend R&#39;s basic functions. In this blog post, I&#39;d like to introduce you to a very useful package for language research: koRpus.
 Despite its name, the R package koRpus was designed to work with individual texts, and not with a collection of texts (I know, this is confusing!</description>
     </item>
     

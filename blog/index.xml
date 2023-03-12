@@ -6,10 +6,19 @@
     <description>Recent content in Blog on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Oct 2022 18:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 10 Mar 2023 18:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://irhuru.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Exploring textual data using R Shiny</title>
+      <link>https://irhuru.github.io/blog/rshiny-data/</link>
+      <pubDate>Fri, 10 Mar 2023 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/rshiny-data/</guid>
+      <description>In previous blog posts, I discussed the use of software such as AntConc or Voyant to analyze corpus data. Even though these are very helpful, you can only use them to perform the range of default analyses they offer. But, what if you need more customization? Maybe you want to create your own graphs or explore your data in ways that go beyond traditional KWIC analyses and basic word frequencies. Well, then keep reading because that is totally possible!</description>
+    </item>
     
     <item>
       <title>An introduction to Voyant Tools for corpus analysis</title>
@@ -17,8 +26,7 @@
       <pubDate>Sun, 09 Oct 2022 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/voyant-tutorial/</guid>
-      <description>&amp;nbsp;
-If you&#39;re into the Digital Humanities, you probably know about the importance of text analysis. Whereas programming languages such as Python or R allow you to do this efficiently, some people prefer to use tools which don&#39;t require any coding skills. A good example of such a tool is Voyant Tools, an open-source web-based application for text analysis. In this blog post, I will show you the basics of using Voyant Tools to analyze a corpus.</description>
+      <description>If you&#39;re into the Digital Humanities, you probably know about the importance of text analysis. Whereas programming languages such as Python or R allow you to do this efficiently, some people prefer to use tools which don&#39;t require any coding skills. A good example of such a tool is Voyant Tools, an open-source web-based application for text analysis. In this blog post, I will show you the basics of using Voyant Tools to analyze a corpus.</description>
     </item>
     
     <item>
@@ -27,8 +35,7 @@ If you&#39;re into the Digital Humanities, you probably know about the importanc
       <pubDate>Mon, 12 Sep 2022 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/ai-voices/</guid>
-      <description>&amp;nbsp;
-Synthetic voices, or artificial voices, are part of our lives (who has never talked to iPhone&#39;s Siri, Amazon Alexa, or Microsoft Cortana?). Conversational AI, which largely relies on these synthetic voices, is currently experiencing a boom and its market is expected to grow even more in the next four years.
+      <description>Synthetic voices, or artificial voices, are part of our lives (who has never talked to iPhone&#39;s Siri, Amazon Alexa, or Microsoft Cortana?). Conversational AI, which largely relies on these synthetic voices, is currently experiencing a boom and its market is expected to grow even more in the next four years.
 However, even though synthetic voices might look like a very new invention, the truth is that they have been around for a long, long time (more than 200 years, actually!</description>
     </item>
     
@@ -38,8 +45,7 @@ However, even though synthetic voices might look like a very new invention, the 
       <pubDate>Wed, 10 Aug 2022 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/antconc-corpus/</guid>
-      <description>&amp;nbsp;
-If you&#39;re interested in corpus linguistics, you probably know that some of the things this field involves includes searching for patterns in a group of texts (e.g., find frequent words or collocations). This can be easily done using a programming language like Python or R. But, what if you don&#39;t have much experience with programming languages? Well, this is where a tool like AntConc becomes useful!
+      <description>If you&#39;re interested in corpus linguistics, you probably know that some of the things this field involves includes searching for patterns in a group of texts (e.g., find frequent words or collocations). This can be easily done using a programming language like Python or R. But, what if you don&#39;t have much experience with programming languages? Well, this is where a tool like AntConc becomes useful!
 AntConc is a free corpus analysis software that can easily help you identify patterns in a collection of texts.</description>
     </item>
     
@@ -49,8 +55,7 @@ AntConc is a free corpus analysis software that can easily help you identify pat
       <pubDate>Fri, 01 Jul 2022 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/anthropomorphism-language/</guid>
-      <description>&amp;nbsp;
-Some weeks ago, we heard about Blake Lemoine, a Google engineer who claimed that LaMDA, a chatbot that can carry unstructured conversations with people, had a &#39;human soul&#39;. He came to this conclusion after having long, deep conversations with LaMDA, which he later shared with The Washington Post.
+      <description>Some weeks ago, we heard about Blake Lemoine, a Google engineer who claimed that LaMDA, a chatbot that can carry unstructured conversations with people, had a &#39;human soul&#39;. He came to this conclusion after having long, deep conversations with LaMDA, which he later shared with The Washington Post.
 What&#39;s striking about this case is that an engineer, who&#39;s supposed to have a thorough technical knowledge about how chatbots work, was fooled into believing the chatbot was actually human!</description>
     </item>
     
@@ -79,8 +84,7 @@ Each phonetic symbol represents a sound in a spoken utterance. However, which ph
       <pubDate>Mon, 28 Feb 2022 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/data-annotation-guidelines/</guid>
-      <description>&amp;nbsp;
-Whether you want to build a corpus to document an interesting linguistic phenomenon or simply want to have language data to train your AI models, the process of data annotation is crucial.
+      <description>Whether you want to build a corpus to document an interesting linguistic phenomenon or simply want to have language data to train your AI models, the process of data annotation is crucial.
 Language data annotation (or text data annotation) is the process of adding labels with relevant information or meta-data. Even though it might seem like a simple process, choosing the right labels for your data is not always easy, as ambiguous data is pretty common.</description>
     </item>
     
@@ -90,8 +94,7 @@ Language data annotation (or text data annotation) is the process of adding labe
       <pubDate>Wed, 27 Oct 2021 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/twitter-data/</guid>
-      <description>&amp;nbsp;
-Nowadays, a lot of linguistics research uses language data from Twitter. At every major linguistics conference, there&#39;s at least one or two people (if not more!) discussing the use of language on this popular social network. Even though doing research on language use on Twitter is quite trendy now, getting the data for research is not that cool. The reason behind this? There are several ways to get Twitter data and each way depends on a variety of factors, which makes the process a bit confusing.</description>
+      <description>Nowadays, a lot of linguistics research uses language data from Twitter. At every major linguistics conference, there&#39;s at least one or two people (if not more!) discussing the use of language on this popular social network. Even though doing research on language use on Twitter is quite trendy now, getting the data for research is not that cool. The reason behind this? There are several ways to get Twitter data and each way depends on a variety of factors, which makes the process a bit confusing.</description>
     </item>
     
     <item>
@@ -100,8 +103,7 @@ Nowadays, a lot of linguistics research uses language data from Twitter. At ever
       <pubDate>Mon, 20 Sep 2021 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/latex-docs/</guid>
-      <description>&amp;nbsp;
-Linguistics papers often include tons of visual information, such as syntax trees, IPA symbols, glosses, and so on. These things are cool because they are helpful to convey your message, but they are sometimes hard to manage when writing your paper with a standard word processor. Who hasn&#39;t drawn a syntax tree using PowerPoint and then taken a screenshot of it to include it in a Word doc?
+      <description>Linguistics papers often include tons of visual information, such as syntax trees, IPA symbols, glosses, and so on. These things are cool because they are helpful to convey your message, but they are sometimes hard to manage when writing your paper with a standard word processor. Who hasn&#39;t drawn a syntax tree using PowerPoint and then taken a screenshot of it to include it in a Word doc?
 Fortunately, Latex exists so we don&#39;t have to deal with these issues.</description>
     </item>
     
@@ -111,8 +113,7 @@ Fortunately, Latex exists so we don&#39;t have to deal with these issues.</descr
       <pubDate>Wed, 25 Aug 2021 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/korpus-peterpan/</guid>
-      <description>&amp;nbsp;
-If you are into language research, you probably use R to analyze your data. One of the good things about R is that you can install packages to extend R&#39;s basic functions. In this blog post, I&#39;d like to introduce you to a very useful package for language research: koRpus.
+      <description>If you are into language research, you probably use R to analyze your data. One of the good things about R is that you can install packages to extend R&#39;s basic functions. In this blog post, I&#39;d like to introduce you to a very useful package for language research: koRpus.
 Despite its name, the R package koRpus was designed to work with individual texts, and not with a collection of texts (I know, this is confusing!</description>
     </item>
     
@@ -122,8 +123,7 @@ Despite its name, the R package koRpus was designed to work with individual text
       <pubDate>Wed, 21 Jul 2021 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/clan-software/</guid>
-      <description>&amp;nbsp;
-In a previous blog post, I wrote about automatic transcription software that you can use to speed up your transcription process. However, chances are that you also want to analyze what you transcribe if you&#39;re working on a research project. Measures such as words per minute or lexical diversity scores are quite common in linguistics research. In this blog post, I introduce you to CLAN, a software that will help you with both transcription and analysis.</description>
+      <description>In a previous blog post, I wrote about automatic transcription software that you can use to speed up your transcription process. However, chances are that you also want to analyze what you transcribe if you&#39;re working on a research project. Measures such as words per minute or lexical diversity scores are quite common in linguistics research. In this blog post, I introduce you to CLAN, a software that will help you with both transcription and analysis.</description>
     </item>
     
     <item>
@@ -132,8 +132,7 @@ In a previous blog post, I wrote about automatic transcription software that you
       <pubDate>Wed, 23 Jun 2021 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/automatic-transcription/</guid>
-      <description>&amp;nbsp;
-Chances are that if you are working on a linguistics project, you might have to transcribe audio recordings in order to analyze them. Transcribing can be a deadly boring process, especially if you have many files or if you are dealing with speakers of non-standard dialects/varieties.
+      <description>Chances are that if you are working on a linguistics project, you might have to transcribe audio recordings in order to analyze them. Transcribing can be a deadly boring process, especially if you have many files or if you are dealing with speakers of non-standard dialects/varieties.
 However, recent advancements in automatic speech recognition (ASR) have led to the development of very cool software that can help you speed up the transcription process.</description>
     </item>
     
@@ -143,8 +142,7 @@ However, recent advancements in automatic speech recognition (ASR) have led to t
       <pubDate>Tue, 18 May 2021 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/twitter-bot/</guid>
-      <description>&amp;nbsp;
-I recently discovered the fascinating world of Twitter bots (what&#39;s that?). Isn&#39;t it amazing that a simple computer program can post random stuff on Twitter all by itself? It probably isn&#39;t, considering that we&#39;re in the middle of a tech revolution, but they&#39;re fun to build, so that&#39;s a good enough reason to waste your time creating one!
+      <description>I recently discovered the fascinating world of Twitter bots (what&#39;s that?). Isn&#39;t it amazing that a simple computer program can post random stuff on Twitter all by itself? It probably isn&#39;t, considering that we&#39;re in the middle of a tech revolution, but they&#39;re fun to build, so that&#39;s a good enough reason to waste your time creating one!
 In this guide, I explain you how to build a Twitter bot from scratch step by step.</description>
     </item>
     

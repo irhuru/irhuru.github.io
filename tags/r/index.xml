@@ -6,10 +6,19 @@
     <description>Recent content in R on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Aug 2021 18:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 10 Mar 2023 18:00:00 -0500</lastBuildDate>
     
 	<atom:link href="https://irhuru.github.io/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Exploring textual data using R Shiny</title>
+      <link>https://irhuru.github.io/blog/rshiny-data/</link>
+      <pubDate>Fri, 10 Mar 2023 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/rshiny-data/</guid>
+      <description>In previous blog posts, I discussed the use of software such as AntConc or Voyant to analyze corpus data. Even though these are very helpful, you can only use them to perform the range of default analyses they offer. But, what if you need more customization? Maybe you want to create your own graphs or explore your data in ways that go beyond traditional KWIC analyses and basic word frequencies. Well, then keep reading because that is totally possible!</description>
+    </item>
     
     <item>
       <title>An analysis of Peter Pan using the R package koRpus</title>
@@ -17,8 +26,7 @@
       <pubDate>Wed, 25 Aug 2021 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/korpus-peterpan/</guid>
-      <description>&amp;nbsp;
-If you are into language research, you probably use R to analyze your data 📊. One of the good things about R is that you can install packages to extend R&amp;rsquo;s basic functions. In this blog post, I&amp;rsquo;d like to introduce you to a very useful package for language research: koRpus.
+      <description>If you are into language research, you probably use R to analyze your data. One of the good things about R is that you can install packages to extend R&#39;s basic functions. In this blog post, I&#39;d like to introduce you to a very useful package for language research: koRpus.
 Despite its name, the R package koRpus was designed to work with individual texts, and not with a collection of texts (I know, this is confusing!</description>
     </item>
     
@@ -28,9 +36,8 @@ Despite its name, the R package koRpus was designed to work with individual text
       <pubDate>Wed, 02 Sep 2020 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/revealjs-r-tutorial/</guid>
-      <description>I recently found out about an R package that allows you to create Reveal.js presentations in R using RMarkdown syntax. If you are like me and love to display cool graphs in your slides, don&amp;rsquo;t miss this short tutorial!
-Why you need to start using Reveal.js in R &amp;nbsp;
-Okay, so you already know how to use PowerPoint. Why using something different then? 🤔 There are many reasons, actually, but one of them is that PowerPoint doesn&amp;rsquo;t allow you to display interactive graphs in your presentation.</description>
+      <description>I recently found out about an R package that allows you to create Reveal.js presentations in R using RMarkdown syntax. If you are like me and love to display cool graphs in your slides, don&#39;t miss this short tutorial!
+Why you need to start using Reveal.js in R Okay, so you already know how to use PowerPoint. Why using something different then? There are many reasons, actually, but one of them is that PowerPoint doesn&#39;t allow you to display interactive graphs in your presentation.</description>
     </item>
     
   </channel>

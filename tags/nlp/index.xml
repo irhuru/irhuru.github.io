@@ -17,8 +17,7 @@
       <pubDate>Sun, 09 Oct 2022 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/voyant-tutorial/</guid>
-      <description>&amp;nbsp;
-If you&amp;rsquo;re into the Digital Humanities, you probably know about the importance of text analysis. Whereas programming languages such as Python or R allow you to do this efficiently, some people prefer to use tools which don&amp;rsquo;t require any coding skills 👨🏻‍💻. A good example of such a tool is Voyant Tools, an open-source web-based application for text analysis. In this blog post, I will show you the basics of using Voyant Tools to analyze a corpus.</description>
+      <description>If you&#39;re into the Digital Humanities, you probably know about the importance of text analysis. Whereas programming languages such as Python or R allow you to do this efficiently, some people prefer to use tools which don&#39;t require any coding skills. A good example of such a tool is Voyant Tools, an open-source web-based application for text analysis. In this blog post, I will show you the basics of using Voyant Tools to analyze a corpus.</description>
     </item>
     
     <item>
@@ -27,9 +26,8 @@ If you&amp;rsquo;re into the Digital Humanities, you probably know about the imp
       <pubDate>Mon, 28 Feb 2022 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/data-annotation-guidelines/</guid>
-      <description>&amp;nbsp;
-Whether you want to build a corpus to document an interesting linguistic phenomenon or simply want to have language data to train your AI models, the process of data annotation is crucial.
-Language data annotation (or text data annotation) is the process of adding labels with relevant information or meta-data. Even though it might seem like a simple process, choosing the right labels for your data is not always easy, as ambiguous data is pretty common 😣.</description>
+      <description>Whether you want to build a corpus to document an interesting linguistic phenomenon or simply want to have language data to train your AI models, the process of data annotation is crucial.
+Language data annotation (or text data annotation) is the process of adding labels with relevant information or meta-data. Even though it might seem like a simple process, choosing the right labels for your data is not always easy, as ambiguous data is pretty common.</description>
     </item>
     
     <item>
@@ -38,8 +36,7 @@ Language data annotation (or text data annotation) is the process of adding labe
       <pubDate>Wed, 25 Aug 2021 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/korpus-peterpan/</guid>
-      <description>&amp;nbsp;
-If you are into language research, you probably use R to analyze your data 📊. One of the good things about R is that you can install packages to extend R&amp;rsquo;s basic functions. In this blog post, I&amp;rsquo;d like to introduce you to a very useful package for language research: koRpus.
+      <description>If you are into language research, you probably use R to analyze your data. One of the good things about R is that you can install packages to extend R&#39;s basic functions. In this blog post, I&#39;d like to introduce you to a very useful package for language research: koRpus.
 Despite its name, the R package koRpus was designed to work with individual texts, and not with a collection of texts (I know, this is confusing!</description>
     </item>
     
@@ -49,8 +46,7 @@ Despite its name, the R package koRpus was designed to work with individual text
       <pubDate>Tue, 18 May 2021 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/twitter-bot/</guid>
-      <description>&amp;nbsp;
-I recently discovered the fascinating world of Twitter bots (what&amp;rsquo;s that?). Isn&amp;rsquo;t it amazing that a simple computer program can post random stuff on Twitter all by itself? 😎✨ It probably isn&amp;rsquo;t, considering that we&amp;rsquo;re in the middle of a tech revolution, but they&amp;rsquo;re fun to build, so that&amp;rsquo;s a good enough reason to waste your time creating one!
+      <description>I recently discovered the fascinating world of Twitter bots (what&#39;s that?). Isn&#39;t it amazing that a simple computer program can post random stuff on Twitter all by itself? It probably isn&#39;t, considering that we&#39;re in the middle of a tech revolution, but they&#39;re fun to build, so that&#39;s a good enough reason to waste your time creating one!
 In this guide, I explain you how to build a Twitter bot from scratch step by step.</description>
     </item>
     
@@ -60,7 +56,8 @@ In this guide, I explain you how to build a Twitter bot from scratch step by ste
       <pubDate>Fri, 19 Mar 2021 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/haiku-generator/</guid>
-      <description>What is a haiku? I&amp;rsquo;m sure you have heard the term haiku at least once in your life. Haiku is a type of short form poetry that originated in Japan 🇯🇵. These pieces of poetry consist of three phrases, where the first and third line have 5 syllables each and the second one has 7 syllables. This makes a total of 17 syllables per poem which follow a 5-7-5 pattern.</description>
+      <description>What is a haiku? I&#39;m sure you have heard the term haiku at least once in your life. Haiku is a type of short form poetry that originated in Japan. These pieces of poetry consist of three phrases, where the first and third line have 5 syllables each and the second one has 7 syllables. This makes a total of 17 syllables per poem which follow a 5-7-5 pattern.
+Haikus have become popular in other cultures too.</description>
     </item>
     
   </channel>

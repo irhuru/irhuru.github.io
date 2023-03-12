@@ -17,9 +17,8 @@
       <pubDate>Wed, 02 Sep 2020 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/revealjs-r-tutorial/</guid>
-      <description>I recently found out about an R package that allows you to create Reveal.js presentations in R using RMarkdown syntax. If you are like me and love to display cool graphs in your slides, don&amp;rsquo;t miss this short tutorial!
-Why you need to start using Reveal.js in R &amp;nbsp;
-Okay, so you already know how to use PowerPoint. Why using something different then? 🤔 There are many reasons, actually, but one of them is that PowerPoint doesn&amp;rsquo;t allow you to display interactive graphs in your presentation.</description>
+      <description>I recently found out about an R package that allows you to create Reveal.js presentations in R using RMarkdown syntax. If you are like me and love to display cool graphs in your slides, don&#39;t miss this short tutorial!
+Why you need to start using Reveal.js in R Okay, so you already know how to use PowerPoint. Why using something different then? There are many reasons, actually, but one of them is that PowerPoint doesn&#39;t allow you to display interactive graphs in your presentation.</description>
     </item>
     
   </channel>

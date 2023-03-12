@@ -17,8 +17,7 @@
       <pubDate>Wed, 10 Aug 2022 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/antconc-corpus/</guid>
-      <description>&amp;nbsp;
-If you&amp;rsquo;re interested in corpus linguistics, you probably know that some of the things this field involves includes searching for patterns in a group of texts (e.g., find frequent words or collocations). This can be easily done using a programming language like Python or R 👩🏻‍💻. But, what if you don&amp;rsquo;t have much experience with programming languages? Well, this is where a tool like AntConc becomes useful!
+      <description>If you&#39;re interested in corpus linguistics, you probably know that some of the things this field involves includes searching for patterns in a group of texts (e.g., find frequent words or collocations). This can be easily done using a programming language like Python or R. But, what if you don&#39;t have much experience with programming languages? Well, this is where a tool like AntConc becomes useful!
 AntConc is a free corpus analysis software that can easily help you identify patterns in a collection of texts.</description>
     </item>
     
