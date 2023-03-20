@@ -11,48 +11,13 @@
     
     
     <item>
-      <title>Automatic Dialect Classifier</title>
-      <link>https://irhuru.github.io/projects/dialect-classifier/</link>
+      <title>Bilinguals in the Midwest (BILinMID) Corpus</title>
+      <link>https://irhuru.github.io/projects/bilinmid_corpus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://irhuru.github.io/projects/dialect-classifier/</guid>
-      <description>This project uses machine learning to detect the dialect a particular sentence belongs to. Currently, the model distinguishes between Mexican Spanish 🇲🇽 and Peninsular Spanish 🇪🇸.
-The model is trained on text data coming from subtitles of movies produced both in Mexico and in Spain.
-The project was conducted using Python.
-You can read more about it on this blog post or check out the code on Github.</description>
-    </item>
-    
-    <item>
-      <title>Haiku Generator</title>
-      <link>https://irhuru.github.io/projects/haiku-generator/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://irhuru.github.io/projects/haiku-generator/</guid>
-      <description>This project produces a random haiku generator.
-By using texts coming from actual books, a Python script automatically extracts words and outputs a haiku (a text that follows the 5-7-5 syllable rule).
-Texts were taken from Project Gutenberg, an online library of more than 60,000 books. Among the Python libraries used for this project were SpaCy and SyllaPy.
-You can learn more about this project by reading this blog post or by checking out the code on Github.</description>
-    </item>
-    
-    <item>
-      <title>Twitter Bot</title>
-      <link>https://irhuru.github.io/projects/twitter-bot/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://irhuru.github.io/projects/twitter-bot/</guid>
-      <description>This project creates a Twitter bot that would tweet the most played song in the world every day, based on data from Spotify charts. The bot lives here 🤖.
-To extract the relevant info from Spotify charts, the Python library BeautifulSoup was imported, which is used for web-scraping.
-Check out the code on Github to learn more about the project.</description>
-    </item>
-    
-    <item>
-      <title>Experimental Linguistics with Ibex Farm</title>
-      <link>https://irhuru.github.io/projects/ibex_farm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://irhuru.github.io/projects/ibex_farm/</guid>
-      <description>Ibex Farm 🐐 is an online resource that allows you to create psycholinguistic experiments that you can then send to participants. Ibex Farm runs using JavaScript, HTML, and CSS 💻.
-The cool thing about it is that it is highly customizable and it allows you to measure reaction times (RTs) and to randomize items, among other things. You can check out the Ibex Farm website here and its documentation here.</description>
+      <guid>https://irhuru.github.io/projects/bilinmid_corpus/</guid>
+      <description>The Bilinguals in the Midwest (BILinMID) Corpus documents the Spanish and English spoken in the Midwest of the United States by different types of bilinguals. The corpus comprises written transcriptions of The Little Red Riding Hood fairy tale, which participants narrated orally. This is the first corpus to document the Spanish and English spoken in this region of the United States.
+The bilingual speakers who participated in the study were either born in the United States or in a Spanish-speaking country, but at the time they were recorded, they had all lived in the United States for a long period of time.</description>
     </item>
     
     <item>
@@ -61,29 +26,27 @@ The cool thing about it is that it is highly customizable and it allows you to m
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://irhuru.github.io/projects/hl_writing/</guid>
-      <description>Heritage speakers are a specific type of bilingual speakers who grew up exposed to a home language different from the one spoken by majority in society. When heritage speakers start school, they learn the majority language which, in most cases, ends up being their dominant language 🗣️.
-In the context of the United States 🇺🇸, some colleges offer language courses specifically designed for heritage speakers, whereas others offer only mixed language courses (i.</description>
+      <description>The Heritage Language Writing project sought to examine the development of Spanish heritage language learners&#39; writing abilities over the course of a semester. For this project, a corpus was created using written data from a total of 24 Spanish heritage language learners enrolled in a writing course at the college level. The data consisted of essays and other writing assignments that learners completed throughout the semester.
+After the corpus was created, data was imported into R and analyzed using natural language processing tools and techniques in order to explore different areas: lexical density, lexical diversity, syntactic complexity, lexical sophistication.</description>
     </item>
     
     <item>
-      <title>Bilinguals in the Midwest (BILinMID) Corpus</title>
-      <link>https://irhuru.github.io/projects/bilinmid_corpus/</link>
+      <title>Automatic Dialect Classifier</title>
+      <link>https://irhuru.github.io/projects/dialect-classifier/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://irhuru.github.io/projects/bilinmid_corpus/</guid>
-      <description>This corpus documents the Spanish and English spoken by bilinguals living in the Midwest of the United States. The corpus comprises written transcriptions of the Little Red Riding Hood fairy tale as narrated by several bilingual speakers. These stories were elicited using a children&amp;rsquo;s book (containing only images, not text) 📖.
-Bilingual speakers were either born in the United States or in a Spanish-speaking country (e.g., Mexico, Spain&amp;hellip;), and they were fluent in both English and Spanish, though their level of proficiency differed based on individual variables, such as length of residence in the United States, country of birth, etc.</description>
+      <guid>https://irhuru.github.io/projects/dialect-classifier/</guid>
+      <description>Language detection algorithms help identify the language of a given text. For example, this type of algorithms could determine that a sentence like &#34;Mary bakes a cake&#34; is written in English, whereas &#34;María cocina un pastel&#34; is written in Spanish. This project goes a step further and tries to identify the particular dialect of a text. Specifically, by using machine learning, the algorithm can detect whether a Spanish sentence belongs to the Mexican or to the Peninsular variety of the language.</description>
     </item>
     
     <item>
-      <title>The Languages of Frida Kahlo</title>
-      <link>https://irhuru.github.io/projects/frida_kahlo/</link>
+      <title>Structural Priming</title>
+      <link>https://irhuru.github.io/projects/structural-priming/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://irhuru.github.io/projects/frida_kahlo/</guid>
-      <description>This project compares the English and Spanish subtitles from the movie Frida (2002) 🎥. Subtitle files were imported into R and examined using several natural language processing (NLP) tools and techniques, such as:
- Tokenization Bigrams Sentiment analysis  Results were also plotted for a better interpretation 📊📈. Some of the packages used include:
- tidyverse tidytext stringi igraph ggraph syuzhet  You can find the code here.</description>
+      <guid>https://irhuru.github.io/projects/structural-priming/</guid>
+      <description>Structural priming is a psycholinguistic phenomenon observed in language production and language comprehension that consists of a tendency to repeat a linguistic structure one has previously been exposed to. Structural priming has been attested in human-human interaction, but also in human-computer interaction. There is currently a huge scientific debate regarding what structural priming means or why it occurs in the first place.
+The Structural Priming project is actually a set of smaller projects that seek to shed light on the phenomenon of structural priming.</description>
     </item>
     
   </channel>
