@@ -1,294 +1,176 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://irhuru.github.io/projects/bilinmid_corpus/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/projects/hl_writing/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/projects/dialect-classifier/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/projects/structural-priming/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/projects/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/blog/</loc>
     <lastmod>2023-03-10T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/resources/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/analysis/</loc>
     <lastmod>2023-03-10T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/data/</loc>
     <lastmod>2023-03-10T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/blog/rshiny-data/</loc>
     <lastmod>2023-03-10T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/</loc>
     <lastmod>2023-03-10T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/r/</loc>
     <lastmod>2023-03-10T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/</loc>
     <lastmod>2023-03-10T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/blog/voyant-tutorial/</loc>
     <lastmod>2022-10-09T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/corpus/</loc>
     <lastmod>2022-10-09T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/language/</loc>
     <lastmod>2022-10-09T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/nlp/</loc>
     <lastmod>2022-10-09T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/ai/</loc>
     <lastmod>2022-09-12T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/conversation/</loc>
     <lastmod>2022-09-12T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/blog/ai-voices/</loc>
     <lastmod>2022-09-12T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/blog/antconc-corpus/</loc>
     <lastmod>2022-08-10T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/antconc/</loc>
     <lastmod>2022-08-10T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/hci/</loc>
     <lastmod>2022-07-01T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/blog/anthropomorphism-language/</loc>
     <lastmod>2022-07-01T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/linguistics/</loc>
     <lastmod>2022-05-20T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/blog/phonetic-transcription/</loc>
     <lastmod>2022-05-20T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/phonetics/</loc>
     <lastmod>2022-05-20T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/transcription/</loc>
     <lastmod>2022-05-20T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/blog/computer-speak/</loc>
     <lastmod>2022-04-15T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/computer/</loc>
     <lastmod>2022-04-15T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/blog/data-annotation-guidelines/</loc>
     <lastmod>2022-02-28T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/blog/twitter-data/</loc>
     <lastmod>2021-10-27T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/twitter/</loc>
     <lastmod>2021-10-27T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/latex/</loc>
     <lastmod>2021-09-20T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/blog/latex-docs/</loc>
     <lastmod>2021-09-20T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/writing/</loc>
     <lastmod>2021-09-20T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/blog/korpus-peterpan/</loc>
     <lastmod>2021-08-25T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/audio/</loc>
     <lastmod>2021-07-21T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/text/</loc>
     <lastmod>2021-07-21T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/blog/clan-software/</loc>
     <lastmod>2021-07-21T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/blog/automatic-transcription/</loc>
     <lastmod>2021-06-23T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/blog/twitter-bot/</loc>
     <lastmod>2021-05-18T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/bot/</loc>
     <lastmod>2021-05-18T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/python/</loc>
     <lastmod>2021-05-18T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/blog/haiku-generator/</loc>
     <lastmod>2021-03-19T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/poetry/</loc>
     <lastmod>2021-03-19T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/data-analysis/</loc>
     <lastmod>2021-01-17T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/machine-learning/</loc>
     <lastmod>2021-01-17T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/blog/dialect-classifier/</loc>
     <lastmod>2021-01-17T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/amazon/</loc>
     <lastmod>2020-11-10T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/research/</loc>
     <lastmod>2020-11-10T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/survey/</loc>
     <lastmod>2020-11-10T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/blog/amazon-mechanical-turk/</loc>
     <lastmod>2020-11-10T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/blog/revealjs-r-tutorial/</loc>
     <lastmod>2020-09-02T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/plotly/</loc>
     <lastmod>2020-09-02T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/reveal.js/</loc>
     <lastmod>2020-09-02T18:00:00-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/blog/coming-soon/</loc>
     <lastmod>2020-07-22T11:04:06-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/blogger/</loc>
     <lastmod>2020-07-22T11:04:06-05:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://irhuru.github.io/tags/words/</loc>
     <lastmod>2020-07-22T11:04:06-05:00</lastmod>
   </url>
-  
 </urlset>
