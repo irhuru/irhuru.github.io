@@ -2,31 +2,27 @@
 <html lang="en-us">
     <head>
         
-<script type="application/javascript">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9FGN30NREL"></script>
+<script>
 var doNotTrack = false;
 if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'G-9FGN30NREL', 'auto');
-	
-	ga('send', 'pageview');
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-9FGN30NREL', { 'anonymize_ip': false });
 }
 </script>
 
         
         
-<script type="application/javascript">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9FGN30NREL"></script>
+<script>
 var doNotTrack = false;
 if (!doNotTrack) {
-	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-	ga('create', 'G-9FGN30NREL', 'auto');
-	
-	ga('send', 'pageview');
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-9FGN30NREL', { 'anonymize_ip': false });
 }
 </script>
 
@@ -69,7 +65,7 @@ How to Create Stunning Presentations Using Reveal.js in R - Irati Hurtado
 
 
 
-<link rel="stylesheet" href="/css/main.min.681afab63be57d0e9c39a04baceb68b1c577b6f44bbdf96747c7bf1c342b0c98.css" integrity="sha256-aBr6tjvlfQ6cOaBLrOtoscV3tvRLvflnR8e/HDQrDJg=" crossorigin="anonymous" media="screen">
+<link rel="stylesheet" href="/css/main.min.86bc312985642d80d3421724d2f3c0b47367fe31beec396e3df8daed4a93440f.css" integrity="sha256-hrwxKYVkLYDTQhck0vPAtHNn/jG&#43;7DluPfja7UqTRA8=" crossorigin="anonymous" media="screen">
 
 
 
@@ -216,7 +212,8 @@ How to Create Stunning Presentations Using Reveal.js in R - Irati Hurtado
 <p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">I recently found out about an R package that allows you to create Reveal.js presentations in R using RMarkdown syntax. If you are like me and love to display cool graphs in your slides, don't miss this short tutorial!</p>
 <h3 style="font-family: Verdana, Geneva, sans-serif">Why you need to start using Reveal.js in R</h3>
 <p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Okay, so you already know how to use PowerPoint. Why using something different then? There are many reasons, actually, but one of them is that <b>PowerPoint doesn't allow you to display interactive graphs in your presentation</b>.</p>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Interactive graphs are becoming more and more popular nowadays thanks to the <b>development of different graphing libraries and packages</b>. One of the tools I use often is <b><a href="https://plotly.com/graphing-libraries/">Plotly</a></b>, which can be used with either Python, R, or Javascript.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Interactive graphs are becoming more and more popular nowadays thanks to the <b>development of different graphing libraries and packages</b>. One of the tools I use often is <b><a href="https://plotly.com/graphing-libraries/">Plotly</a></b>, which can be used with either Python, R, or Javascript. Look how cool interactive graphs are by hovering over the image below!</p>
+<iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://chart-studio.plotly.com/~chelsea_lyn/9211.embed" height="1000" width="100%"></iframe>
 <p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">I personally use R because I normally analyze my data in RStudio, so it's very convenient for me to plot my results directly there. Unfortunately, PowerPoint doesn't allow you to insert these cool graphs in your slides. If you did, these would be displayed as static graphs, which is not what we want!</p>
 <p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">One possible solution for this would be to use a <b>presentation software that allows you to insert your interactive graph as an iframe</b>. In fact, <a href="https://revealjs.com">Reveal.js</a> does precisely that. However, in order to use it you need to build your slides from scratch using HTML, CSS, and Javascript. In other words, this means coding, coding, and more coding.</p>
 <p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Luckily, there's an <b>R package that allows you to create your Reveal.js presentation from RStudio</b> using RMarkdown syntax.</p>
@@ -228,7 +225,7 @@ install.packages(plotly)
 </code></pre><p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">(<i>Note</i>: I'm assuming you have already installed <a href="https://rmarkdown.rstudio.com">RMarkdown</a>).</p>
 <h4 style="font-family: Verdana, Geneva, sans-serif">Create a new RMarkdown document</h4>
 <p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">When you have your packages ready, <b>open a new RMarkdown document</b> in RStudio and save it.</p>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">You will have to <b>insert the following info</b> on top (of course, you can modify the title and author, or even add a date):</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">You will have to <b>insert the following info</b> at the top (of course, you can modify the title and author, or even add a date):</p>
 <pre><code>---
 title: &quot;My presentation&quot;
 author: My name
@@ -258,7 +255,7 @@ It is the lingua franca of the Arab world.
 Swedish is predominantly spoken in Sweden.
 It is mutually intelligible with Norwegian and Danish.
 </code></pre><p>&nbsp;</p>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">An important thing to keep in mind is that <b>you can't add content below main slides</b> (i.e.,<code># Slide title</code>), since they are considered title slides.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Something important to keep in mind is that <b>you can't add content below main slides</b> (i.e.,<code># Slide title</code>), since they are considered title slides.</p>
 <h4 style="font-family: Verdana, Geneva, sans-serif">Create interactive graphs</h4>
 <p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">This is the fun part!</p>
 <p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">You can now use the <code>plotly</code> library and add the code for your graphs directly below a <code>## Slide title</code>. You can find some sample Plotly graphs (together with their R code) <a href="https://plotly.com/r/">here</a>.</p>
@@ -334,7 +331,7 @@ s.setAttribute('data-timestamp', +new Date());
         
 
 
-<script src="https://irhuru.github.io/js/bundle.e6934e69d06bb8a213134f4c1468f9478bb7755e786dfb60e3c5a917c5335805.js" integrity="sha256-5pNOadBruKITE09MFGj5R4u3dV54bftg48WpF8UzWAU="></script>
+<script src="https://irhuru.github.io/js/bundle.6eebba84ae610cff07aa65e4876c525fbfd13ffcb54222549ed8f5d9af10a7f2.js" integrity="sha256-buu6hK5hDP8HqmXkh2xSX7/RP/y1QiJUntj12a8Qp/I="></script>
 
 
         
