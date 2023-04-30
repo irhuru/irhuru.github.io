@@ -6,11 +6,7 @@
     <description>Recent content in Poetry on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Mar 2021 18:00:00 -0500</lastBuildDate>
-    
-	<atom:link href="https://irhuru.github.io/tags/poetry/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 19 Mar 2021 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/tags/poetry/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating a Haiku generator with Python</title>
       <link>https://irhuru.github.io/blog/haiku-generator/</link>
