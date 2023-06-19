@@ -6,7 +6,17 @@
     <description>Recent content in Blog on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Mar 2023 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Jun 2023 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How human-like are the linguistic abilities of ChatGPT?</title>
+      <link>https://irhuru.github.io/blog/chatgpt-language/</link>
+      <pubDate>Fri, 16 Jun 2023 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/chatgpt-language/</guid>
+      <description>The arrival of ChatGPT at the end of last year has sparked a debate about how it could impact several different fields, ranging from education, to content creation, to finance and to many others. This NLP tool is the epitome of generative AI, a type of technology that “generates” content, hence the name, after being trained on large amounts of data. In this case, text data.
+From a linguistic perspective, it’s exciting to see how ChatGPT outputs seem natural and convincing, leading many to assert that it behaves in a human-like way.</description>
+    </item>
+    
     <item>
       <title>Exploring textual data using R Shiny</title>
       <link>https://irhuru.github.io/blog/rshiny-data/</link>
