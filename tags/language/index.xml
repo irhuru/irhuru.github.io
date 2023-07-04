@@ -6,7 +6,16 @@
     <description>Recent content in language on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 09 Oct 2022 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/tags/language/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Jul 2023 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/tags/language/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Are there standards for the annotation of language corpora?</title>
+      <link>https://irhuru.github.io/blog/language-corpora-annotation/</link>
+      <pubDate>Sun, 02 Jul 2023 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/language-corpora-annotation/</guid>
+      <description>Some weeks ago, I attended a conference where several of the presenters discussed language corpora they had created as part of different research projects. During the Q&amp;A turn of the last presenter, an award-winning researcher and creator of various corpora, one of the attendees raised their hand and asked: “I have attended five talks today discussing language corpora and each corpus employed different annotation schemes. Wouldn’t it be convenient to have a set of standards for corpus annotation that everyone could use?</description>
+    </item>
+    
     <item>
       <title>An introduction to Voyant Tools for corpus analysis</title>
       <link>https://irhuru.github.io/blog/voyant-tutorial/</link>

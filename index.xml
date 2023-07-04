@@ -6,7 +6,7 @@
     <description>Recent content on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 16 Jun 2023 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Jul 2023 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bilinguals in the Midwest (BILinMID) Corpus</title>
       <link>https://irhuru.github.io/projects/bilinmid_corpus/</link>
@@ -44,6 +44,15 @@ After the corpus was created, data was imported into R and analyzed using natura
       <guid>https://irhuru.github.io/projects/structural-priming/</guid>
       <description>Structural priming is a psycholinguistic phenomenon observed in language production and language comprehension that consists of a tendency to repeat a linguistic structure one has previously been exposed to. Structural priming has been attested in human-human interaction, but also in human-computer interaction. There is currently a huge scientific debate regarding what structural priming means or why it occurs in the first place.
 The Structural Priming project is actually a set of smaller projects that seek to shed light on the phenomenon of structural priming.</description>
+    </item>
+    
+    <item>
+      <title>Are there standards for the annotation of language corpora?</title>
+      <link>https://irhuru.github.io/blog/language-corpora-annotation/</link>
+      <pubDate>Sun, 02 Jul 2023 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/language-corpora-annotation/</guid>
+      <description>Some weeks ago, I attended a conference where several of the presenters discussed language corpora they had created as part of different research projects. During the Q&amp;A turn of the last presenter, an award-winning researcher and creator of various corpora, one of the attendees raised their hand and asked: “I have attended five talks today discussing language corpora and each corpus employed different annotation schemes. Wouldn’t it be convenient to have a set of standards for corpus annotation that everyone could use?</description>
     </item>
     
     <item>
