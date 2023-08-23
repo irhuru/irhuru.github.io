@@ -6,17 +6,7 @@
     <description>Recent content in Blog on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Jul 2023 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Free software for conversation design</title>
-      <link>https://irhuru.github.io/blog/cxd-software/</link>
-      <pubDate>Wed, 19 Jul 2023 18:00:00 -0500</pubDate>
-      
-      <guid>https://irhuru.github.io/blog/cxd-software/</guid>
-      <description>In the ever-evolving landscape of conversational AI and its applications, it’s crucial to understand the various tools available to craft compelling conversational experiences. If you’re new in this field and want to design your first conversations, you might want to try some of the most popular conversation design software. In this blog post, I review Voiceflow and Landbot, which are widely used and which offer free plans for beginners.
-Voiceflow Voiceflow is a software used both for prototyping and for designing conversations.</description>
-    </item>
-    
+    <lastBuildDate>Sun, 02 Jul 2023 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Are there standards for the annotation of language corpora?</title>
       <link>https://irhuru.github.io/blog/language-corpora-annotation/</link>
@@ -24,6 +14,16 @@ Voiceflow Voiceflow is a software used both for prototyping and for designing co
       
       <guid>https://irhuru.github.io/blog/language-corpora-annotation/</guid>
       <description>Some weeks ago, I attended a conference where several of the presenters discussed language corpora they had created as part of different research projects. During the Q&amp;A turn of the last presenter, an award-winning researcher and creator of various corpora, one of the attendees raised their hand and asked: “I have attended five talks today discussing language corpora and each corpus employed different annotation schemes. Wouldn’t it be convenient to have a set of standards for corpus annotation that everyone could use?</description>
+    </item>
+    
+    <item>
+      <title>Free software for conversation design</title>
+      <link>https://irhuru.github.io/blog/cxd-software/</link>
+      <pubDate>Fri, 30 Jun 2023 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/cxd-software/</guid>
+      <description>In the ever-evolving landscape of conversational AI and its applications, it’s crucial to understand the various tools available to craft compelling conversational experiences. If you’re new in this field and want to design your first conversations, you might want to try some of the most popular conversation design software. In this blog post, I review Voiceflow and Landbot, which are widely used and which offer free plans for beginners.
+Voiceflow Voiceflow is a software used both for prototyping and for designing conversations.</description>
     </item>
     
     <item>
