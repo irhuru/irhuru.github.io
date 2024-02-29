@@ -6,15 +6,14 @@
     <description>Recent content in language on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Jul 2023 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/tags/language/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Feb 2024 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/tags/language/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Free software for conversation design</title>
-      <link>https://irhuru.github.io/blog/cxd-software/</link>
-      <pubDate>Wed, 19 Jul 2023 18:00:00 -0500</pubDate>
+      <title>Can we make LLMs learn in a more human-like way?</title>
+      <link>https://irhuru.github.io/blog/language-learning/</link>
+      <pubDate>Wed, 28 Feb 2024 18:00:00 -0500</pubDate>
       
-      <guid>https://irhuru.github.io/blog/cxd-software/</guid>
-      <description>In the ever-evolving landscape of conversational AI and its applications, it’s crucial to understand the various tools available to craft compelling conversational experiences. If you’re new in this field and want to design your first conversations, you might want to try some of the most popular conversation design software. In this blog post, I review Voiceflow and Landbot, which are widely used and which offer free plans for beginners.
-Voiceflow Voiceflow is a software used both for prototyping and for designing conversations.</description>
+      <guid>https://irhuru.github.io/blog/language-learning/</guid>
+      <description>The difference between artificial intelligence (AI) and human intelligence is well known: whereas humans use their brain, their memory, and other cognitive abilities, AI uses data provided by humans. In fact, AI uses a lot of data. For example, large language models (LLMs), a type of generative AI, are trained on huge amounts of data. The Common Crawl archive, which is LLMs&#39; primary source of data, contains around 3 billion web pages and 400 TB of unocmpressed data.</description>
     </item>
     
     <item>
@@ -24,6 +23,16 @@ Voiceflow Voiceflow is a software used both for prototyping and for designing co
       
       <guid>https://irhuru.github.io/blog/language-corpora-annotation/</guid>
       <description>Some weeks ago, I attended a conference where several of the presenters discussed language corpora they had created as part of different research projects. During the Q&amp;A turn of the last presenter, an award-winning researcher and creator of various corpora, one of the attendees raised their hand and asked: “I have attended five talks today discussing language corpora and each corpus employed different annotation schemes. Wouldn’t it be convenient to have a set of standards for corpus annotation that everyone could use?</description>
+    </item>
+    
+    <item>
+      <title>Free software for conversation design</title>
+      <link>https://irhuru.github.io/blog/cxd-software/</link>
+      <pubDate>Fri, 30 Jun 2023 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/cxd-software/</guid>
+      <description>In the ever-evolving landscape of conversational AI and its applications, it’s crucial to understand the various tools available to craft compelling conversational experiences. If you’re new in this field and want to design your first conversations, you might want to try some of the most popular conversation design software. In this blog post, I review Voiceflow and Landbot, which are widely used and which offer free plans for beginners.
+Voiceflow Voiceflow is a software used both for prototyping and for designing conversations.</description>
     </item>
     
     <item>

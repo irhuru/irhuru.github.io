@@ -6,7 +6,16 @@
     <description>Recent content in AI on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 12 Sep 2022 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Feb 2024 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/tags/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Can we make LLMs learn in a more human-like way?</title>
+      <link>https://irhuru.github.io/blog/language-learning/</link>
+      <pubDate>Wed, 28 Feb 2024 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/language-learning/</guid>
+      <description>The difference between artificial intelligence (AI) and human intelligence is well known: whereas humans use their brain, their memory, and other cognitive abilities, AI uses data provided by humans. In fact, AI uses a lot of data. For example, large language models (LLMs), a type of generative AI, are trained on huge amounts of data. The Common Crawl archive, which is LLMs&#39; primary source of data, contains around 3 billion web pages and 400 TB of unocmpressed data.</description>
+    </item>
+    
     <item>
       <title>The little-known history of synthetic voices</title>
       <link>https://irhuru.github.io/blog/ai-voices/</link>

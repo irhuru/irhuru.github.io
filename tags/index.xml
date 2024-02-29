@@ -6,31 +6,31 @@
     <description>Recent content in Tags on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 19 Jul 2023 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Feb 2024 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>design</title>
-      <link>https://irhuru.github.io/tags/design/</link>
-      <pubDate>Wed, 19 Jul 2023 18:00:00 -0500</pubDate>
+      <title>AI</title>
+      <link>https://irhuru.github.io/tags/ai/</link>
+      <pubDate>Wed, 28 Feb 2024 18:00:00 -0500</pubDate>
       
-      <guid>https://irhuru.github.io/tags/design/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hci</title>
-      <link>https://irhuru.github.io/tags/hci/</link>
-      <pubDate>Wed, 19 Jul 2023 18:00:00 -0500</pubDate>
-      
-      <guid>https://irhuru.github.io/tags/hci/</guid>
+      <guid>https://irhuru.github.io/tags/ai/</guid>
       <description></description>
     </item>
     
     <item>
       <title>language</title>
       <link>https://irhuru.github.io/tags/language/</link>
-      <pubDate>Wed, 19 Jul 2023 18:00:00 -0500</pubDate>
+      <pubDate>Wed, 28 Feb 2024 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/tags/language/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nlp</title>
+      <link>https://irhuru.github.io/tags/nlp/</link>
+      <pubDate>Wed, 28 Feb 2024 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/tags/nlp/</guid>
       <description></description>
     </item>
     
@@ -49,6 +49,24 @@
       <pubDate>Sun, 02 Jul 2023 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/tags/corpora/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>design</title>
+      <link>https://irhuru.github.io/tags/design/</link>
+      <pubDate>Fri, 30 Jun 2023 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/tags/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hci</title>
+      <link>https://irhuru.github.io/tags/hci/</link>
+      <pubDate>Fri, 30 Jun 2023 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/tags/hci/</guid>
       <description></description>
     </item>
     
@@ -103,24 +121,6 @@
       <pubDate>Sun, 09 Oct 2022 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/tags/corpus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>nlp</title>
-      <link>https://irhuru.github.io/tags/nlp/</link>
-      <pubDate>Sun, 09 Oct 2022 18:00:00 -0500</pubDate>
-      
-      <guid>https://irhuru.github.io/tags/nlp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>AI</title>
-      <link>https://irhuru.github.io/tags/ai/</link>
-      <pubDate>Mon, 12 Sep 2022 18:00:00 -0500</pubDate>
-      
-      <guid>https://irhuru.github.io/tags/ai/</guid>
       <description></description>
     </item>
     
