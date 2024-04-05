@@ -6,7 +6,7 @@
     <description>Recent content on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 08 Mar 2024 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 04 Apr 2024 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Language corpora</title>
       <link>https://irhuru.github.io/projects/language-corpora/</link>
@@ -46,6 +46,15 @@ The Structural Priming project is actually a set of smaller projects that seek t
       <guid>https://irhuru.github.io/projects/natural-language-proc/</guid>
       <description>Haiku generator A haiku is a type of short form poetry that originated in Japan and that consists of three phrases, where the first and third line have 5 syllables each and the second one has 7 syllables. This makes a total of 17 syllables per poem which follow a 5-7-5 pattern.
 Using the natural language processing library spaCy and a dataset of random texts taken from Project Gutenberg, I developed a haiku generator in Python.</description>
+    </item>
+    
+    <item>
+      <title>Why is there a preference for female voices in AI virtual assistants?</title>
+      <link>https://irhuru.github.io/blog/gendered-ai-assistants/</link>
+      <pubDate>Thu, 04 Apr 2024 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/gendered-ai-assistants/</guid>
+      <description>If you ask Amazon Alexa if it is a woman, it will answer &#34;I&#39;m not a woman, I&#39;m an AI&#34;. In fact, the majority of AI virtual assistants are designed to be genderless (think of AI virtual assistants like Siri, Cortana, or Google Assistant). After all, they are simply made of code. Surprisingly, most of these AI virtual assistants use clear female voices when interacting with users. But, why is that?</description>
     </item>
     
     <item>
