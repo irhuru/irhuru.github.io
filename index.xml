@@ -6,7 +6,7 @@
     <description>Recent content on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Apr 2024 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Apr 2024 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Language corpora</title>
       <link>https://irhuru.github.io/projects/language-corpora/</link>
@@ -49,20 +49,21 @@ Using the natural language processing library spaCy and a dataset of random text
     </item>
     
     <item>
+      <title>Is learning a programming language similar to learning a natural language?</title>
+      <link>https://irhuru.github.io/blog/programming-languages/</link>
+      <pubDate>Fri, 19 Apr 2024 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/programming-languages/</guid>
+      <description>Programming languages are systems of notation used for writing computer programs (e.g., Java), whereas natural languages are systems of communication that have developed naturally in human communities (e.g., French). Despite both of them being languages, little is known about whether learning a programming language is similar to learning a natural language.
+What does the research say? Traditionally, learning programming languages has been associated with mathematical skills. In fact, this is what happens in most STEM degrees, where students are required to have a solid background in algebra, calculus, and other branches of mathematics.</description>
+    </item>
+    
+    <item>
       <title>Why is there a preference for female voices in AI virtual assistants?</title>
       <link>https://irhuru.github.io/blog/gendered-ai-assistants/</link>
       <pubDate>Thu, 04 Apr 2024 18:00:00 -0500</pubDate>
       
       <guid>https://irhuru.github.io/blog/gendered-ai-assistants/</guid>
-      <description>If you ask Amazon Alexa if it is a woman, it will answer &#34;I&#39;m not a woman, I&#39;m an AI&#34;. In fact, the majority of AI virtual assistants are designed to be genderless (think of AI virtual assistants like Siri, Cortana, or Google Assistant). After all, they are simply made of code. Surprisingly, most of these AI virtual assistants use clear female voices when interacting with users. But, why is that?</description>
-    </item>
-    
-    <item>
-      <title>Why is there a preference for female voices in AI virtual assistants?</title>
-      <link>https://irhuru.github.io/blog/programming-languages/</link>
-      <pubDate>Thu, 04 Apr 2024 18:00:00 -0500</pubDate>
-      
-      <guid>https://irhuru.github.io/blog/programming-languages/</guid>
       <description>If you ask Amazon Alexa if it is a woman, it will answer &#34;I&#39;m not a woman, I&#39;m an AI&#34;. In fact, the majority of AI virtual assistants are designed to be genderless (think of AI virtual assistants like Siri, Cortana, or Google Assistant). After all, they are simply made of code. Surprisingly, most of these AI virtual assistants use clear female voices when interacting with users. But, why is that?</description>
     </item>
     

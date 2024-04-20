@@ -6,7 +6,17 @@
     <description>Recent content in Blog on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 04 Apr 2024 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Apr 2024 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Is learning a programming language similar to learning a natural language?</title>
+      <link>https://irhuru.github.io/blog/programming-languages/</link>
+      <pubDate>Fri, 19 Apr 2024 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/programming-languages/</guid>
+      <description>Programming languages are systems of notation used for writing computer programs (e.g., Java), whereas natural languages are systems of communication that have developed naturally in human communities (e.g., French). Despite both of them being languages, little is known about whether learning a programming language is similar to learning a natural language.
+What does the research say? Traditionally, learning programming languages has been associated with mathematical skills. In fact, this is what happens in most STEM degrees, where students are required to have a solid background in algebra, calculus, and other branches of mathematics.</description>
+    </item>
+    
     <item>
       <title>Why is there a preference for female voices in AI virtual assistants?</title>
       <link>https://irhuru.github.io/blog/gendered-ai-assistants/</link>
