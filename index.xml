@@ -96,16 +96,6 @@ Despite its importance, humans are not born with Theory of Mind.</description>
     </item>
     
     <item>
-      <title>Free software for conversation design</title>
-      <link>https://irhuru.github.io/blog/cxd-software/</link>
-      <pubDate>Fri, 30 Jun 2023 18:00:00 -0500</pubDate>
-      
-      <guid>https://irhuru.github.io/blog/cxd-software/</guid>
-      <description>In the ever-evolving landscape of conversational AI and its applications, it’s crucial to understand the various tools available to craft compelling conversational experiences. If you’re new in this field and want to design your first conversations, you might want to try some of the most popular conversation design software. In this blog post, I review Voiceflow and Landbot, which are widely used and which offer free plans for beginners.
-Voiceflow Voiceflow is a software used both for prototyping and for designing conversations.</description>
-    </item>
-    
-    <item>
       <title>How human-like are the linguistic abilities of ChatGPT?</title>
       <link>https://irhuru.github.io/blog/chatgpt-language/</link>
       <pubDate>Fri, 16 Jun 2023 18:00:00 -0500</pubDate>
@@ -202,16 +192,6 @@ Language data annotation (or text data annotation) is the process of adding labe
     </item>
     
     <item>
-      <title>What is Latex and why you need to use it for your linguistics papers</title>
-      <link>https://irhuru.github.io/blog/latex-docs/</link>
-      <pubDate>Mon, 20 Sep 2021 18:00:00 -0500</pubDate>
-      
-      <guid>https://irhuru.github.io/blog/latex-docs/</guid>
-      <description>Linguistics papers often include tons of visual information, such as syntax trees, IPA symbols, glosses, and so on. These things are cool because they are helpful to convey your message, but they are sometimes hard to manage when writing your paper with a standard word processor. Who hasn&#39;t drawn a syntax tree using PowerPoint and then taken a screenshot of it to include it in a Word doc?
-Fortunately, Latex exists so we don&#39;t have to deal with these issues.</description>
-    </item>
-    
-    <item>
       <title>An analysis of Peter Pan using the R package koRpus</title>
       <link>https://irhuru.github.io/blog/korpus-peterpan/</link>
       <pubDate>Wed, 25 Aug 2021 18:00:00 -0500</pubDate>
@@ -228,16 +208,6 @@ Despite its name, the R package koRpus was designed to work with individual text
       
       <guid>https://irhuru.github.io/blog/clan-software/</guid>
       <description>In a previous blog post, I wrote about automatic transcription software that you can use to speed up your transcription process. However, chances are that you also want to analyze what you transcribe if you&#39;re working on a research project. Measures such as words per minute or lexical diversity scores are quite common in linguistics research. In this blog post, I introduce you to CLAN, a software that will help you with both transcription and analysis.</description>
-    </item>
-    
-    <item>
-      <title>Automatic transcription software to transcribe like a pro</title>
-      <link>https://irhuru.github.io/blog/automatic-transcription/</link>
-      <pubDate>Wed, 23 Jun 2021 18:00:00 -0500</pubDate>
-      
-      <guid>https://irhuru.github.io/blog/automatic-transcription/</guid>
-      <description>Chances are that if you are working on a linguistics project, you might have to transcribe audio recordings in order to analyze them. Transcribing can be a deadly boring process, especially if you have many files or if you are dealing with speakers of non-standard dialects/varieties.
-However, recent advancements in automatic speech recognition (ASR) have led to the development of very cool software that can help you speed up the transcription process.</description>
     </item>
     
     <item>
