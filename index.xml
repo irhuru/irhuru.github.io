@@ -6,7 +6,7 @@
     <description>Recent content on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Apr 2024 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Jul 2024 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Language corpora</title>
       <link>https://irhuru.github.io/projects/language-corpora/</link>
@@ -46,6 +46,16 @@ The Structural Priming project is actually a set of smaller projects that seek t
       <guid>https://irhuru.github.io/projects/natural-language-proc/</guid>
       <description>Haiku generator A haiku is a type of short form poetry that originated in Japan and that consists of three phrases, where the first and third line have 5 syllables each and the second one has 7 syllables. This makes a total of 17 syllables per poem which follow a 5-7-5 pattern.
 Using the natural language processing library spaCy and a dataset of random texts taken from Project Gutenberg, I developed a haiku generator in Python.</description>
+    </item>
+    
+    <item>
+      <title>Do LLMs have a personality?</title>
+      <link>https://irhuru.github.io/blog/llms-personality/</link>
+      <pubDate>Tue, 02 Jul 2024 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/llms-personality/</guid>
+      <description>Personality is the enduring set of characteristics or qualities that form a person’s distinctive character. The science of personality has been long studied by psychologists, and multiple tests have been designed to assess personality constructs.
+Interestingly, many of these tests follow a linguistic approach, since they are based on a factor analysis of the language used to describe behavior. For example, if someone says they like to “have everything organized and planned”, that would correlate with a conscientious personality trait.</description>
     </item>
     
     <item>

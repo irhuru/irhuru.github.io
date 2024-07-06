@@ -6,7 +6,17 @@
     <description>Recent content in Blog on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Apr 2024 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Jul 2024 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Do LLMs have a personality?</title>
+      <link>https://irhuru.github.io/blog/llms-personality/</link>
+      <pubDate>Tue, 02 Jul 2024 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/llms-personality/</guid>
+      <description>Personality is the enduring set of characteristics or qualities that form a person’s distinctive character. The science of personality has been long studied by psychologists, and multiple tests have been designed to assess personality constructs.
+Interestingly, many of these tests follow a linguistic approach, since they are based on a factor analysis of the language used to describe behavior. For example, if someone says they like to “have everything organized and planned”, that would correlate with a conscientious personality trait.</description>
+    </item>
+    
     <item>
       <title>Is learning a programming language similar to learning a natural language?</title>
       <link>https://irhuru.github.io/blog/programming-languages/</link>
