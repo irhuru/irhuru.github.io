@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://irhuru.github.io/projects/language-corpora/</loc>
+    <loc>https://irhuru.github.io/projects/generative-ai/</loc>
   </url><url>
     <loc>https://irhuru.github.io/projects/conversation-design/</loc>
   </url><url>
-    <loc>https://irhuru.github.io/projects/experimental-research/</loc>
+    <loc>https://irhuru.github.io/projects/linguistic-research/</loc>
   </url><url>
     <loc>https://irhuru.github.io/projects/natural-language-proc/</loc>
   </url><url>
@@ -17,11 +17,17 @@
   </url><url>
     <loc>https://irhuru.github.io/asa-voice-assistant/</loc>
   </url><url>
+    <loc>https://irhuru.github.io/bilinmid-corpus/</loc>
+  </url><url>
+    <loc>https://irhuru.github.io/meta-ai/</loc>
+  </url><url>
     <loc>https://irhuru.github.io/open-d-express/</loc>
   </url><url>
     <loc>https://irhuru.github.io/prompt-engineering/</loc>
   </url><url>
     <loc>https://irhuru.github.io/resources/</loc>
+  </url><url>
+    <loc>https://irhuru.github.io/structural-priming/</loc>
   </url><url>
     <loc>https://irhuru.github.io/blog/llms-personality/</loc>
     <lastmod>2024-07-02T18:00:00-05:00</lastmod>
