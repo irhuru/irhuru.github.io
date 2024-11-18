@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>conversational AI on Irati Hurtado</title>
+    <link>https://irhuru.github.io/tags/conversational-ai/</link>
+    <description>Recent content in conversational AI on Irati Hurtado</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Nov 2024 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/tags/conversational-ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Talking to machines: A brief history of chatbots</title>
+      <link>https://irhuru.github.io/blog/history-chatbots/</link>
+      <pubDate>Fri, 15 Nov 2024 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/history-chatbots/</guid>
+      <description>Chatbots, although a trendy product now, have existed for decades. Advances in AI have transformed chatbots from simple and rule-based systems to more complex and sophisticated conversational agents. Let’s dive into the history of chatbots, from their beginnings to the modern AI-driven companions we see today.
+ELIZA: The first chatbot (1966) ELIZA was the first chatbot, developed by professor Joseph Weizenbaum at MIT. ELIZA was designed to mimic a psychotherapist, responding to users&#39; messages with pre-defined responses using pattern matching.</description>
+    </item>
+    
+  </channel>
+</rss>

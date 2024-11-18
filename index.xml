@@ -6,7 +6,7 @@
     <description>Recent content on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 02 Jul 2024 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Nov 2024 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Generative AI</title>
       <link>https://irhuru.github.io/projects/generative-ai/</link>
@@ -54,6 +54,16 @@ Structural priming is an interesting psycholinguistic phenomenon that consists o
       <description>Haiku generator
 A haiku is a type of short form poetry that originated in Japan and that consists of three phrases, where the first and third line have 5 syllables each and the second one has 7 syllables. This makes a total of 17 syllables per poem which follow a 5-7-5 pattern.
 Using the natural language processing library spaCy and a dataset of random texts taken from Project Gutenberg, I developed a haiku generator in Python.</description>
+    </item>
+    
+    <item>
+      <title>Talking to machines: A brief history of chatbots</title>
+      <link>https://irhuru.github.io/blog/history-chatbots/</link>
+      <pubDate>Fri, 15 Nov 2024 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/history-chatbots/</guid>
+      <description>Chatbots, although a trendy product now, have existed for decades. Advances in AI have transformed chatbots from simple and rule-based systems to more complex and sophisticated conversational agents. Let’s dive into the history of chatbots, from their beginnings to the modern AI-driven companions we see today.
+ELIZA: The first chatbot (1966) ELIZA was the first chatbot, developed by professor Joseph Weizenbaum at MIT. ELIZA was designed to mimic a psychotherapist, responding to users&#39; messages with pre-defined responses using pattern matching.</description>
     </item>
     
     <item>

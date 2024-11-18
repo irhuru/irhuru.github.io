@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LLMs on Irati Hurtado</title>
+    <link>https://irhuru.github.io/tags/llms/</link>
+    <description>Recent content in LLMs on Irati Hurtado</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Jul 2024 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/tags/llms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Do LLMs have a personality?</title>
+      <link>https://irhuru.github.io/blog/llms-personality/</link>
+      <pubDate>Tue, 02 Jul 2024 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/llms-personality/</guid>
+      <description>Personality is the enduring set of characteristics or qualities that form a person’s distinctive character. The science of personality has been long studied by psychologists, and multiple tests have been designed to assess personality constructs.
+Interestingly, many of these tests follow a linguistic approach, since they are based on a factor analysis of the language used to describe behavior. For example, if someone says they like to “have everything organized and planned”, that would correlate with a conscientious personality trait.</description>
+    </item>
+    
+  </channel>
+</rss>
