@@ -6,7 +6,17 @@
     <description>Recent content in Blog on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Nov 2024 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Feb 2025 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Can LLMs understand emojis?</title>
+      <link>https://irhuru.github.io/blog/llms-emojis/</link>
+      <pubDate>Thu, 06 Feb 2025 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/llms-emojis/</guid>
+      <description>Emojis are graphic symbols or ideograms that represent not only facial expressions, but also ideas and concepts. Emojis are extremely popular worldwide, primarily in chat and social media. They can appear as an additional element in the sentence, as in &#34;I liked the cake 😊&#34;, or replacing a word, as in &#34;I liked the 🍰&#34;.
+From the perspective of large language models (LLMs), emojis are interesting because they convey a semantic as well as a pragmatic meaning.</description>
+    </item>
+    
     <item>
       <title>Talking to machines: A brief history of chatbots</title>
       <link>https://irhuru.github.io/blog/history-chatbots/</link>
