@@ -29,31 +29,22 @@
   </url><url>
     <loc>https://irhuru.github.io/structural-priming/</loc>
   </url><url>
-    <loc>https://irhuru.github.io/blog/llms-emojis/</loc>
+    <loc>https://irhuru.github.io/tags/article/</loc>
     <lastmod>2025-02-06T18:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://irhuru.github.io/tags/emojis/</loc>
+    <loc>https://irhuru.github.io/blog/llms-emojis/</loc>
     <lastmod>2025-02-06T18:00:00-05:00</lastmod>
   </url><url>
     <loc>https://irhuru.github.io/</loc>
     <lastmod>2025-02-06T18:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://irhuru.github.io/tags/llms/</loc>
-    <lastmod>2025-02-06T18:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://irhuru.github.io/tags/nlu/</loc>
+    <loc>https://irhuru.github.io/tags/language/</loc>
     <lastmod>2025-02-06T18:00:00-05:00</lastmod>
   </url><url>
     <loc>https://irhuru.github.io/tags/</loc>
     <lastmod>2025-02-06T18:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://irhuru.github.io/tags/chatbots/</loc>
-    <lastmod>2024-11-15T18:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://irhuru.github.io/tags/conversational-ai/</loc>
-    <lastmod>2024-11-15T18:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://irhuru.github.io/tags/language/</loc>
+    <loc>https://irhuru.github.io/tags/product/</loc>
     <lastmod>2024-11-15T18:00:00-05:00</lastmod>
   </url><url>
     <loc>https://irhuru.github.io/blog/history-chatbots/</loc>
@@ -62,20 +53,8 @@
     <loc>https://irhuru.github.io/blog/llms-personality/</loc>
     <lastmod>2024-07-02T18:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://irhuru.github.io/tags/psychology/</loc>
-    <lastmod>2024-07-02T18:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://irhuru.github.io/tags/ai/</loc>
-    <lastmod>2024-04-19T18:00:00-05:00</lastmod>
-  </url><url>
     <loc>https://irhuru.github.io/blog/programming-languages/</loc>
     <lastmod>2024-04-19T18:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://irhuru.github.io/tags/linguistics/</loc>
-    <lastmod>2024-04-19T18:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://irhuru.github.io/tags/voice/</loc>
-    <lastmod>2024-04-04T18:00:00-05:00</lastmod>
   </url><url>
     <loc>https://irhuru.github.io/blog/gendered-ai-assistants/</loc>
     <lastmod>2024-04-04T18:00:00-05:00</lastmod>
@@ -86,55 +65,34 @@
     <loc>https://irhuru.github.io/blog/language-learning/</loc>
     <lastmod>2024-02-28T18:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://irhuru.github.io/tags/nlp/</loc>
+    <loc>https://irhuru.github.io/tags/hci/</loc>
     <lastmod>2024-02-28T18:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://irhuru.github.io/tags/annotation/</loc>
-    <lastmod>2023-07-02T18:00:00-05:00</lastmod>
   </url><url>
     <loc>https://irhuru.github.io/blog/language-corpora-annotation/</loc>
     <lastmod>2023-07-02T18:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://irhuru.github.io/tags/corpora/</loc>
+    <loc>https://irhuru.github.io/tags/data/</loc>
     <lastmod>2023-07-02T18:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://irhuru.github.io/tags/chatgpt/</loc>
-    <lastmod>2023-06-16T18:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://irhuru.github.io/tags/hci/</loc>
-    <lastmod>2023-06-16T18:00:00-05:00</lastmod>
+    <loc>https://irhuru.github.io/tags/tutorial/</loc>
+    <lastmod>2023-07-02T18:00:00-05:00</lastmod>
   </url><url>
     <loc>https://irhuru.github.io/blog/chatgpt-language/</loc>
     <lastmod>2023-06-16T18:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://irhuru.github.io/tags/analysis/</loc>
-    <lastmod>2023-03-10T18:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://irhuru.github.io/tags/data/</loc>
-    <lastmod>2023-03-10T18:00:00-05:00</lastmod>
-  </url><url>
     <loc>https://irhuru.github.io/blog/rshiny-data/</loc>
-    <lastmod>2023-03-10T18:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://irhuru.github.io/tags/r/</loc>
     <lastmod>2023-03-10T18:00:00-05:00</lastmod>
   </url><url>
     <loc>https://irhuru.github.io/blog/voyant-tutorial/</loc>
     <lastmod>2022-10-09T18:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://irhuru.github.io/tags/corpus/</loc>
+    <loc>https://irhuru.github.io/tags/nlp/</loc>
     <lastmod>2022-10-09T18:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://irhuru.github.io/tags/conversation/</loc>
-    <lastmod>2022-09-12T18:00:00-05:00</lastmod>
   </url><url>
     <loc>https://irhuru.github.io/blog/ai-voices/</loc>
     <lastmod>2022-09-12T18:00:00-05:00</lastmod>
   </url><url>
     <loc>https://irhuru.github.io/blog/antconc-corpus/</loc>
-    <lastmod>2022-08-10T18:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://irhuru.github.io/tags/antconc/</loc>
     <lastmod>2022-08-10T18:00:00-05:00</lastmod>
   </url><url>
     <loc>https://irhuru.github.io/blog/anthropomorphism-language/</loc>
@@ -143,16 +101,7 @@
     <loc>https://irhuru.github.io/blog/phonetic-transcription/</loc>
     <lastmod>2022-05-20T18:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://irhuru.github.io/tags/phonetics/</loc>
-    <lastmod>2022-05-20T18:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://irhuru.github.io/tags/transcription/</loc>
-    <lastmod>2022-05-20T18:00:00-05:00</lastmod>
-  </url><url>
     <loc>https://irhuru.github.io/blog/computer-speak/</loc>
-    <lastmod>2022-04-15T18:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://irhuru.github.io/tags/computer/</loc>
     <lastmod>2022-04-15T18:00:00-05:00</lastmod>
   </url><url>
     <loc>https://irhuru.github.io/blog/data-annotation-guidelines/</loc>
@@ -161,17 +110,8 @@
     <loc>https://irhuru.github.io/blog/twitter-data/</loc>
     <lastmod>2021-10-27T18:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://irhuru.github.io/tags/twitter/</loc>
-    <lastmod>2021-10-27T18:00:00-05:00</lastmod>
-  </url><url>
     <loc>https://irhuru.github.io/blog/korpus-peterpan/</loc>
     <lastmod>2021-08-25T18:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://irhuru.github.io/tags/audio/</loc>
-    <lastmod>2021-07-21T18:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://irhuru.github.io/tags/text/</loc>
-    <lastmod>2021-07-21T18:00:00-05:00</lastmod>
   </url><url>
     <loc>https://irhuru.github.io/blog/clan-software/</loc>
     <lastmod>2021-07-21T18:00:00-05:00</lastmod>
@@ -179,35 +119,11 @@
     <loc>https://irhuru.github.io/blog/twitter-bot/</loc>
     <lastmod>2021-05-18T18:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://irhuru.github.io/tags/bot/</loc>
-    <lastmod>2021-05-18T18:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://irhuru.github.io/tags/python/</loc>
-    <lastmod>2021-05-18T18:00:00-05:00</lastmod>
-  </url><url>
     <loc>https://irhuru.github.io/blog/haiku-generator/</loc>
     <lastmod>2021-03-19T18:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://irhuru.github.io/tags/poetry/</loc>
-    <lastmod>2021-03-19T18:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://irhuru.github.io/tags/data-analysis/</loc>
-    <lastmod>2021-01-17T18:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://irhuru.github.io/tags/machine-learning/</loc>
-    <lastmod>2021-01-17T18:00:00-05:00</lastmod>
-  </url><url>
     <loc>https://irhuru.github.io/blog/dialect-classifier/</loc>
     <lastmod>2021-01-17T18:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://irhuru.github.io/tags/amazon/</loc>
-    <lastmod>2020-11-10T18:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://irhuru.github.io/tags/research/</loc>
-    <lastmod>2020-11-10T18:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://irhuru.github.io/tags/survey/</loc>
-    <lastmod>2020-11-10T18:00:00-05:00</lastmod>
   </url><url>
     <loc>https://irhuru.github.io/blog/amazon-mechanical-turk/</loc>
     <lastmod>2020-11-10T18:00:00-05:00</lastmod>
@@ -215,19 +131,7 @@
     <loc>https://irhuru.github.io/blog/revealjs-r-tutorial/</loc>
     <lastmod>2020-09-02T18:00:00-05:00</lastmod>
   </url><url>
-    <loc>https://irhuru.github.io/tags/plotly/</loc>
-    <lastmod>2020-09-02T18:00:00-05:00</lastmod>
-  </url><url>
-    <loc>https://irhuru.github.io/tags/reveal.js/</loc>
-    <lastmod>2020-09-02T18:00:00-05:00</lastmod>
-  </url><url>
     <loc>https://irhuru.github.io/blog/coming-soon/</loc>
-    <lastmod>2020-07-22T11:04:06-05:00</lastmod>
-  </url><url>
-    <loc>https://irhuru.github.io/tags/blogger/</loc>
-    <lastmod>2020-07-22T11:04:06-05:00</lastmod>
-  </url><url>
-    <loc>https://irhuru.github.io/tags/words/</loc>
     <lastmod>2020-07-22T11:04:06-05:00</lastmod>
   </url>
 </urlset>

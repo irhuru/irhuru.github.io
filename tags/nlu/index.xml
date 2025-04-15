@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NLU on Irati Hurtado</title>
+    <link>https://irhuru.github.io/tags/nlu/</link>
+    <description>Recent content in NLU on Irati Hurtado</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Feb 2025 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/tags/nlu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Can LLMs understand emojis?</title>
+      <link>https://irhuru.github.io/blog/llms-emojis/</link>
+      <pubDate>Thu, 06 Feb 2025 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/llms-emojis/</guid>
+      <description>Emojis are graphic symbols or ideograms that represent not only facial expressions, but also ideas and concepts. Emojis are extremely popular worldwide, primarily in chat and social media. They can appear as an additional element in the sentence, as in &#34;I liked the cake 😊&#34;, or replacing a word, as in &#34;I liked the 🍰&#34;.
+From the perspective of large language models (LLMs), emojis are interesting because they convey a semantic as well as a pragmatic meaning.</description>
+    </item>
+    
+  </channel>
+</rss>

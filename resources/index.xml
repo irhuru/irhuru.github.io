@@ -5,10 +5,6 @@
     <link>https://irhuru.github.io/resources/</link>
     <description>Recent content in Resources on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://irhuru.github.io/resources/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://irhuru.github.io/resources/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

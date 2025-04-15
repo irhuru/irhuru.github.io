@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>data on Irati Hurtado</title>
+    <title>Data on Irati Hurtado</title>
     <link>https://irhuru.github.io/tags/data/</link>
-    <description>Recent content in data on Irati Hurtado</description>
+    <description>Recent content in Data on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Mar 2023 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 02 Jul 2023 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/tags/data/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Are there standards for the annotation of language corpora?</title>
+      <link>https://irhuru.github.io/blog/language-corpora-annotation/</link>
+      <pubDate>Sun, 02 Jul 2023 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/language-corpora-annotation/</guid>
+      <description>Some weeks ago, I attended a conference where several of the presenters discussed language corpora they had created as part of different research projects. During the Q&amp;A turn of the last presenter, an award-winning researcher and creator of various corpora, one of the attendees raised their hand and asked: “I have attended five talks today discussing language corpora and each corpus employed different annotation schemes. Wouldn’t it be convenient to have a set of standards for corpus annotation that everyone could use?</description>
+    </item>
+    
     <item>
       <title>Exploring textual data using R Shiny</title>
       <link>https://irhuru.github.io/blog/rshiny-data/</link>
@@ -14,6 +23,16 @@
       
       <guid>https://irhuru.github.io/blog/rshiny-data/</guid>
       <description>In previous blog posts, I discussed the use of software such as AntConc or Voyant to analyze corpus data. Even though these are very helpful, you can only use them to perform the range of default analyses they offer. But, what if you need more customization? Maybe you want to create your own graphs or explore your data in ways that go beyond traditional KWIC analyses and basic word frequencies. Well, then keep reading because that is totally possible!</description>
+    </item>
+    
+    <item>
+      <title>Phonetic transcription systems you should know</title>
+      <link>https://irhuru.github.io/blog/phonetic-transcription/</link>
+      <pubDate>Fri, 20 May 2022 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/phonetic-transcription/</guid>
+      <description>What is phonetic transcription? Phonetic transcription is the use of phonetic symbols to represent speech. We could say it&#39;s a way to visually represent speech sounds, which is important because orthography often doesn&#39;t represent pronunciation accurately.
+Each phonetic symbol represents a sound in a spoken utterance. However, which phonetic symbol we use depends on the phonetic transcription system we follow. This means that the same dataset can be transcribed in more than one way.</description>
     </item>
     
     <item>
@@ -33,6 +52,44 @@ Language data annotation (or text data annotation) is the process of adding labe
       
       <guid>https://irhuru.github.io/blog/twitter-data/</guid>
       <description>Nowadays, a lot of linguistics research uses language data from Twitter. At every major linguistics conference, there&#39;s at least one or two people (if not more!) discussing the use of language on this popular social network. Even though doing research on language use on Twitter is quite trendy now, getting the data for research is not that cool. The reason behind this? There are several ways to get Twitter data and each way depends on a variety of factors, which makes the process a bit confusing.</description>
+    </item>
+    
+    <item>
+      <title>An analysis of Peter Pan using the R package koRpus</title>
+      <link>https://irhuru.github.io/blog/korpus-peterpan/</link>
+      <pubDate>Wed, 25 Aug 2021 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/korpus-peterpan/</guid>
+      <description>If you are into language research, you probably use R to analyze your data. One of the good things about R is that you can install packages to extend R&#39;s basic functions. In this blog post, I&#39;d like to introduce you to a very useful package for language research: koRpus.
+Despite its name, the R package koRpus was designed to work with individual texts, and not with a collection of texts (I know, this is confusing!</description>
+    </item>
+    
+    <item>
+      <title>Transcribing and analyzing speech samples with CLAN</title>
+      <link>https://irhuru.github.io/blog/clan-software/</link>
+      <pubDate>Wed, 21 Jul 2021 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/clan-software/</guid>
+      <description>In a previous blog post, I wrote about automatic transcription software that you can use to speed up your transcription process. However, chances are that you also want to analyze what you transcribe if you&#39;re working on a research project. Measures such as words per minute or lexical diversity scores are quite common in linguistics research. In this blog post, I introduce you to CLAN, a software that will help you with both transcription and analysis.</description>
+    </item>
+    
+    <item>
+      <title>Using Amazon Mechanical Turk to conduct linguistic research</title>
+      <link>https://irhuru.github.io/blog/amazon-mechanical-turk/</link>
+      <pubDate>Tue, 10 Nov 2020 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/amazon-mechanical-turk/</guid>
+      <description>As a linguist, I often need to find speakers from a particular country or region to gather data on how they say something. However, it can sometimes be difficult to find a large group of speakers from a region you have never been to. In those cases, Amazon Mechanical Turk can come in handy. In this blog post, I explain how you can start using this awesome tool for your linguistic research!</description>
+    </item>
+    
+    <item>
+      <title>How to create stunning presentations using Reveal.js in R</title>
+      <link>https://irhuru.github.io/blog/revealjs-r-tutorial/</link>
+      <pubDate>Wed, 02 Sep 2020 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/revealjs-r-tutorial/</guid>
+      <description>I recently found out about an R package that allows you to create Reveal.js presentations in R using RMarkdown syntax. If you are like me and love to display cool graphs in your slides, don&#39;t miss this short tutorial!
+Why you need to start using Reveal.js in R Okay, so you already know how to use PowerPoint. Why using something different then? There are many reasons, actually, but one of them is that PowerPoint doesn&#39;t allow you to display interactive graphs in your presentation.</description>
     </item>
     
   </channel>

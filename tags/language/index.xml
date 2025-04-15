@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>language on Irati Hurtado</title>
+    <title>Language on Irati Hurtado</title>
     <link>https://irhuru.github.io/tags/language/</link>
-    <description>Recent content in language on Irati Hurtado</description>
+    <description>Recent content in Language on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Nov 2024 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/tags/language/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 06 Feb 2025 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/tags/language/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Talking to machines: A brief history of chatbots</title>
-      <link>https://irhuru.github.io/blog/history-chatbots/</link>
-      <pubDate>Fri, 15 Nov 2024 18:00:00 -0500</pubDate>
+      <title>Can LLMs understand emojis?</title>
+      <link>https://irhuru.github.io/blog/llms-emojis/</link>
+      <pubDate>Thu, 06 Feb 2025 18:00:00 -0500</pubDate>
       
-      <guid>https://irhuru.github.io/blog/history-chatbots/</guid>
-      <description>Chatbots, although a trendy product now, have existed for decades. Advances in AI have transformed chatbots from simple and rule-based systems to more complex and sophisticated conversational agents. Let’s dive into the history of chatbots, from their beginnings to the modern AI-driven companions we see today.
-ELIZA: The first chatbot (1966) ELIZA was the first chatbot, developed by professor Joseph Weizenbaum at MIT. ELIZA was designed to mimic a psychotherapist, responding to users&#39; messages with pre-defined responses using pattern matching.</description>
+      <guid>https://irhuru.github.io/blog/llms-emojis/</guid>
+      <description>Emojis are graphic symbols or ideograms that represent not only facial expressions, but also ideas and concepts. Emojis are extremely popular worldwide, primarily in chat and social media. They can appear as an additional element in the sentence, as in &#34;I liked the cake 😊&#34;, or replacing a word, as in &#34;I liked the 🍰&#34;.
+From the perspective of large language models (LLMs), emojis are interesting because they convey a semantic as well as a pragmatic meaning.</description>
     </item>
     
     <item>
@@ -38,15 +38,6 @@ What does the research say? Traditionally, learning programming languages has be
     </item>
     
     <item>
-      <title>Why is there a preference for female voices in AI virtual assistants?</title>
-      <link>https://irhuru.github.io/blog/gendered-ai-assistants/</link>
-      <pubDate>Thu, 04 Apr 2024 18:00:00 -0500</pubDate>
-      
-      <guid>https://irhuru.github.io/blog/gendered-ai-assistants/</guid>
-      <description>If you ask Amazon Alexa if it is a woman, it will answer &#34;I&#39;m not a woman, I&#39;m an AI&#34;. In fact, the majority of AI virtual assistants are designed to be genderless (think of AI virtual assistants like Siri, Cortana, or Google Assistant). After all, they are simply made of code. Surprisingly, most of these AI virtual assistants use clear female voices when interacting with users. But, why is that?</description>
-    </item>
-    
-    <item>
       <title>Have LLMs developed Theory of Mind?</title>
       <link>https://irhuru.github.io/blog/theory-of-mind/</link>
       <pubDate>Fri, 08 Mar 2024 18:00:00 -0500</pubDate>
@@ -57,68 +48,13 @@ Despite its importance, humans are not born with Theory of Mind.</description>
     </item>
     
     <item>
-      <title>Can we make LLMs learn in a more human-like way?</title>
-      <link>https://irhuru.github.io/blog/language-learning/</link>
-      <pubDate>Wed, 28 Feb 2024 18:00:00 -0500</pubDate>
+      <title>How human-like are the linguistic abilities of ChatGPT?</title>
+      <link>https://irhuru.github.io/blog/chatgpt-language/</link>
+      <pubDate>Fri, 16 Jun 2023 18:00:00 -0500</pubDate>
       
-      <guid>https://irhuru.github.io/blog/language-learning/</guid>
-      <description>The difference between artificial intelligence (AI) and human intelligence is well known: whereas humans use their brain, their memory, and other cognitive abilities, AI uses data provided by humans. In fact, AI uses a lot of data. For example, large language models (LLMs), a type of generative AI, are trained on huge amounts of data. The Common Crawl archive, which is LLMs&#39; primary source of data, contains around 3 billion web pages and 400 TB of unocmpressed data.</description>
-    </item>
-    
-    <item>
-      <title>Are there standards for the annotation of language corpora?</title>
-      <link>https://irhuru.github.io/blog/language-corpora-annotation/</link>
-      <pubDate>Sun, 02 Jul 2023 18:00:00 -0500</pubDate>
-      
-      <guid>https://irhuru.github.io/blog/language-corpora-annotation/</guid>
-      <description>Some weeks ago, I attended a conference where several of the presenters discussed language corpora they had created as part of different research projects. During the Q&amp;A turn of the last presenter, an award-winning researcher and creator of various corpora, one of the attendees raised their hand and asked: “I have attended five talks today discussing language corpora and each corpus employed different annotation schemes. Wouldn’t it be convenient to have a set of standards for corpus annotation that everyone could use?</description>
-    </item>
-    
-    <item>
-      <title>An introduction to Voyant Tools for corpus analysis</title>
-      <link>https://irhuru.github.io/blog/voyant-tutorial/</link>
-      <pubDate>Sun, 09 Oct 2022 18:00:00 -0500</pubDate>
-      
-      <guid>https://irhuru.github.io/blog/voyant-tutorial/</guid>
-      <description>If you&#39;re into the Digital Humanities, you probably know about the importance of text analysis. Whereas programming languages such as Python or R allow you to do this efficiently, some people prefer to use tools which don&#39;t require any coding skills. A good example of such a tool is Voyant Tools, an open-source web-based application for text analysis. In this blog post, I will show you the basics of using Voyant Tools to analyze a corpus.</description>
-    </item>
-    
-    <item>
-      <title>The little-known history of synthetic voices</title>
-      <link>https://irhuru.github.io/blog/ai-voices/</link>
-      <pubDate>Mon, 12 Sep 2022 18:00:00 -0500</pubDate>
-      
-      <guid>https://irhuru.github.io/blog/ai-voices/</guid>
-      <description>Synthetic voices, or artificial voices, are part of our lives (who has never talked to iPhone&#39;s Siri, Amazon Alexa, or Microsoft Cortana?). Conversational AI, which largely relies on these synthetic voices, is currently experiencing a boom and its market is expected to grow even more in the next four years.
-However, even though synthetic voices might look like a very new invention, the truth is that they have been around for a long, long time (more than 200 years, actually!</description>
-    </item>
-    
-    <item>
-      <title>Why is there a need to anthropomorphize language technologies?</title>
-      <link>https://irhuru.github.io/blog/anthropomorphism-language/</link>
-      <pubDate>Fri, 01 Jul 2022 18:00:00 -0500</pubDate>
-      
-      <guid>https://irhuru.github.io/blog/anthropomorphism-language/</guid>
-      <description>Some weeks ago, we heard about Blake Lemoine, a Google engineer who claimed that LaMDA, a chatbot that can carry unstructured conversations with people, had a &#39;human soul&#39;. He came to this conclusion after having long, deep conversations with LaMDA, which he later shared with The Washington Post.
-What&#39;s striking about this case is that an engineer, who&#39;s supposed to have a thorough technical knowledge about how chatbots work, was fooled into believing the chatbot was actually human!</description>
-    </item>
-    
-    <item>
-      <title>Can computers change the way we speak?</title>
-      <link>https://irhuru.github.io/blog/computer-speak/</link>
-      <pubDate>Fri, 15 Apr 2022 18:00:00 -0500</pubDate>
-      
-      <guid>https://irhuru.github.io/blog/computer-speak/</guid>
-      <description>Some months ago, I bought my first smart speaker: an Amazon echo. Because I live in the U.S., Alexa&#39;s default language was English. Even though I&#39;m a native speaker of Spanish, I can also speak English, so it wasn&#39;t really a problem for me. However, when pronouncing Spanish proper names (e.g., people or places), I would still use my Spanish pronunciation. It turns out Alexa couldn&#39;t understand me unless I anglicized those names (ugh!</description>
-    </item>
-    
-    <item>
-      <title>How to get Twitter data</title>
-      <link>https://irhuru.github.io/blog/twitter-data/</link>
-      <pubDate>Wed, 27 Oct 2021 18:00:00 -0500</pubDate>
-      
-      <guid>https://irhuru.github.io/blog/twitter-data/</guid>
-      <description>Nowadays, a lot of linguistics research uses language data from Twitter. At every major linguistics conference, there&#39;s at least one or two people (if not more!) discussing the use of language on this popular social network. Even though doing research on language use on Twitter is quite trendy now, getting the data for research is not that cool. The reason behind this? There are several ways to get Twitter data and each way depends on a variety of factors, which makes the process a bit confusing.</description>
+      <guid>https://irhuru.github.io/blog/chatgpt-language/</guid>
+      <description>The arrival of ChatGPT at the end of last year has sparked a debate about how it could impact several different fields, ranging from education, to content creation, to finance and to many others. This NLP tool is the epitome of generative AI, a type of technology that “generates” content, hence the name, after being trained on large amounts of data. In this case, text data.
+From a linguistic perspective, it’s exciting to see how ChatGPT outputs seem natural and convincing, leading many to assert that it behaves in a human-like way.</description>
     </item>
     
   </channel>

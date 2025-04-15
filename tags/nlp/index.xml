@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>nlp on Irati Hurtado</title>
+    <title>NLP on Irati Hurtado</title>
     <link>https://irhuru.github.io/tags/nlp/</link>
-    <description>Recent content in nlp on Irati Hurtado</description>
+    <description>Recent content in NLP on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Feb 2024 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Can we make LLMs learn in a more human-like way?</title>
-      <link>https://irhuru.github.io/blog/language-learning/</link>
-      <pubDate>Wed, 28 Feb 2024 18:00:00 -0500</pubDate>
-      
-      <guid>https://irhuru.github.io/blog/language-learning/</guid>
-      <description>The difference between artificial intelligence (AI) and human intelligence is well known: whereas humans use their brain, their memory, and other cognitive abilities, AI uses data provided by humans. In fact, AI uses a lot of data. For example, large language models (LLMs), a type of generative AI, are trained on huge amounts of data. The Common Crawl archive, which is LLMs&#39; primary source of data, contains around 3 billion web pages and 400 TB of unocmpressed data.</description>
-    </item>
-    
+    <lastBuildDate>Sun, 09 Oct 2022 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/tags/nlp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An introduction to Voyant Tools for corpus analysis</title>
       <link>https://irhuru.github.io/blog/voyant-tutorial/</link>
@@ -26,23 +17,13 @@
     </item>
     
     <item>
-      <title>Four key steps for developing guidelines for language data annotation</title>
-      <link>https://irhuru.github.io/blog/data-annotation-guidelines/</link>
-      <pubDate>Mon, 28 Feb 2022 18:00:00 -0500</pubDate>
+      <title>A simple guide to using AntConc for corpus analysis</title>
+      <link>https://irhuru.github.io/blog/antconc-corpus/</link>
+      <pubDate>Wed, 10 Aug 2022 18:00:00 -0500</pubDate>
       
-      <guid>https://irhuru.github.io/blog/data-annotation-guidelines/</guid>
-      <description>Whether you want to build a corpus to document an interesting linguistic phenomenon or simply want to have language data to train your AI models, the process of data annotation is crucial.
-Language data annotation (or text data annotation) is the process of adding labels with relevant information or meta-data. Even though it might seem like a simple process, choosing the right labels for your data is not always easy, as ambiguous data is pretty common.</description>
-    </item>
-    
-    <item>
-      <title>An analysis of Peter Pan using the R package koRpus</title>
-      <link>https://irhuru.github.io/blog/korpus-peterpan/</link>
-      <pubDate>Wed, 25 Aug 2021 18:00:00 -0500</pubDate>
-      
-      <guid>https://irhuru.github.io/blog/korpus-peterpan/</guid>
-      <description>If you are into language research, you probably use R to analyze your data. One of the good things about R is that you can install packages to extend R&#39;s basic functions. In this blog post, I&#39;d like to introduce you to a very useful package for language research: koRpus.
-Despite its name, the R package koRpus was designed to work with individual texts, and not with a collection of texts (I know, this is confusing!</description>
+      <guid>https://irhuru.github.io/blog/antconc-corpus/</guid>
+      <description>If you&#39;re interested in corpus linguistics, you probably know that some of the things this field involves includes searching for patterns in a group of texts (e.g., find frequent words or collocations). This can be easily done using a programming language like Python or R. But, what if you don&#39;t have much experience with programming languages? Well, this is where a tool like AntConc becomes useful!
+AntConc is a free corpus analysis software that can easily help you identify patterns in a collection of texts.</description>
     </item>
     
     <item>
@@ -63,6 +44,15 @@ In this guide, I explain you how to build a Twitter bot from scratch step by ste
       <guid>https://irhuru.github.io/blog/haiku-generator/</guid>
       <description>What is a haiku? I&#39;m sure you have heard the term haiku at least once in your life. Haiku is a type of short form poetry that originated in Japan. These pieces of poetry consist of three phrases, where the first and third line have 5 syllables each and the second one has 7 syllables. This makes a total of 17 syllables per poem which follow a 5-7-5 pattern.
 Haikus have become popular in other cultures too.</description>
+    </item>
+    
+    <item>
+      <title>Using machine learning to build a dialect classifier</title>
+      <link>https://irhuru.github.io/blog/dialect-classifier/</link>
+      <pubDate>Sun, 17 Jan 2021 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/dialect-classifier/</guid>
+      <description>As a linguist, I have always been curious about how computers can make sense of texts that combine different languages or language varieties. Therefore, I decided to learn more about this and implemented a dialect classifier. That is, an algorithm that would take some text as input and would determine the language variety (or dialect) it represents. To find out how I did it, read this post or take a look at this Jupyter notebook with all the code!</description>
     </item>
     
   </channel>
