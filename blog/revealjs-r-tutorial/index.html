@@ -231,7 +231,7 @@ How to Create Stunning Presentations Using Reveal.js in R - Irati Hurtado
 <p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Luckily, there's an <b>R package that allows you to create your Reveal.js presentation from RStudio</b> using RMarkdown syntax.</p>
 <h3 style="font-family: Verdana, Geneva, sans-serif">Creating a Reveal.js presentation from RStudio</h3>
 <h4 style="font-family: Verdana, Geneva, sans-serif">Install packages</h4>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Before you can start, you need to install a couple packages. The <b><code>revealjs</code> package</b> is the one used for the presentation, whereas <b><code>plotly</code></b> is used for the interactive graphs. Make sure you also <b>load the packages</b> once installed.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Before you can start, you need to install a couple packages. The <b><code style="color: black;">revealjs</code> package</b> is the one used for the presentation, whereas <b><code style="color: black;">plotly</code></b> is used for the interactive graphs. Make sure you also <b>load the packages</b> once installed.</p>
 <pre><code>install.packages(revealjs)
 install.packages(plotly)
 </code></pre><p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">(<i>Note</i>: I'm assuming you have already installed <a href="https://rmarkdown.rstudio.com" style= "color: black; text-decoration: underline">RMarkdown</a>).</p>
@@ -245,9 +245,9 @@ output:
   revealjs::revealjs_presentation
 ---
 </code></pre><p>&nbsp;</p>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">This is the basic information you need, but you can always <b>add more info</b> as you become more proficient using the <code>revealjs</code> package. For example, you can add transition effects between slides and other cool things. To learn more about this, you can read the official documentation <a href="https://github.com/rstudio/revealjs" style= "color: black; text-decoration: underline">here</a>.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">This is the basic information you need, but you can always <b>add more info</b> as you become more proficient using the <code style="color: black;">revealjs</code> package. For example, you can add transition effects between slides and other cool things. To learn more about this, you can read the official documentation <a href="https://github.com/rstudio/revealjs" style= "color: black; text-decoration: underline">here</a>.</p>
 <h4 style="font-family: Verdana, Geneva, sans-serif">Define your slides</h4>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Okay, so you are now ready to begin creating your slides! <b>Main slides</b> are defined by the code <code># Slide title</code> (like a level 1 header), whereas <b>secondary slides</b> are defined by <code>## Slide title</code> (like a level 2 header).</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Okay, so you are now ready to begin creating your slides! <b>Main slides</b> are defined by the code <code style="color: black;"># Slide title</code> (like a level 1 header), whereas <b>secondary slides</b> are defined by <code style="color: black;">## Slide title</code> (like a level 2 header).</p>
 <h4 style="font-family: Verdana, Geneva, sans-serif">Add content to your slides</h4>
 <p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">After defining your slides, you can add content to them. To do this, simply <b>add whatever text or code you want to display</b> in your slide right below the slide title. The code for a simple presentation would look like this:</p>
 <pre><code># Languages I want to learn
@@ -267,25 +267,25 @@ It is the lingua franca of the Arab world.
 Swedish is predominantly spoken in Sweden.
 It is mutually intelligible with Norwegian and Danish.
 </code></pre><p>&nbsp;</p>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Something important to keep in mind is that <b>you can't add content below main slides</b> (i.e.,<code># Slide title</code>), since they are considered title slides.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Something important to keep in mind is that <b>you can't add content below main slides</b> (i.e.,<code style="color: black;"># Slide title</code>), since they are considered title slides.</p>
 <h4 style="font-family: Verdana, Geneva, sans-serif">Create interactive graphs</h4>
 <p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">This is the fun part!</p>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">You can now use the <code>plotly</code> library and add the code for your graphs directly below a <code>## Slide title</code>. You can find some sample Plotly graphs (together with their R code) <a href="https://plotly.com/r/" style= "color: black; text-decoration: underline">here</a>.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">You can now use the <code style="color: black;">plotly</code> library and add the code for your graphs directly below a <code style="color: black;">## Slide title</code>. You can find some sample Plotly graphs (together with their R code) <a href="https://plotly.com/r/" style= "color: black; text-decoration: underline">here</a>.</p>
 <h4 style="font-family: Verdana, Geneva, sans-serif">Display interactive graphs</h4>
 <p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Once you're done creating your cool interactive graphs, you can <b>modify what will be displayed in your slides by default</b>.</p>
 <p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">When you create a Plotly graph, your Reveal.js slide will include your graph, your code, and any warnings generated by your code. This doesn't look professional if you just want to display your graph, so you would need to "hide" that information.</p>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">To do this, you will have to <b>add some extra information at the beginning of your code chunk</b> (next to the <code>{r}</code>). Some examples are:</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">To do this, you will have to <b>add some extra information at the beginning of your code chunk</b> (next to the <code style="color: black;">{r}</code>). Some examples are:</p>
 <ul>
 <li>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px"><code>{r, echo=FALSE}</code>: This means that whatever is in the code chunk will be ignored (i.e., not displayed).</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px"><code style="color: black;">{r, echo=FALSE}</code>: This means that whatever is in the code chunk will be ignored (i.e., not displayed).</p>
 </li>
 <li>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px"><code>{r, echo=FALSE, warning=FALSE, message=FALSE}</code>: This hides the code, the warnings, and any other messages you might get.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px"><code style="color: black;">{r, echo=FALSE, warning=FALSE, message=FALSE}</code>: This hides the code, the warnings, and any other messages you might get.</p>
 </li>
 </ul>
 <p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">There are many other options you can use. You can read about them in the official <a href="https://rmarkdown.rstudio.com/lesson-3.html" style= "color: black; text-decoration: underline">RMarkdown documentation</a>.</p>
 <h4 style="font-family: Verdana, Geneva, sans-serif">Render your presentation</h4>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">To see your presentation, click on the <code>knit</code> button on the top and then choose the option "knit to revealjs". A new <b>window will pop up with your slides</b> (see screenshot below).</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">To see your presentation, click on the <code style="color: black;">knit</code> button on the top and then choose the option "knit to revealjs". A new <b>window will pop up with your slides</b> (see screenshot below).</p>
 <p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">You can use the little arrows on the bottom right to navigate the slides.</p>
 <p><img src="revealjs_screenshot.jpg" alt="revealjs_knit"></p>
 <h4 style="font-family: Verdana, Geneva, sans-serif">Enjoy!</h4>

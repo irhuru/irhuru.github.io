@@ -243,21 +243,21 @@ Exploring Textual Data Using R Shiny - Irati Hurtado
 <p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Once you have done this, you will see that the <b>new file already comes with some code in it</b>. Specifically, this is what you should see:</p>
 <ul>
 <li>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">The default name of your new file is <code>app.R</code></p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">The default name of your new file is <code style="color: black;">app.R</code></p>
 </li>
 <li>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Your code includes a function called <code>ui</code>, and</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Your code includes a function called <code style="color: black;">ui</code>, and</p>
 </li>
 <li>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">a function called <code>server</code></p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">a function called <code style="color: black;">server</code></p>
 </li>
 <li>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">At the end of your file, there is this command: <code>shinyApp(ui = ui, server = server)</code></p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">At the end of your file, there is this command: <code style="color: black;">shinyApp(ui = ui, server = server)</code></p>
 </li>
 </ul>
 <p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">All R Shiny apps have two parts: <b>a UI (user interface) and a server</b>. The UI is what you see: graphs, fonts, colors, images, and so on. The server is what the app does but which you don't see: in this case, the functions and commands to analyze your data.</p>
 <p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">This means that you will have to tell R <i>what</i> to do with your data, as well as <i>how</i> to display it in the app. I will cover these two things later on. But first, let's import some  data!</p>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">For this tutorial, I will use a <a href="https://github.com/EmilHvitfeldt/sherlock" style= "color: black; text-decoration: underline">corpus</a> (R package <code>sherlock</code>) that contains the full texts of Sherlock Holmes stories, though you can use any textual data you want. To provide you with some context, this package comes with the <code>holmes</code> dataset, which has two columns: one that contains lines of text from the stories (<code>text</code>) and another one that contains the title of the story each line is taken from (<code>book</code>).</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">For this tutorial, I will use a <a href="https://github.com/EmilHvitfeldt/sherlock" style= "color: black; text-decoration: underline">corpus</a> (R package <code style="color: black;">sherlock</code>) that contains the full texts of Sherlock Holmes stories, though you can use any textual data you want. To provide you with some context, this package comes with the <code style="color: black;">holmes</code> dataset, which has two columns: one that contains lines of text from the stories (<code style="color: black;">text</code>) and another one that contains the title of the story each line is taken from (<code style="color: black;">book</code>).</p>
 <pre><code># Sample rows from the dataset
     text                      book
 29  CHAPTER I                 A Study In Scarlet
@@ -267,15 +267,15 @@ Exploring Textual Data Using R Shiny - Irati Hurtado
 33  course prescribed for surgeons in the army. Having completed my                  A Study In Scarlet
 34  studies there, I was duly attached to the Fifth Northumberland                A Study In Scarlet
 </code></pre><p>&nbsp;</p>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">In addition to loading the <code>sherlock</code> package, I will also load the <code>tidyverse</code> package, which is very helpful to work with data.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">In addition to loading the <code style="color: black;">sherlock</code> package, I will also load the <code style="color: black;">tidyverse</code> package, which is very helpful to work with data.</p>
 <h3 style="font-family: Verdana, Geneva, sans-serif">How to add components to the UI of your Shiny app</h3>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Before diving into the analyses, I think it's important to look at the UI first to better understand what it does. The <code>ui</code> function contains some elements that you can either keep or modify.</p>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">The first element is <code>titlePanel</code>, which is the <b>title of your R Shiny app</b>. If you think of your app as a website, the title would be the name of your website and it would be displayed at the top of the page by default. I will change the current title (<code>Old Faithful Geyser Data</code>) to <code>Textual analysis of Sherlock Holmes</code>, which describes what my app is about.</p>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">You can take a look at what the app looks like now by clicking on the <code>Run App</code> button located on the upper menu. A new window will open up where you can see the app:</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Before diving into the analyses, I think it's important to look at the UI first to better understand what it does. The <code style="color: black;">ui</code> function contains some elements that you can either keep or modify.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">The first element is <code style="color: black;">titlePanel</code>, which is the <b>title of your R Shiny app</b>. If you think of your app as a website, the title would be the name of your website and it would be displayed at the top of the page by default. I will change the current title (<code style="color: black;">Old Faithful Geyser Data</code>) to <code style="color: black;">Textual analysis of Sherlock Holmes</code>, which describes what my app is about.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">You can take a look at what the app looks like now by clicking on the <code style="color: black;">Run App</code> button located on the upper menu. A new window will open up where you can see the app:</p>
 <p><img src="rshiny-title.jpg" alt="rshiny-title"></p>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">You can see that the R Shiny app now displays the new title. You will also see a graph (a histogram, in this case) accompanied by a slider that allows you to enter a value. This is based on random data provided to the R Shiny app via the <code>server</code> function, which we will modify later.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">You can see that the R Shiny app now displays the new title. You will also see a graph (a histogram, in this case) accompanied by a slider that allows you to enter a value. This is based on random data provided to the R Shiny app via the <code style="color: black;">server</code> function, which we will modify later.</p>
 <p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Basically, the goal is to display data from the Sherlock Holmes stories together with some components that will allow the user to filter and/or select different values or types of analyses.</p>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Ok, so <b>what other components are there?</b> Actually, there are tons of them, and they're usually referred to as "widgets" or "Shiny widgets". You will usually specify widgets within the <code>sidebarPanel</code> section of your code. The idea here is to replace <code>sliderInput</code> with any other widget (or widgets) you want. These are some of the most popular ones:</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Ok, so <b>what other components are there?</b> Actually, there are tons of them, and they're usually referred to as "widgets" or "Shiny widgets". You will usually specify widgets within the <code style="color: black;">sidebarPanel</code> section of your code. The idea here is to replace <code style="color: black;">sliderInput</code> with any other widget (or widgets) you want. These are some of the most popular ones:</p>
 <table>
 <thead>
 <tr>
@@ -312,11 +312,11 @@ Exploring Textual Data Using R Shiny - Irati Hurtado
 <p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">For this tutorial, I will add a couple of Shiny widgets that will allow users to select one of the Sherlock Holmes stories and then run a simple KWIC search.</p>
 <p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Once you master these basic things, you'll be ready to take your app further by adding visualizations, as well as other types of analyses, since the process is very similar.</p>
 <h4 style="font-family: Verdana, Geneva, sans-serif">Filtering textual data</h4>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">If you remember, the <code>holmes</code> dataset contains a column called <code>books</code> with the titles of all the stories. I will add a <code>selectInput</code> widget so that the data can be filtered out to display only text from a given book.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">If you remember, the <code style="color: black;">holmes</code> dataset contains a column called <code style="color: black;">books</code> with the titles of all the stories. I will add a <code style="color: black;">selectInput</code> widget so that the data can be filtered out to display only text from a given book.</p>
 <p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">First, I will create an R vector which contains the title of each story:</p>
 <pre><code>books = unique(holmes$book)
 </code></pre><p>&nbsp;</p>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Now, I will add the <code>selectInput</code> widget to the `ui` function:</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Now, I will add the <code style="color: black;">selectInput</code> widget to the `ui` function:</p>
 <pre><code>    sidebarLayout(
         sidebarPanel(
             selectInput(&quot;book&quot;, # input ID (aka. a unique name for this widget)
@@ -325,13 +325,13 @@ Exploring Textual Data Using R Shiny - Irati Hurtado
         ),
 
 </code></pre><p>&nbsp;</p>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">If you click on the <code>Run app</code> button again, you will now see a drop-down menu in your app which lists all Sherlock Holmes stories.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">If you click on the <code style="color: black;">Run app</code> button again, you will now see a drop-down menu in your app which lists all Sherlock Holmes stories.</p>
 <p><img src="rshiny-select.jpg" alt="rshiny-select"></p>
 <p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">This looks great, though when you select a title, nothing happens! That's because you first need to create an "output function". That is, you need to tell R that when you select a book from this drop-down menu, you want to see the text from that book in the UI.</p>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">To do that, you need to modify the second part of the <code>ui</code> function (called <code>mainPanel</code>) as well as the <code>server</code> function:</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">To do that, you need to modify the second part of the <code style="color: black;">ui</code> function (called <code style="color: black;">mainPanel</code>) as well as the <code style="color: black;">server</code> function:</p>
 <ul>
 <li>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Just like with Shiny widgets to enter some input, we also have Shiny Outputs. For example, you can display a table, a graph, an image, or just text, like we want now. In <code>mainPanel</code>, I will include an HTML output (<code>htmlOutput</code>), which basically displays text using an HTML format. You can learn more about different Shiny outputs <a href="https://debruine.github.io/shinyintro/outputs.html" style= "color: black; text-decoration: underline">here</a>.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Just like with Shiny widgets to enter some input, we also have Shiny Outputs. For example, you can display a table, a graph, an image, or just text, like we want now. In <code style="color: black;">mainPanel</code>, I will include an HTML output (<code style="color: black;">htmlOutput</code>), which basically displays text using an HTML format. You can learn more about different Shiny outputs <a href="https://debruine.github.io/shinyintro/outputs.html" style= "color: black; text-decoration: underline">here</a>.</p>
 </li>
 </ul>
 <pre><code>        mainPanel(
@@ -341,7 +341,7 @@ Exploring Textual Data Using R Shiny - Irati Hurtado
 </code></pre><p>&nbsp;</p>
 <ul>
 <li>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">In the <code>server</code> function, we need to do the filtering based on the title chosen. See how I used <code>input$book</code> (the input ID) as a placeholder for the title chosen as well as <code>output$displayedText</code> (the output ID).</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">In the <code style="color: black;">server</code> function, we need to do the filtering based on the title chosen. See how I used <code style="color: black;">input$book</code> (the input ID) as a placeholder for the title chosen as well as <code style="color: black;">output$displayedText</code> (the output ID).</p>
 </li>
 </ul>
 <pre><code>server &lt;- function(input, output) {
@@ -358,7 +358,7 @@ Exploring Textual Data Using R Shiny - Irati Hurtado
 <p><img src="rshiny-output.jpg" alt="rshiny-output"></p>
 <h4 style="font-family: Verdana, Geneva, sans-serif">Running a KWIC search</h4>
 <p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Now, we will add a second Shiny widget to search for a specific keyword. That is, users will select a book from the drop-down menu and then they will type a keyword they want to find, so that <b>only sentences containing that keyword will show up</b> on the right.</p>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">The widget we need for this is <code>textInput</code>, and we will add it after our previous <code>selectInput</code> widget. Don't forget to add an input ID and a label:</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">The widget we need for this is <code style="color: black;">textInput</code>, and we will add it after our previous <code style="color: black;">selectInput</code> widget. Don't forget to add an input ID and a label:</p>
 <pre><code>    sidebarLayout(
         sidebarPanel(
             selectInput(&quot;book&quot;,
@@ -368,8 +368,8 @@ Exploring Textual Data Using R Shiny - Irati Hurtado
                       &quot;Find a keyword: &quot;) # label (aka. what the app displays)
         ),
 </code></pre><p>&nbsp;</p>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Once this is done, we also need to edit the <code>server</code> function so that it filters text based on the keyword chosen.</p>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Here, we will simply edit <code>output$displayedText</code> to add a second <code>filter</code> function. I also recommend using a <code>mutate</code> function to edit the output a little bit. In this case, I added a an HTML break (<code>br/</code>) after each line of text so that the output is clearer.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Once this is done, we also need to edit the <code style="color: black;">server</code> function so that it filters text based on the keyword chosen.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Here, we will simply edit <code style="color: black;">output$displayedText</code> to add a second <code style="color: black;">filter</code> function. I also recommend using a <code style="color: black;">mutate</code> function to edit the output a little bit. In this case, I added a an HTML break (<code style="color: black;">br/</code>) after each line of text so that the output is clearer.</p>
 <pre><code>output$displayedText = renderUI({
         # filter text based on the title selected and KWIC
         HTML(holmes %&gt;%
@@ -383,7 +383,7 @@ Exploring Textual Data Using R Shiny - Irati Hurtado
 <p><img src="rshiny-kwic.jpg" alt="rshiny-kwic"></p>
 <h4 style="font-family: Verdana, Geneva, sans-serif">Customizing the UI</h4>
 <p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Ok, so now the app is working, but it looks boring! Fortunately, we can customize the UI to make the app prettier.</p>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">The easiest option is to install the R package <code>shinythemes</code> and then <b>use one of the available Shiny themes</b> (you can take a look at them first <a href="https://rstudio.github.io/shinythemes/" style= "color: black; text-decoration: underline">here</a>. You will have to add the name of the theme at the beginning of your UI function:</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">The easiest option is to install the R package <code style="color: black;">shinythemes</code> and then <b>use one of the available Shiny themes</b> (you can take a look at them first <a href="https://rstudio.github.io/shinythemes/" style= "color: black; text-decoration: underline">here</a>. You will have to add the name of the theme at the beginning of your UI function:</p>
 <pre><code># I chose the &quot;cerulean&quot; theme
 ui &lt;- fluidPage(theme = shinytheme(&quot;cerulean&quot;),
 </code></pre><p>&nbsp;</p>

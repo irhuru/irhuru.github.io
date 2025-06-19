@@ -283,17 +283,17 @@ line,subtitle,movie,country,
 8,&quot;- Pues sÍ, pues sÍ.&quot;,dolor_y_gloria,spain,
 9,&quot;Oye, antes de echarte al agua,&quot;,dolor_y_gloria,spain,
 </code></pre><p>&nbsp;</p>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">I had to do some pre-processing to clean the data (using the <code>pandas</code> library and regex), as there were some issues with the spelling and punctuation of many of the subtitle lines.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">I had to do some pre-processing to clean the data (using the <code style="color: black;">pandas</code> library and regex), as there were some issues with the spelling and punctuation of many of the subtitle lines.</p>
 <h3 style="font-family: Verdana, Geneva, sans-serif">The model</h3>
 <p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">The goal of this project was to use machine learning to train <b>a model that could determine whether a given sentence (i.e., subtitle line) represented the Spanish spoken in Spain or the Spanish spoken in Mexico</b>.</p>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">For example, a sentence like <code>está bien chiquito</code> ("it's very small") is characteristic from Mexico, as speakers from Spain would use <code>es muy pequeño</code> instead (same meaning but different vocabulary). It is precisely these dialectal differences that I wanted my model to be able to recognize.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">For example, a sentence like <code style="color: black;">está bien chiquito</code> ("it's very small") is characteristic from Mexico, as speakers from Spain would use <code style="color: black;">es muy pequeño</code> instead (same meaning but different vocabulary). It is precisely these dialectal differences that I wanted my model to be able to recognize.</p>
 <p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">Since the data I had was already labeled ('country' column), I used a classification algorithm. Even though there are several machine learning algorithms for classification, I decided to use a <b>Naive Bayes classifier</b>. These are a type of probabilistic model derived from Bayes' Theorem. I won't go into the details of the algorithm in this post, but you can find a nice explanation <a href="https://en.wikipedia.org/wiki/Bayes%27_theorem" style= "color: black; text-decoration: underline">here</a> or in <a href="https://github.com/irhuru/dialect-classifier/blob/main/DialectClassifier_code.ipynb" style= "color: black; text-decoration: underline">the code I used</a>. Basically, this model would calculate the probability of a sentence being from Mexico and the probability of a sentence being from Spain. Then, it would choose the option with the highest probability.</p>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">I used the <code>sklearn</code> library from Python to implement the model following the steps below.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">I used the <code style="color: black;">sklearn</code> library from Python to implement the model following the steps below.</p>
 <img src="sklearn.jpg" style="width:450px;height:300px;">
 <h4 style="font-family: Verdana, Geneva, sans-serif">Steps</h4>
 <ol>
 <li>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">I used <b>label encoding</b> for the 'country' column, which is required to later use our machine learning algorithm. Label encoding converts the labels ('Spain' and 'Mexico') into numbers (0 and 1), as that is considered machine-readable form. To do this, I used <code>LabelEncoder()</code> from scikit-learn.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">I used <b>label encoding</b> for the 'country' column, which is required to later use our machine learning algorithm. Label encoding converts the labels ('Spain' and 'Mexico') into numbers (0 and 1), as that is considered machine-readable form. To do this, I used <code style="color: black;">LabelEncoder()</code> from scikit-learn.</p>
 </li>
 </ol>
 <pre><code>label_encoder = preprocessing.LabelEncoder()
@@ -301,14 +301,14 @@ df['country'] = label_encoder.fit_transform(df['country'])
 </code></pre><p>&nbsp;</p>
 <ol start="2">
 <li>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">The next step was to <b>split my dataset into training and testing</b>. I used 70% of the data for training and 30% for testing (this is common practice in the field). After this, I ended up with four datasets: <code>X_train</code>, <code>X_test</code>, <code>y_train</code>, and <code>y_test</code>. The hyperparameter <code>random_state</code> is a random number that I included for replicability purposes.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">The next step was to <b>split my dataset into training and testing</b>. I used 70% of the data for training and 30% for testing (this is common practice in the field). After this, I ended up with four datasets: <code style="color: black;">X_train</code>, <code style="color: black;">X_test</code>, <code style="color: black;">y_train</code>, and <code style="color: black;">y_test</code>. The hyperparameter <code style="color: black;">random_state</code> is a random number that I included for replicability purposes.</p>
 </li>
 </ol>
 <pre><code>X_train, X_test, y_train, y_test = train_test_split(df['subtitle'], df['country'], test_size=0.3,random_state=142)
 </code></pre><p>&nbsp;</p>
 <ol start="3">
 <li>
-<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">I split the subtitle lines into <b>individual words</b> using <code>CountVectorizer()</code>. I did this to work with individual words instead of with full sentences. This is a good strategy, as many sentences (subtitle lines) might be unique in the dataset. The output should be a vocabulary list.</p>
+<p style="font-family: Verdana, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.4px; word-spacing: 0.6px">I split the subtitle lines into <b>individual words</b> using <code style="color: black;">CountVectorizer()</code>. I did this to work with individual words instead of with full sentences. This is a good strategy, as many sentences (subtitle lines) might be unique in the dataset. The output should be a vocabulary list.</p>
 </li>
 </ol>
 <pre><code>vectorizer = CountVectorizer()
