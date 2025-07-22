@@ -7,52 +7,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://irhuru.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Generative AI</title>
-      <link>https://irhuru.github.io/projects/generative-ai/</link>
+      <title>Content Design</title>
+      <link>https://irhuru.github.io/projects/content-design/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://irhuru.github.io/projects/generative-ai/</guid>
-      <description>Meta AI
-I worked on Meta AI by labeling and evaluating the AI model that powers the virtual assistant, and by comparing its performance to the performance of similar models developed by other tech companies. I also helped with Meta&#39;s internationalization efforts in order to launch a Spanish version of the product in various countries in Latin America as well as in the United States.
-Learn more &amp;rarr; &amp;nbsp;
-Prompt engineering for conversation design</description>
+      <guid>https://irhuru.github.io/projects/content-design/</guid>
+      <description>.custom-button { display: inline-block; background-color: #0081FB; color: white; padding: 12px 24px; border-radius: 999px; font-family: Verdana, Geneva, sans-serif; font-size: 16px; text-decoration: none; font-weight: bold; transition: all 0.3s ease; } .custom-button span { display: inline-block; transition: transform 0.3s ease; } .custom-button:hover span { transform: translateX(5px); }  Content design for a feedback survey
+This is a project I did for the European Union Center at Illinois and which consisted of designing a feedback survey that balanced user experience with data collection needs.</description>
     </item>
     
     <item>
-      <title>Conversation design</title>
+      <title>Conversation Design</title>
       <link>https://irhuru.github.io/projects/conversation-design/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://irhuru.github.io/projects/conversation-design/</guid>
-      <description>Open D Express
-Open D Express is a web-based chatbot that I developed for OpenDialog. Open D Express offers delivery services (e.g., scheduling the delivery of an online order). The chatbot was developed as a demo to showcase OpenDialog&#39;s software capabilities, and it is now part of OpenDialog Academy and OpenDialog&#39;s documentation.
-Learn more &amp;rarr; &amp;nbsp;
-Asa voice assistant
-Asa is a voice assistant that helps patients schedule medical appointments via phone.</description>
+      <description>.custom-button { display: inline-block; background-color: #0081FB; color: white; padding: 12px 24px; border-radius: 999px; font-family: Verdana, Geneva, sans-serif; font-size: 16px; text-decoration: none; font-weight: bold; transition: all 0.3s ease; } .custom-button span { display: inline-block; transition: transform 0.3s ease; } .custom-button:hover span { transform: translateX(5px); }  Open D Express
+Open D Express is a web-based chatbot that I developed for OpenDialog. Open D Express offers delivery services (e.g., scheduling the delivery of an online order).</description>
     </item>
     
     <item>
-      <title>Linguistic research</title>
-      <link>https://irhuru.github.io/projects/linguistic-research/</link>
+      <title>Language Data &amp; Analytics</title>
+      <link>https://irhuru.github.io/projects/language-data-analytics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://irhuru.github.io/projects/linguistic-research/</guid>
-      <description>The BILinMID Corpus
-The Bilinguals in the Midwest (BILinMID) Corpus documents the Spanish and English spoken in the Midwest of the United States by different types of bilinguals. Many of these speakers are heritage speakers, making this one of the few available heritage language corpora. The corpus is open-access and has an user interface to allow users to explore the corpus.
-Learn more &amp;rarr; &amp;nbsp;
-Research on structural priming
-Structural priming is an interesting psycholinguistic phenomenon that consists of a tendency to repeat a linguistic structure one has previously been exposed to.</description>
-    </item>
-    
-    <item>
-      <title>Natural language processing</title>
-      <link>https://irhuru.github.io/projects/natural-language-proc/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://irhuru.github.io/projects/natural-language-proc/</guid>
-      <description>Haiku generator
-A haiku is a type of short form poetry that originated in Japan and that consists of three phrases, where the first and third line have 5 syllables each and the second one has 7 syllables. This makes a total of 17 syllables per poem which follow a 5-7-5 pattern.
-Using the natural language processing library spaCy and a dataset of random texts taken from Project Gutenberg, I developed a haiku generator in Python.</description>
+      <guid>https://irhuru.github.io/projects/language-data-analytics/</guid>
+      <description>.custom-button { display: inline-block; background-color: #0081FB; color: white; padding: 12px 24px; border-radius: 999px; font-family: Verdana, Geneva, sans-serif; font-size: 16px; text-decoration: none; font-weight: bold; transition: all 0.3s ease; } .custom-button span { display: inline-block; transition: transform 0.3s ease; } .custom-button:hover span { transform: translateX(5px); }  Meta AI
+I worked on Meta AI by labeling and evaluating the AI model that powers the virtual assistant, and by comparing its performance to the performance of similar models developed by other tech companies.</description>
     </item>
     
   </channel>
