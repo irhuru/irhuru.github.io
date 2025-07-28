@@ -6,7 +6,7 @@
     <description>Recent content on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Feb 2025 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 27 Jul 2025 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Content Design</title>
       <link>https://irhuru.github.io/projects/content-design/</link>
@@ -35,6 +35,16 @@ Open D Express is a web-based chatbot that I developed for OpenDialog. Open D 
       <guid>https://irhuru.github.io/projects/language-data-analytics/</guid>
       <description>.custom-button { display: inline-block; background-color: #0081FB; color: white; padding: 12px 24px; border-radius: 999px; font-family: Verdana, Geneva, sans-serif; font-size: 16px; text-decoration: none; font-weight: bold; transition: all 0.3s ease; } .custom-button span { display: inline-block; transition: transform 0.3s ease; } .custom-button:hover span { transform: translateX(5px); }  Meta AI
 I worked on Meta AI by labeling and evaluating the AI model that powers the virtual assistant, and by comparing its performance to the performance of similar models developed by other tech companies.</description>
+    </item>
+    
+    <item>
+      <title>How digital avatars can change the way we talk to machines</title>
+      <link>https://irhuru.github.io/blog/digital-avatars/</link>
+      <pubDate>Sun, 27 Jul 2025 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/digital-avatars/</guid>
+      <description>The way we interact with machines is evolving rapidly, and digital avatars are at the forefront of that transformation. As conversational AI systems become more powerful and human-like, avatars are reshaping not just how these systems look, but how we experience and engage with them. But what exactly is a digital avatar and why does it matter in the world of conversational AI?
+What is a digital avatar? The word avatar has a surprisingly ancient origin.</description>
     </item>
     
     <item>
