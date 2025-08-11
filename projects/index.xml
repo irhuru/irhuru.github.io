@@ -22,8 +22,8 @@ This is a project I did for the European Union Center at Illinois and which cons
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://irhuru.github.io/projects/conversation-design/</guid>
-      <description>.custom-button { display: inline-block; background-color: #0081FB; color: white; padding: 12px 24px; border-radius: 999px; font-family: Verdana, Geneva, sans-serif; font-size: 16px; text-decoration: none; font-weight: bold; transition: all 0.3s ease; } .custom-button span { display: inline-block; transition: transform 0.3s ease; } .custom-button:hover span { transform: translateX(5px); }  Open D Express
-Open D Express is a web-based chatbot that I developed for OpenDialog. Open D Express offers delivery services (e.g., scheduling the delivery of an online order).</description>
+      <description>.custom-button { display: inline-block; background-color: #0081FB; color: white; padding: 12px 24px; border-radius: 999px; font-family: Verdana, Geneva, sans-serif; font-size: 16px; text-decoration: none; font-weight: bold; transition: all 0.3s ease; } .custom-button span { display: inline-block; transition: transform 0.3s ease; } .custom-button:hover span { transform: translateX(5px); }  Avant voice AI agent
+This is a voice AI agent I designed for the US-based fintech company Avant. It is a customer service solution built with a hybrid approach that combines structured flows and generative AI.</description>
     </item>
     
     <item>
