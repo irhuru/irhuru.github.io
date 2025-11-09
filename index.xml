@@ -6,7 +6,7 @@
     <description>Recent content on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Jul 2025 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Nov 2025 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Content Design</title>
       <link>https://irhuru.github.io/projects/content-design/</link>
@@ -35,6 +35,16 @@ Open D Express is a web-based chatbot that I developed for OpenDialog. Open D 
       <guid>https://irhuru.github.io/projects/language-data-analytics/</guid>
       <description>.custom-button { display: inline-block; background-color: #0081FB; color: white; padding: 12px 24px; border-radius: 999px; font-family: Verdana, Geneva, sans-serif; font-size: 16px; text-decoration: none; font-weight: bold; transition: all 0.3s ease; } .custom-button span { display: inline-block; transition: transform 0.3s ease; } .custom-button:hover span { transform: translateX(5px); }  Meta AI
 I worked on Meta AI by labeling and evaluating the AI model that powers the virtual assistant, and by comparing its performance to the performance of similar models developed by other tech companies.</description>
+    </item>
+    
+    <item>
+      <title>From Grice to GPT: What classic linguistics can teach conversation designers</title>
+      <link>https://irhuru.github.io/blog/grice-to-gpt/</link>
+      <pubDate>Sat, 08 Nov 2025 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/grice-to-gpt/</guid>
+      <description>Have you ever noticed how even the best chatbots sometimes sound off? Not because their grammar’s wrong, but because something about the conversation just doesn’t feel natural.
+It turns out that long before GPT and LLMs, linguists were already thinking about what makes communication flow (what keeps a dialogue cooperative, relevant, and satisfying). One of them, Paul Grice, offered a framework in the 1970s that remains surprisingly useful for anyone designing conversations today, whether with humans or with machines.</description>
     </item>
     
     <item>
