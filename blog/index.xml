@@ -6,7 +6,17 @@
     <description>Recent content in Blog on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Nov 2025 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 Jul 2026 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Stop blaming the interface: Conversational AI fails in the user&#39;s head first</title>
+      <link>https://irhuru.github.io/blog/user-expectations-cai/</link>
+      <pubDate>Fri, 10 Jul 2026 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/user-expectations-cai/</guid>
+      <description>A lot of conversations with AI products go wrong. But if you dig into why these interactions really fail, you&#39;ll often find that the problem isn&#39;t in the interface at all, but it&#39;s psychological and it starts in the user&#39;s head, before they&#39;ve even typed a word.
+Everyone walks into a conversation with a chatbot, voice assistant, or AI companion already carrying a set of expectations: about how smart it is, whether it can be trusted, whether it&#39;s &#34;</description>
+    </item>
+    
     <item>
       <title>From Grice to GPT: What classic linguistics can teach conversation designers</title>
       <link>https://irhuru.github.io/blog/grice-to-gpt/</link>
