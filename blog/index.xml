@@ -6,7 +6,26 @@
     <description>Recent content in Blog on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jul 2026 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Aug 2026 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Text is the new interface and not everyone speaks it well</title>
+      <link>https://irhuru.github.io/blog/prompt-literacy/</link>
+      <pubDate>Mon, 03 Aug 2026 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/prompt-literacy/</guid>
+      <description>For most of computing history, the interface stood between you and the machine, and good UX meant designing that interface so a user&#39;s skill level stopped mattering much. LLMs quietly broke that deal. The interface is now a text box, and &#34;prompt engineering&#34; is mostly just writing well: knowing what you want, saying it clearly, structuring it so someone (or something) can follow your logic, etc. In other words, literacy, in the plain sense of being proficient in reading and writing a language: a decent vocabulary, a feel for sentence structure, the ability to organize ideas logically, comprehension sharp enough to respond well to what you read.</description>
+    </item>
+    
+    <item>
+      <title>Human-like isn&#39;t the same as good: Rethinking Conversational AI&#39;s North Star</title>
+      <link>https://irhuru.github.io/blog/human-like-as-good/</link>
+      <pubDate>Fri, 24 Jul 2026 18:00:00 -0500</pubDate>
+      
+      <guid>https://irhuru.github.io/blog/human-like-as-good/</guid>
+      <description>There&#39;s an assumption baked into most conversational AI roadmaps that nobody really questions anymore: more human-like is better. Friendlier persona, more natural turn-taking, more emotional mirroring, all treated as obvious improvements, the same way &#34;more accurate&#34; or &#34;faster&#34; would be. But is that actually true? Or have we been chasing a proxy for quality and calling it the goal itself?
+Why human-likeness doesn&#39;t always work Push a chatbot far enough toward human-like, and something strange happens: it can start working against you.</description>
+    </item>
+    
     <item>
       <title>Stop blaming the interface: Conversational AI fails in the user&#39;s head first</title>
       <link>https://irhuru.github.io/blog/user-expectations-cai/</link>

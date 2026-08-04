@@ -1,12 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Irati Hurtado</title>
-    <link>https://irhuru.github.io/blog/</link>
-    <description>Recent content in Blog on Irati Hurtado</description>
+    <title>Irati Hurtado</title>
+    <link>https://irhuru.github.io/</link>
+    <description>Recent content on Irati Hurtado</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Aug 2026 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Aug 2026 18:00:00 -0500</lastBuildDate><atom:link href="https://irhuru.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Content Design</title>
+      <link>https://irhuru.github.io/projects/content-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://irhuru.github.io/projects/content-design/</guid>
+      <description>.custom-button { display: inline-block; background-color: #0081FB; color: white; padding: 12px 24px; border-radius: 999px; font-family: Verdana, Geneva, sans-serif; font-size: 16px; text-decoration: none; font-weight: bold; transition: all 0.3s ease; } .custom-button span { display: inline-block; transition: transform 0.3s ease; } .custom-button:hover span { transform: translateX(5px); }  Content design for a feedback survey
+This is a project I did for the European Union Center at Illinois and which consisted of designing a feedback survey that balanced user experience with data collection needs.</description>
+    </item>
+    
+    <item>
+      <title>Conversation Design</title>
+      <link>https://irhuru.github.io/projects/conversation-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://irhuru.github.io/projects/conversation-design/</guid>
+      <description>.custom-button { display: inline-block; background-color: #0081FB; color: white; padding: 12px 24px; border-radius: 999px; font-family: Verdana, Geneva, sans-serif; font-size: 16px; text-decoration: none; font-weight: bold; transition: all 0.3s ease; } .custom-button span { display: inline-block; transition: transform 0.3s ease; } .custom-button:hover span { transform: translateX(5px); }  Open D Express chatbot
+Open D Express is a web-based chatbot that I developed for OpenDialog. Open D Express offers delivery services (e.g., scheduling the delivery of an online order).</description>
+    </item>
+    
+    <item>
+      <title>Language Data &amp; Analytics</title>
+      <link>https://irhuru.github.io/projects/language-data-analytics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://irhuru.github.io/projects/language-data-analytics/</guid>
+      <description>.custom-button { display: inline-block; background-color: #0081FB; color: white; padding: 12px 24px; border-radius: 999px; font-family: Verdana, Geneva, sans-serif; font-size: 16px; text-decoration: none; font-weight: bold; transition: all 0.3s ease; } .custom-button span { display: inline-block; transition: transform 0.3s ease; } .custom-button:hover span { transform: translateX(5px); }  Meta AI
+I worked on Meta AI by labeling and evaluating the AI model that powers the virtual assistant, and by comparing its performance to the performance of similar models developed by other tech companies.</description>
+    </item>
+    
     <item>
       <title>Text is the new interface and not everyone speaks it well</title>
       <link>https://irhuru.github.io/blog/prompt-literacy/</link>
